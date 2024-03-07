@@ -184,6 +184,7 @@ for data in structured_data:
         
         doc.save(output_filename)
         print(f"Document saved: {output_filename}")
+        
         # Convert the Word document to a PDF
         pdf_filename = filename.replace('.docx', '.pdf')
         pdf_output_filename = output_filename.replace('.docx', '.pdf')
@@ -191,7 +192,7 @@ for data in structured_data:
         print(f"PDF saved: {pdf_output_filename}")
 
         # Wait for the Word application to fully close the document
-        time.sleep(10)  # Wait for 10 seconds
+        time.sleep(20)  # Wait for 20 seconds instead of 10
 
         # Delete the Word document
         try:
@@ -212,6 +213,11 @@ word_docs = glob.glob(os.path.join(absences_folder, "*.docx"))
 # Loop over the list of matched files and remove each one
 for doc in word_docs:
     os.remove(doc)
+
 time.sleep(10)
+
+while "WINWORD.EXE" in (p.name() for p in psutil.process_iter()):
+    time.sleep(5)
+
 # Open the folder containing the generated PDFs
 os.startfile(absences_folder)  # Opens the folder in the default file explorer
