@@ -1,0 +1,27 @@
+{
+  "script_paths": {
+    "ue_script": "C:\\Users\\vaner\\OneDrive\\Desktop\\Project\\ue.py",
+    "en_script": "C:\\Users\\vaner\\OneDrive\\Desktop\\Project\\en.py"
+  },
+  "entrance_notifications_path": {
+    "csv_path": "C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240306.csv",
+    "template_path": "C:\\Users\\vaner\\OneDrive\\Free for Life\\Project\\DocumentGenerator\\Source Documents\\EntranceNotifications.Template.docx",
+    "output_path": "C:\\Users\\vaner\\OneDrive\\Free for Life\\F4L Documents\\Thinking for Change\\Entrance Notifications"
+  },
+  "unexcused_absences_path": {
+    "csv_path": "C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240305.csv",
+    "template_path": "C:\\Users\\vaner\\OneDrive\\Free for Life\\Project\\DocumentGenerator\\Source Documents\\UnexcusedAbsences.Template.docx",
+    "output_path": "C:\\Users\\vaner\\OneDrive\\Free for Life\\F4L Documents\\Thinking for Change\\Unexcused Absences"
+  },
+  "progress_reports_path": {
+    "csv_path": "C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240305.csv",
+    "template_path": "C:\\Users\\vaner\\OneDrive\\Free for Life\\Project\\DocumentGenerator\\Source Documents\\ProgressReports.Template.docx",
+    "output_path": "C:\\Users\\vaner\\OneDrive\\Free for Life\\F4L Documents\\Thinking for Change\\Progress Reports"
+  },
+  "ui_settings": {
+    "window_title": "Free For Life Group",
+    "window_width": 425,
+    "window_height": 300,
+    "button_width": 30
+  }
+}
