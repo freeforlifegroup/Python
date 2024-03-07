@@ -43,10 +43,6 @@ absences_folder = config['unexcused_absences_path']['output_path']
 # Use a wildcard (*) to match any Word documents in the folder
 word_docs = glob.glob(os.path.join(absences_folder, "*.docx"))
 
-# Loop over the list of matched files and remove each one
-for doc in word_docs:
-    os.remove(doc)
-
 def convert_to_pdf(input_file_path, output_file_path):
     # Create a Word application object
     word = comtypes.client.CreateObject('Word.Application')
