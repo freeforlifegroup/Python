@@ -21083,3 +21083,248 @@ Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for
 PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Hugo Cisneros\White.Ahmeer.UnexcusedAbsence.March.02.2024.pdf
 Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Hugo Cisneros\White.Ahmeer.UnexcusedAbsence.March.02.2024.docx
 
+2024-03-07 13:43:28,859 - This is a test log message.
+2024-03-07 13:43:31,643 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240307.csv
+2024-03-07 13:43:35,811 - Selected start date: 03-01-2024
+2024-03-07 13:43:35,811 - Selected end date: 03-04-2024
+2024-03-07 13:43:35,811 - Attempting to convert date format for: 03-01-2024
+2024-03-07 13:43:35,811 - Converted date format to: 2024-03-01
+2024-03-07 13:43:35,811 - Attempting to convert date format for: 03-04-2024
+2024-03-07 13:43:35,811 - Converted date format to: 2024-03-04
+2024-03-07 13:43:35,811 - Displaying date range: March 01, 2024 to
+March 04, 2024
+2024-03-07 13:43:36,774 - Attempting to convert date format for: 03-01-2024
+2024-03-07 13:43:36,774 - Converted date format to: 2024-03-01
+2024-03-07 13:43:36,774 - Attempting to convert date format for: 03-04-2024
+2024-03-07 13:43:36,774 - Converted date format to: 2024-03-04
+2024-03-07 13:43:36,774 - Running Entrance Notifications.py with start date 2024-03-01 and end date 2024-03-04
+2024-03-07 13:44:44,581 - Subprocess output: Start Date: 2024-03-01 00:00:00 End Date: 2024-03-04 00:00:00 CSV File Path: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240307.csv
+Detected entrance in row 95, column AK, date: March 2024
+Detected entrance in row 96, column AK, date: March 2024
+Detected entrance in row 97, column AK, date: March 2024
+Detected entrance in row 98, column AK, date: March 2024
+Detected entrance in row 99, column AK, date: March 2024
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Laura Perez\Le.Binh.EntranceNotification.March.01.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Laura Perez\Le.Binh.EntranceNotification.March.01.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Laura Perez\Le.Binh.EntranceNotification.March.01.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Kataine McGriff\Campbell.Marcus.EntranceNotification.March.03.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Kataine McGriff\Campbell.Marcus.EntranceNotification.March.03.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Kataine McGriff\Campbell.Marcus.EntranceNotification.March.03.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Maxwell Folden\Loucks.Keith.EntranceNotification.March.04.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Maxwell Folden\Loucks.Keith.EntranceNotification.March.04.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Maxwell Folden\Loucks.Keith.EntranceNotification.March.04.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Lashena Cochran\Nguyen.Cimmy.EntranceNotification.March.04.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Lashena Cochran\Nguyen.Cimmy.EntranceNotification.March.04.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Lashena Cochran\Nguyen.Cimmy.EntranceNotification.March.04.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Muhammed Jackson\Tolbert.Jessika.EntranceNotification.March.04.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Muhammed Jackson\Tolbert.Jessika.EntranceNotification.March.04.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Muhammed Jackson\Tolbert.Jessika.EntranceNotification.March.04.2024.docx
+
+2024-03-07 13:52:31,198 - Subprocess output: Start Date: 2024-03-01 00:00:00 End Date: 2024-03-04 00:00:00 CSV File Path: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240307.csv
+Identified headers: {'AO': {'November2023', 'December2023', 'February2024', 'January2024', 'March2024'}, 'CF': {'January2024', 'December2023', 'February2024', 'March2024'}, 'DW': {'January2024', 'February2024', 'March2024'}, 'FN': {'February2024', 'March2024'}}
+Detected absence in row 5, column FT, date: March 2024
+Detected absence in row 6, column FT, date: March 2024
+Detected absence in row 8, column FT, date: March 2024
+Detected absence in row 50, column EC, date: March 2024
+Detected absence in row 54, column ED, date: March 2024
+Detected absence in row 63, column EC, date: March 2024
+Detected absence in row 82, column CM, date: March 2024
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Michelle Holloway\Mtanous.David.UnexcusedAbsence.March.01.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Michelle Holloway\Mtanous.David.UnexcusedAbsence.March.01.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Michelle Holloway\Mtanous.David.UnexcusedAbsence.March.01.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Deanna Hurst\Crusaw.James.UnexcusedAbsence.March.01.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Deanna Hurst\Crusaw.James.UnexcusedAbsence.March.01.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Deanna Hurst\Crusaw.James.UnexcusedAbsence.March.01.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Treshure Jones\Campos.Sameer.UnexcusedAbsence.March.01.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Treshure Jones\Campos.Sameer.UnexcusedAbsence.March.01.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Treshure Jones\Campos.Sameer.UnexcusedAbsence.March.01.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Alexis Clettenberg\Black.Ashleigh.UnexcusedAbsence.March.01.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Alexis Clettenberg\Black.Ashleigh.UnexcusedAbsence.March.01.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Alexis Clettenberg\Black.Ashleigh.UnexcusedAbsence.March.01.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Zackrey Waterman\Uranga.Timothy.UnexcusedAbsence.March.02.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Zackrey Waterman\Uranga.Timothy.UnexcusedAbsence.March.02.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Zackrey Waterman\Uranga.Timothy.UnexcusedAbsence.March.02.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Andrea Sampson\Warren.Lavonte.UnexcusedAbsence.March.01.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Andrea Sampson\Warren.Lavonte.UnexcusedAbsence.March.01.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Andrea Sampson\Warren.Lavonte.UnexcusedAbsence.March.01.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Hugo Cisneros\White.Ahmeer.UnexcusedAbsence.March.02.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Hugo Cisneros\White.Ahmeer.UnexcusedAbsence.March.02.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Hugo Cisneros\White.Ahmeer.UnexcusedAbsence.March.02.2024.docx
+
+2024-03-07 13:57:09,072 - This is a test log message.
+2024-03-07 13:57:12,175 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240307.csv
+2024-03-07 13:57:16,515 - Selected start date: 03-01-2024
+2024-03-07 13:57:16,515 - Selected end date: 03-04-2024
+2024-03-07 13:57:16,515 - Attempting to convert date format for: 03-01-2024
+2024-03-07 13:57:16,515 - Converted date format to: 2024-03-01
+2024-03-07 13:57:16,515 - Attempting to convert date format for: 03-04-2024
+2024-03-07 13:57:16,515 - Converted date format to: 2024-03-04
+2024-03-07 13:57:16,515 - Displaying date range: March 01, 2024 to
+March 04, 2024
+2024-03-07 13:58:44,321 - Subprocess output: Start Date: 2024-03-01 00:00:00 End Date: 2024-03-04 00:00:00 CSV File Path: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240307.csv
+Identified headers: {'AO': {'February2024', 'December2023', 'January2024', 'November2023', 'March2024'}, 'CF': {'February2024', 'December2023', 'January2024', 'March2024'}, 'DW': {'February2024', 'January2024', 'March2024'}, 'FN': {'February2024', 'March2024'}}
+Detected absence in row 5, column FT, date: March 2024
+Detected absence in row 6, column FT, date: March 2024
+Detected absence in row 8, column FT, date: March 2024
+Detected absence in row 50, column EC, date: March 2024
+Detected absence in row 54, column ED, date: March 2024
+Detected absence in row 63, column EC, date: March 2024
+Detected absence in row 82, column CM, date: March 2024
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Michelle Holloway\Mtanous.David.UnexcusedAbsence.March.01.2024.docx
+Error generating document for David Mtanous: (-2147417848, 'The object invoked has disconnected from its clients.', (None, None, None, 0, None))
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Deanna Hurst\Crusaw.James.UnexcusedAbsence.March.01.2024.docx
+Error generating document for James Crusaw: (-2147417848, 'The object invoked has disconnected from its clients.', (None, None, None, 0, None))
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Treshure Jones\Campos.Sameer.UnexcusedAbsence.March.01.2024.docx
+Error generating document for Sameer Campos: (-2147417848, 'The object invoked has disconnected from its clients.', (None, None, None, 0, None))
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Alexis Clettenberg\Black.Ashleigh.UnexcusedAbsence.March.01.2024.docx
+Error generating document for Ashleigh Black: (-2147417848, 'The object invoked has disconnected from its clients.', (None, None, None, 0, None))
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Zackrey Waterman\Uranga.Timothy.UnexcusedAbsence.March.02.2024.docx
+Error generating document for Timothy Uranga: (-2147417848, 'The object invoked has disconnected from its clients.', (None, None, None, 0, None))
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Andrea Sampson\Warren.Lavonte.UnexcusedAbsence.March.01.2024.docx
+Error generating document for Lavonte Warren: (-2147417848, 'The object invoked has disconnected from its clients.', (None, None, None, 0, None))
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Hugo Cisneros\White.Ahmeer.UnexcusedAbsence.March.02.2024.docx
+Error generating document for Ahmeer White: (-2147417848, 'The object invoked has disconnected from its clients.', (None, None, None, 0, None))
+
+2024-03-07 14:33:31,403 - This is a test log message.
+2024-03-07 14:33:34,580 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240307.csv
+2024-03-07 14:33:40,371 - Selected start date: 03-01-2024
+2024-03-07 14:33:40,372 - Selected end date: 03-04-2024
+2024-03-07 14:33:40,372 - Attempting to convert date format for: 03-01-2024
+2024-03-07 14:33:40,372 - Converted date format to: 2024-03-01
+2024-03-07 14:33:40,372 - Attempting to convert date format for: 03-04-2024
+2024-03-07 14:33:40,372 - Converted date format to: 2024-03-04
+2024-03-07 14:33:40,372 - Displaying date range: March 01, 2024 to
+March 04, 2024
+2024-03-07 14:33:42,838 - Attempting to convert date format for: 03-01-2024
+2024-03-07 14:33:42,838 - Converted date format to: 2024-03-01
+2024-03-07 14:33:42,838 - Attempting to convert date format for: 03-04-2024
+2024-03-07 14:33:42,841 - Converted date format to: 2024-03-04
+2024-03-07 14:33:42,841 - Running Entrance Notifications.py with start date 2024-03-01 and end date 2024-03-04
+2024-03-07 14:34:55,039 - Subprocess output: Start Date: 2024-03-01 00:00:00 End Date: 2024-03-04 00:00:00 CSV File Path: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240307.csv
+Detected entrance in row 95, column AK, date: March 2024
+Detected entrance in row 96, column AK, date: March 2024
+Detected entrance in row 97, column AK, date: March 2024
+Detected entrance in row 98, column AK, date: March 2024
+Detected entrance in row 99, column AK, date: March 2024
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Laura Perez\Le.Binh.EntranceNotification.March.01.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Laura Perez\Le.Binh.EntranceNotification.March.01.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Laura Perez\Le.Binh.EntranceNotification.March.01.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Kataine McGriff\Campbell.Marcus.EntranceNotification.March.03.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Kataine McGriff\Campbell.Marcus.EntranceNotification.March.03.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Kataine McGriff\Campbell.Marcus.EntranceNotification.March.03.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Maxwell Folden\Loucks.Keith.EntranceNotification.March.04.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Maxwell Folden\Loucks.Keith.EntranceNotification.March.04.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Maxwell Folden\Loucks.Keith.EntranceNotification.March.04.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Lashena Cochran\Nguyen.Cimmy.EntranceNotification.March.04.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Lashena Cochran\Nguyen.Cimmy.EntranceNotification.March.04.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Lashena Cochran\Nguyen.Cimmy.EntranceNotification.March.04.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Muhammed Jackson\Tolbert.Jessika.EntranceNotification.March.04.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Muhammed Jackson\Tolbert.Jessika.EntranceNotification.March.04.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Muhammed Jackson\Tolbert.Jessika.EntranceNotification.March.04.2024.docx
+
+2024-03-07 14:42:35,882 - Subprocess output: Start Date: 2024-03-01 00:00:00 End Date: 2024-03-04 00:00:00 CSV File Path: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240307.csv
+Identified headers: {'AO': {'February2024', 'December2023', 'January2024', 'November2023', 'March2024'}, 'CF': {'January2024', 'December2023', 'March2024', 'February2024'}, 'DW': {'January2024', 'March2024', 'February2024'}, 'FN': {'March2024', 'February2024'}}
+Detected absence in row 5, column FT, date: March 2024
+Detected absence in row 6, column FT, date: March 2024
+Detected absence in row 8, column FT, date: March 2024
+Detected absence in row 50, column EC, date: March 2024
+Detected absence in row 54, column ED, date: March 2024
+Detected absence in row 63, column EC, date: March 2024
+Detected absence in row 82, column CM, date: March 2024
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Michelle Holloway\Mtanous.David.UnexcusedAbsence.March.01.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Michelle Holloway\Mtanous.David.UnexcusedAbsence.March.01.2024.pdf
+Error deleting document for David Mtanous: [WinError 2] The system cannot find the file specified: 'C:\\Users\\vaner\\OneDrive\\Free for Life\\F4L Documents\\Thinking for Change\\Unexcused Absences\\Michelle Holloway\\Mtanous.David.UnexcusedAbsence.March.01.2024.docx'
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Deanna Hurst\Crusaw.James.UnexcusedAbsence.March.01.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Deanna Hurst\Crusaw.James.UnexcusedAbsence.March.01.2024.pdf
+Error deleting document for James Crusaw: [WinError 2] The system cannot find the file specified: 'C:\\Users\\vaner\\OneDrive\\Free for Life\\F4L Documents\\Thinking for Change\\Unexcused Absences\\Deanna Hurst\\Crusaw.James.UnexcusedAbsence.March.01.2024.docx'
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Treshure Jones\Campos.Sameer.UnexcusedAbsence.March.01.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Treshure Jones\Campos.Sameer.UnexcusedAbsence.March.01.2024.pdf
+Error deleting document for Sameer Campos: [WinError 2] The system cannot find the file specified: 'C:\\Users\\vaner\\OneDrive\\Free for Life\\F4L Documents\\Thinking for Change\\Unexcused Absences\\Treshure Jones\\Campos.Sameer.UnexcusedAbsence.March.01.2024.docx'
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Alexis Clettenberg\Black.Ashleigh.UnexcusedAbsence.March.01.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Alexis Clettenberg\Black.Ashleigh.UnexcusedAbsence.March.01.2024.pdf
+Error deleting document for Ashleigh Black: [WinError 2] The system cannot find the file specified: 'C:\\Users\\vaner\\OneDrive\\Free for Life\\F4L Documents\\Thinking for Change\\Unexcused Absences\\Alexis Clettenberg\\Black.Ashleigh.UnexcusedAbsence.March.01.2024.docx'
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Zackrey Waterman\Uranga.Timothy.UnexcusedAbsence.March.02.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Zackrey Waterman\Uranga.Timothy.UnexcusedAbsence.March.02.2024.pdf
+Error deleting document for Timothy Uranga: [WinError 2] The system cannot find the file specified: 'C:\\Users\\vaner\\OneDrive\\Free for Life\\F4L Documents\\Thinking for Change\\Unexcused Absences\\Zackrey Waterman\\Uranga.Timothy.UnexcusedAbsence.March.02.2024.docx'
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Andrea Sampson\Warren.Lavonte.UnexcusedAbsence.March.01.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Andrea Sampson\Warren.Lavonte.UnexcusedAbsence.March.01.2024.pdf
+Error deleting document for Lavonte Warren: [WinError 2] The system cannot find the file specified: 'C:\\Users\\vaner\\OneDrive\\Free for Life\\F4L Documents\\Thinking for Change\\Unexcused Absences\\Andrea Sampson\\Warren.Lavonte.UnexcusedAbsence.March.01.2024.docx'
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Hugo Cisneros\White.Ahmeer.UnexcusedAbsence.March.02.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Hugo Cisneros\White.Ahmeer.UnexcusedAbsence.March.02.2024.pdf
+Error deleting document for Ahmeer White: [WinError 2] The system cannot find the file specified: 'C:\\Users\\vaner\\OneDrive\\Free for Life\\F4L Documents\\Thinking for Change\\Unexcused Absences\\Hugo Cisneros\\White.Ahmeer.UnexcusedAbsence.March.02.2024.docx'
+
+2024-03-07 14:48:16,027 - This is a test log message.
+2024-03-07 14:48:18,806 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240307.csv
+2024-03-07 14:48:20,018 - Selected start date: 03-07-2024
+2024-03-07 14:48:20,018 - Selected end date: 03-07-2024
+2024-03-07 14:48:20,018 - Attempting to convert date format for: 03-07-2024
+2024-03-07 14:48:20,018 - Converted date format to: 2024-03-07
+2024-03-07 14:48:20,018 - Attempting to convert date format for: 03-07-2024
+2024-03-07 14:48:20,018 - Converted date format to: 2024-03-07
+2024-03-07 14:48:20,018 - Displaying date range: March 07, 2024
+2024-03-07 14:48:24,185 - Selected start date: 03-01-2024
+2024-03-07 14:48:24,185 - Selected end date: 03-04-2024
+2024-03-07 14:48:24,185 - Attempting to convert date format for: 03-01-2024
+2024-03-07 14:48:24,185 - Converted date format to: 2024-03-01
+2024-03-07 14:48:24,185 - Attempting to convert date format for: 03-04-2024
+2024-03-07 14:48:24,185 - Converted date format to: 2024-03-04
+2024-03-07 14:48:24,185 - Displaying date range: March 01, 2024 to
+March 04, 2024
+2024-03-07 14:53:53,403 - Subprocess output: Start Date: 2024-03-01 00:00:00 End Date: 2024-03-04 00:00:00 CSV File Path: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240307.csv
+Identified headers: {'AO': {'December2023', 'January2024', 'November2023', 'March2024', 'February2024'}, 'CF': {'January2024', 'December2023', 'February2024', 'March2024'}, 'DW': {'January2024', 'February2024', 'March2024'}, 'FN': {'February2024', 'March2024'}}
+Detected absence in row 5, column FT, date: March 2024
+Detected absence in row 6, column FT, date: March 2024
+Detected absence in row 8, column FT, date: March 2024
+Detected absence in row 50, column EC, date: March 2024
+Detected absence in row 54, column ED, date: March 2024
+Detected absence in row 63, column EC, date: March 2024
+Detected absence in row 82, column CM, date: March 2024
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Michelle Holloway\Mtanous.David.UnexcusedAbsence.March.01.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Michelle Holloway\Mtanous.David.UnexcusedAbsence.March.01.2024.pdf
+Error deleting document for David Mtanous: [WinError 2] The system cannot find the file specified: 'C:\\Users\\vaner\\OneDrive\\Free for Life\\F4L Documents\\Thinking for Change\\Unexcused Absences\\Michelle Holloway\\Mtanous.David.UnexcusedAbsence.March.01.2024.docx'
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Deanna Hurst\Crusaw.James.UnexcusedAbsence.March.01.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Deanna Hurst\Crusaw.James.UnexcusedAbsence.March.01.2024.pdf
+Error deleting document for James Crusaw: [WinError 2] The system cannot find the file specified: 'C:\\Users\\vaner\\OneDrive\\Free for Life\\F4L Documents\\Thinking for Change\\Unexcused Absences\\Deanna Hurst\\Crusaw.James.UnexcusedAbsence.March.01.2024.docx'
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Treshure Jones\Campos.Sameer.UnexcusedAbsence.March.01.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Treshure Jones\Campos.Sameer.UnexcusedAbsence.March.01.2024.pdf
+Error deleting document for Sameer Campos: [WinError 2] The system cannot find the file specified: 'C:\\Users\\vaner\\OneDrive\\Free for Life\\F4L Documents\\Thinking for Change\\Unexcused Absences\\Treshure Jones\\Campos.Sameer.UnexcusedAbsence.March.01.2024.docx'
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Alexis Clettenberg\Black.Ashleigh.UnexcusedAbsence.March.01.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Alexis Clettenberg\Black.Ashleigh.UnexcusedAbsence.March.01.2024.pdf
+Error deleting document for Ashleigh Black: [WinError 2] The system cannot find the file specified: 'C:\\Users\\vaner\\OneDrive\\Free for Life\\F4L Documents\\Thinking for Change\\Unexcused Absences\\Alexis Clettenberg\\Black.Ashleigh.UnexcusedAbsence.March.01.2024.docx'
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Zackrey Waterman\Uranga.Timothy.UnexcusedAbsence.March.02.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Zackrey Waterman\Uranga.Timothy.UnexcusedAbsence.March.02.2024.pdf
+Error deleting document for Timothy Uranga: [WinError 2] The system cannot find the file specified: 'C:\\Users\\vaner\\OneDrive\\Free for Life\\F4L Documents\\Thinking for Change\\Unexcused Absences\\Zackrey Waterman\\Uranga.Timothy.UnexcusedAbsence.March.02.2024.docx'
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Andrea Sampson\Warren.Lavonte.UnexcusedAbsence.March.01.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Andrea Sampson\Warren.Lavonte.UnexcusedAbsence.March.01.2024.pdf
+Error deleting document for Lavonte Warren: [WinError 2] The system cannot find the file specified: 'C:\\Users\\vaner\\OneDrive\\Free for Life\\F4L Documents\\Thinking for Change\\Unexcused Absences\\Andrea Sampson\\Warren.Lavonte.UnexcusedAbsence.March.01.2024.docx'
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Hugo Cisneros\White.Ahmeer.UnexcusedAbsence.March.02.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Hugo Cisneros\White.Ahmeer.UnexcusedAbsence.March.02.2024.pdf
+Error deleting document for Ahmeer White: [WinError 2] The system cannot find the file specified: 'C:\\Users\\vaner\\OneDrive\\Free for Life\\F4L Documents\\Thinking for Change\\Unexcused Absences\\Hugo Cisneros\\White.Ahmeer.UnexcusedAbsence.March.02.2024.docx'
+
+2024-03-07 14:53:55,348 - Attempting to convert date format for: 03-01-2024
+2024-03-07 14:53:55,348 - Converted date format to: 2024-03-01
+2024-03-07 14:53:55,348 - Attempting to convert date format for: 03-04-2024
+2024-03-07 14:53:55,348 - Converted date format to: 2024-03-04
+2024-03-07 14:53:55,348 - Running Entrance Notifications.py with start date 2024-03-01 and end date 2024-03-04
+2024-03-07 14:55:09,950 - Subprocess output: Start Date: 2024-03-01 00:00:00 End Date: 2024-03-04 00:00:00 CSV File Path: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240307.csv
+Detected entrance in row 95, column AK, date: March 2024
+Detected entrance in row 96, column AK, date: March 2024
+Detected entrance in row 97, column AK, date: March 2024
+Detected entrance in row 98, column AK, date: March 2024
+Detected entrance in row 99, column AK, date: March 2024
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Laura Perez\Le.Binh.EntranceNotification.March.01.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Laura Perez\Le.Binh.EntranceNotification.March.01.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Laura Perez\Le.Binh.EntranceNotification.March.01.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Kataine McGriff\Campbell.Marcus.EntranceNotification.March.03.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Kataine McGriff\Campbell.Marcus.EntranceNotification.March.03.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Kataine McGriff\Campbell.Marcus.EntranceNotification.March.03.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Maxwell Folden\Loucks.Keith.EntranceNotification.March.04.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Maxwell Folden\Loucks.Keith.EntranceNotification.March.04.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Maxwell Folden\Loucks.Keith.EntranceNotification.March.04.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Lashena Cochran\Nguyen.Cimmy.EntranceNotification.March.04.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Lashena Cochran\Nguyen.Cimmy.EntranceNotification.March.04.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Lashena Cochran\Nguyen.Cimmy.EntranceNotification.March.04.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Muhammed Jackson\Tolbert.Jessika.EntranceNotification.March.04.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Muhammed Jackson\Tolbert.Jessika.EntranceNotification.March.04.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Muhammed Jackson\Tolbert.Jessika.EntranceNotification.March.04.2024.docx
+

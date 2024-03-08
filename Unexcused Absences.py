@@ -1,3 +1,5 @@
+# still opens 2 windows and freezes seemingly unnecessarily before opening the folder containing the generated PDFs for 2nd time
+
 import json
 import os
 import glob
@@ -60,9 +62,8 @@ def convert_to_pdf(input_file_path, output_file_path):
     doc.Close()
     word.Quit()
 
-    # Wait for Word to fully close
-    while "WINWORD.EXE" in (p.name() for p in psutil.process_iter()):
-        time.sleep(5)
+    # Delete the Word document
+    os.remove(input_file_path)
 
 # Create a temporary file
 temp_file = tempfile.NamedTemporaryFile(suffix=".xlsx", delete=False)
@@ -209,11 +210,6 @@ word_docs = glob.glob(os.path.join(absences_folder, "*.docx"))
 # Loop over the list of matched files and remove each one
 for doc in word_docs:
     os.remove(doc)
-
-time.sleep(10)
-
-while "WINWORD.EXE" in (p.name() for p in psutil.process_iter()):
-    time.sleep(5)
 
 # Open the folder containing the generated PDFs
 os.startfile(absences_folder)  # Opens the folder in the default file explorer
