@@ -183,7 +183,7 @@ def request_progress_reports():
         return
     report_date = datetime.strptime(selected_start_date, "%m-%d-%Y").strftime("%Y-%m-%d")
     script_path = os.path.join(os.path.dirname(__file__), 'Progress Reports.py')
-    run_subprocess('./Progress Reports.py', csv_file_path, start_date)  # or end_date, if they are the same
+    run_subprocess('./Progress Reports.py', csv_file_path, report_date)  # or end_date, if they are the same
 
 def select_date_range():
     global selected_start_date, selected_end_date

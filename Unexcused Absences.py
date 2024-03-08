@@ -60,10 +60,6 @@ def convert_to_pdf(input_file_path, output_file_path):
 
     # Close the document and quit Word
     doc.Close()
-    word.Quit()
-
-    # Delete the Word document
-    os.remove(input_file_path)
 
 # Create a temporary file
 temp_file = tempfile.NamedTemporaryFile(suffix=".xlsx", delete=False)
@@ -188,9 +184,6 @@ for data in structured_data:
         convert_to_pdf(output_filename, pdf_output_filename)
         print(f"PDF saved: {pdf_output_filename}")
 
-        # Wait for the Word application to fully close the document
-        time.sleep(20)  # Wait for 20 seconds instead of 10
-
         # Delete the Word document
         try:
             os.remove(output_filename)
@@ -204,12 +197,7 @@ for data in structured_data:
 # Specify the path to the absences  folder
 absences_folder = config['unexcused_absences_path']['output_path']
 
-# Use a wildcard (*) to match any Word documents in the folder
-word_docs = glob.glob(os.path.join(absences_folder, "*.docx"))
-
-# Loop over the list of matched files and remove each one
-for doc in word_docs:
-    os.remove(doc)
+time.sleep(5)  # Wait for 5 seconds
 
 # Open the folder containing the generated PDFs
 os.startfile(absences_folder)  # Opens the folder in the default file explorer
