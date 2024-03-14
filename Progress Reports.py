@@ -16,22 +16,36 @@ from openpyxl.utils import column_index_from_string
 from openpyxl import load_workbook
 from openpyxl.utils import column_index_from_string
 import psutil
+from jinja2.exceptions import TemplateSyntaxError
+import requests
+from PIL import Image
+from io import BytesIO
+from docx import Document
+from docx.shared import Inches
+
+def print_context_around_error(context, char_position, window=50):
+    context_string = str(context)  # Convert context dictionary to string
+    start = max(char_position - window, 0)
+    end = min(char_position + window, len(context_string))
+    print(f"Context around character {char_position}:")
+    print(context_string[start:end])
 
 csv_file_path = sys.argv[1]
 date = datetime.strptime(sys.argv[2], "%Y-%m-%d")
+
+# Define the path to your .docx template file
+template_path = './Source Documents/ProgressReports.Template.docx'
 
 # Load the configuration settings from the JSON file
 with open('config.json') as f:
     config = json.load(f)
 
+output_path = config['progress_reports_path']['output_path']
+
 # Check command-line arguments for date and CSV file path
 if len(sys.argv) != 3:
     print("Usage: python pr.py <csv_file_path> <date> with date in YYYY-MM-DD format.")
-    sys.exit(1)
-
-# Get the paths from the config file
-template_path = config['progress_reports_path']['template_path']
-output_path = config['progress_reports_path']['output_path']
+    sys.exit(1)    
 
 # Read the CSV file into a DataFrame and parse 'report_date' as a datetime object
 print("Reading CSV file into DataFrame...")
@@ -65,8 +79,6 @@ print("Unique dates in 'report_date' before filtering:", df['report_date'].uniqu
 print("Filtering DataFrame based on the date...")
 df = df[df['report_date'] == date]
 
-# Rest of your code...
-
 # Print unique dates in the 'report_date' before converting
 print("Unique dates in 'report_date' before filtering:", df['report_date'].unique())
 
@@ -95,30 +107,23 @@ def convert_to_pdf(input_file_path, output_file_path):
 
     # Close the document and quit Word
     doc.Close()
-
-# Ensure the Word to PDF conversion function is defined before the loop
-
-# Function to convert Word to PDF
-def convert_to_pdf(input_file_path, output_file_path):
-    # Create a Word application object
-    word = comtypes.client.CreateObject('Word.Application')
-
-    # Set the application to be invisible
-    word.Visible = False
-
-    # Open the Word document
-    doc = word.Documents.Open(input_file_path)
-
-    # Save the document as a PDF
-    doc.SaveAs(output_file_path, FileFormat=17)  # 17 represents the PDF format in Word
-
-    # Close the document and quit Word
-    doc.Close()
     word.Quit()
 
 # Iterate over each row in the DataFrame
 for index, row in df.iterrows():
     
+    # Create a session and set headers
+    s = requests.Session()
+    s.headers.update({'User-Agent': 'Mozilla/5.0'})
+
+    # Use the session to make the request
+    response = s.get(row['image_url'])
+
+    img = Image.open(BytesIO(response.content))
+    img.show()
+
+    img.save('temp.jpg')
+
     # Prepare the context for the template with correct information
     context = {
         'first_name': row['first_name'],
@@ -133,30 +138,49 @@ for index, row in df.iterrows():
         'attended': row['attended'],
         'absence_unexcused': row['absence_unexcused'],
         'client_note': row['client_note'],
-        'speaks_significantly_in_group': row['speaks_significantly_in_group'],
-        'respectful_to_group': row['respectful_to_group'],
-        'takes_responsibility_for_past': row['takes_responsibility_for_past'],
-        'disruptive_argumentitive': row['disruptive_argumentitive'],
-        'humor_inappropriate': row['humor_inappropriate'],
-        'blames_victim': row['blames_victim'],
-        'appears_drug_alcohol': row['appears_drug_alcohol'],
-        'inappropriate_to_staff': row['inappropriate_to_staff'],
+        'AA': row['speaks_significantly_in_group'],
+        'AB': row['respectful_to_group'],
+        'AC': row['takes_responsibility_for_past'],
+        'AD': row['disruptive_argumentitive'],
+        'AE': row['humor_inappropriate'],
+        'AF': row['blames_victim'],
+        'AG': row['appears_drug_alcohol'],
+        'AH': row['inappropriate_to_staff'],
+        'image_path' : 'temp.jpg'
     }
 
-    # Correctly handle backslashes if needed (typically when dealing with file paths or specific string content)
-    # for key, value in context.items():
-    #     if isinstance(value, str):
-    #         context[key] = value.replace("\\", "\\\\")
+    for key, value in context.items():
+        if isinstance(value, str):
+            context[key] = value.replace("\\", "\\\\")
 
     # Load the template document correctly
-    doc = DocxTemplate(template_path)
+    print_context_around_error(context, 17499)
 
-    # Render the template with the prepared context
-    doc.render(context)
+        # Before your try-except block, remove or comment out the incorrect initialization
+    # print_context_around_error(context, 17499) -- This line seems correctly placed for debugging purposes
+
+    doc = DocxTemplate(template_path)  # Correct initialization of DocxTemplate
+
+    try:
+        doc.render(context)
+    except TemplateSyntaxError as e:
+        print(f"Error rendering document for {row['first_name']} {row['last_name']}: {e}")
+        continue  # Correctly skip to the next iteration upon encountering a TemplateSyntaxError
+    except Exception as e:  # Catching other exceptions
+        print(f"Error rendering document for {row['first_name']} {row['last_name']}: {e}")
+        continue
 
     # Construct the filename for saving
     doc_filename = os.path.join(output_path, f"Progress_Report_{row['first_name']}_{row['last_name']}.docx")
 
+    doc = Document('rendered.docx')
+
+    for paragraph in doc.paragraphs:
+        if 'IMAGE_PLACEHOLDER' in paragraph.text:
+            paragraph.clear()
+            run = paragraph.add_run()
+            run.add_picture(context['image_path'], width=Inches(1.0))
+            
     # Save the document
     doc.save(doc_filename)
 

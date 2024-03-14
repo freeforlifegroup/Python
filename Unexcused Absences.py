@@ -42,9 +42,6 @@ print("Start Date:", start_date, "End Date:", end_date, "CSV File Path:", csv_fi
 # Specify the path to the absences folder
 absences_folder = config['unexcused_absences_path']['output_path']
 
-# Use a wildcard (*) to match any Word documents in the folder
-word_docs = glob.glob(os.path.join(absences_folder, "*.docx"))
-
 def convert_to_pdf(input_file_path, output_file_path):
     # Create a Word application object
     word = comtypes.client.CreateObject('Word.Application')
@@ -106,7 +103,7 @@ def get_absence_month_year(cell, headers):
         header_cell = sheet['FN' + str(cell.row)]
     else:
         return None
-    return datetime.strptime(header_cell.value, "%B%Y")  # Parse the month and year from the header cell
+    return datetime.strptime(header_cell.value, "%b-%y")  # Parse the month and year from the header cell
 headers = find_month_year_headers(sheet)
 
 structured_data = []
@@ -126,7 +123,7 @@ for row in sheet.iter_rows(min_row=2):
                     print(f"Detected absence in row {row[0].row}, column {cell.column_letter}, date: {absence_date.strftime('%B %Y')}")  # Debugging
                     first_name = row[4].value  # Column E
                     last_name = row[5].value  # Column F
-                    dob = datetime.strptime(row[7].value, '%Y-%m-%d').strftime('%m/%d/%Y')  # Column H
+                    dob = datetime.strptime(row[7].value, '%m/%d/%Y').strftime('%m/%d/%Y')  # Column H
                     po_first_name = row[16].value  # Column Q
                     po_last_name = row[17].value  # Column R
                     attendance = row[22].value # Column W
@@ -194,10 +191,6 @@ for data in structured_data:
     except Exception as e:
         print(f"Error generating document for {data['Name']}: {e}")  # More detailed error handling
 
-# Specify the path to the absences  folder
-absences_folder = config['unexcused_absences_path']['output_path']
-
-time.sleep(5)  # Wait for 5 seconds
-
+time.sleep(15)
 # Open the folder containing the generated PDFs
 os.startfile(absences_folder)  # Opens the folder in the default file explorer

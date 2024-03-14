@@ -3,16 +3,20 @@ from docxtpl import DocxTemplate
 from jinja2 import TemplateSyntaxError
 
 # Path to the .docx file
-doc_path = "C:\\Users\\vaner\\OneDrive\\Free for Life\\Project\\Projects\\Source Documents\\ProgressReports.Template.docx"
+template_path = './Source Documents/ProgressReports.Template.docx'
 
-# Open the .docx file
-doc = DocxTemplate(doc_path)
+def print_template_context(char_position, window=50):
+    doc = Document(template_path)
+    full_text = []
+    for para in doc.paragraphs:
+        full_text.append(para.text)
+    text = "\n".join(full_text)
+    
+    start = max(char_position - window, 0)
+    end = min(char_position + window, len(text))
+    context = text[start:end]
+    
+    print(f"Context around character {char_position}:")
+    print(context)
 
-# Create a dummy context
-context = {}
-
-# Try to render the template with the dummy context
-try:
-    doc.render(context)
-except TemplateSyntaxError as e:
-    print(f"Caught a Jinja2 syntax error: {e}")
+print_template_context(17499)

@@ -105,7 +105,7 @@ for row in sheet.iter_rows(min_row=2):
         if dob_value == '0000-00-00':
             print(f"Invalid date of birth in row {row[0].row}, skipping this row")
             continue
-        dob = datetime.strptime(dob_value, '%Y-%m-%d').strftime('%m/%d/%Y')
+        dob = datetime.strptime(dob_value, '%m/%d/%Y').strftime('%m/%d/%Y')
         po_first_name = row[16].value  # Column Q
         po_last_name = row[17].value  # Column R
         gender = row[9].value # Column J

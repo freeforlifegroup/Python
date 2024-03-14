@@ -22579,3 +22579,942 @@ DataFrame after filtering:
   File "<unknown>", line 12, in template
 jinja2.exceptions.TemplateSyntaxError: unexpected char '\\' at 17265
 
+2024-03-14 11:40:59,972 - This is a test log message.
+2024-03-14 11:41:05,875 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240314.csv
+2024-03-14 11:41:12,876 - Selected start date: 03-08-2024
+2024-03-14 11:41:12,876 - Selected end date: 03-11-2024
+2024-03-14 11:41:12,876 - Attempting to convert date format for: 03-08-2024
+2024-03-14 11:41:12,880 - Converted date format to: 2024-03-08
+2024-03-14 11:41:12,880 - Attempting to convert date format for: 03-11-2024
+2024-03-14 11:41:12,880 - Converted date format to: 2024-03-11
+2024-03-14 11:41:12,880 - Displaying date range: March 08, 2024 to
+March 11, 2024
+2024-03-14 11:41:55,769 - Selected start date: 09-07-2023
+2024-03-14 11:41:55,770 - Selected end date: 09-09-2023
+2024-03-14 11:41:55,770 - Attempting to convert date format for: 09-07-2023
+2024-03-14 11:41:55,770 - Converted date format to: 2023-09-07
+2024-03-14 11:41:55,770 - Attempting to convert date format for: 09-09-2023
+2024-03-14 11:41:55,771 - Converted date format to: 2023-09-09
+2024-03-14 11:41:55,771 - Displaying date range: September 07, 2023 to
+September 09, 2023
+2024-03-14 11:41:57,458 - Attempting to convert date format for: 09-07-2023
+2024-03-14 11:41:57,458 - Converted date format to: 2023-09-07
+2024-03-14 11:41:57,458 - Attempting to convert date format for: 09-09-2023
+2024-03-14 11:41:57,459 - Converted date format to: 2023-09-09
+2024-03-14 11:41:57,459 - Running Entrance Notifications.py with start date 2023-09-07 and end date 2023-09-09
+2024-03-14 11:41:59,727 - Subprocess failed with error: Command '['python', './Entrance Notifications.py', 'C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240314.csv', '2023-09-07', '2023-09-09']' returned non-zero exit status 1.
+2024-03-14 11:42:39,361 - Subprocess stdout: Start Date: 2023-09-07 00:00:00 End Date: 2023-09-09 00:00:00 CSV File Path: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240314.csv
+Detected entrance in row 4, column AK, date: September 2023
+
+2024-03-14 11:42:39,362 - Subprocess stderr: Traceback (most recent call last):
+  File "C:\Users\vaner\OneDrive\Desktop\Python\Entrance Notifications.py", line 108, in <module>
+    dob = datetime.strptime(dob_value, '%Y-%m-%d').strftime('%m/%d/%Y')
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaner\AppData\Local\Programs\Python\Python312\Lib\_strptime.py", line 555, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaner\AppData\Local\Programs\Python\Python312\Lib\_strptime.py", line 333, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '5/26/2003' does not match format '%Y-%m-%d'
+
+2024-03-14 11:42:42,939 - This is a test log message.
+2024-03-14 11:42:45,703 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240314.csv
+2024-03-14 11:42:59,343 - Selected start date: 09-07-2023
+2024-03-14 11:42:59,343 - Selected end date: 09-09-2023
+2024-03-14 11:42:59,343 - Attempting to convert date format for: 09-07-2023
+2024-03-14 11:42:59,345 - Converted date format to: 2023-09-07
+2024-03-14 11:42:59,346 - Attempting to convert date format for: 09-09-2023
+2024-03-14 11:42:59,346 - Converted date format to: 2023-09-09
+2024-03-14 11:42:59,346 - Displaying date range: September 07, 2023 to
+September 09, 2023
+2024-03-14 11:43:00,796 - Attempting to convert date format for: 09-07-2023
+2024-03-14 11:43:00,796 - Converted date format to: 2023-09-07
+2024-03-14 11:43:00,797 - Attempting to convert date format for: 09-09-2023
+2024-03-14 11:43:00,797 - Converted date format to: 2023-09-09
+2024-03-14 11:43:00,797 - Running Entrance Notifications.py with start date 2023-09-07 and end date 2023-09-09
+2024-03-14 11:43:01,644 - Subprocess failed with error: Command '['python', './Entrance Notifications.py', 'C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240314.csv', '2023-09-07', '2023-09-09']' returned non-zero exit status 1.
+2024-03-14 11:43:03,025 - Subprocess stdout: Start Date: 2023-09-07 00:00:00 End Date: 2023-09-09 00:00:00 CSV File Path: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240314.csv
+Detected entrance in row 4, column AK, date: September 2023
+
+2024-03-14 11:43:03,026 - Subprocess stderr: Traceback (most recent call last):
+  File "C:\Users\vaner\OneDrive\Desktop\Python\Entrance Notifications.py", line 108, in <module>
+    dob = datetime.strptime(dob_value, '%Y-%m-%d').strftime('%m/%d/%Y')
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaner\AppData\Local\Programs\Python\Python312\Lib\_strptime.py", line 555, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaner\AppData\Local\Programs\Python\Python312\Lib\_strptime.py", line 333, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '5/26/2003' does not match format '%Y-%m-%d'
+
+2024-03-14 11:45:07,992 - This is a test log message.
+2024-03-14 11:45:10,718 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240314.csv
+2024-03-14 11:45:21,597 - Selected start date: 09-07-2023
+2024-03-14 11:45:21,598 - Selected end date: 09-09-2023
+2024-03-14 11:45:21,598 - Attempting to convert date format for: 09-07-2023
+2024-03-14 11:45:21,600 - Converted date format to: 2023-09-07
+2024-03-14 11:45:21,600 - Attempting to convert date format for: 09-09-2023
+2024-03-14 11:45:21,601 - Converted date format to: 2023-09-09
+2024-03-14 11:45:21,601 - Displaying date range: September 07, 2023 to
+September 09, 2023
+2024-03-14 11:45:24,259 - Attempting to convert date format for: 09-07-2023
+2024-03-14 11:45:24,259 - Converted date format to: 2023-09-07
+2024-03-14 11:45:24,259 - Attempting to convert date format for: 09-09-2023
+2024-03-14 11:45:24,260 - Converted date format to: 2023-09-09
+2024-03-14 11:45:24,260 - Running Entrance Notifications.py with start date 2023-09-07 and end date 2023-09-09
+2024-03-14 11:45:37,816 - Subprocess output: Start Date: 2023-09-07 00:00:00 End Date: 2023-09-09 00:00:00 CSV File Path: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240314.csv
+Detected entrance in row 4, column AK, date: September 2023
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Nigel Reynolds\Bickems.Charles.EntranceNotification.September.08.2023.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Nigel Reynolds\Bickems.Charles.EntranceNotification.September.08.2023.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Nigel Reynolds\Bickems.Charles.EntranceNotification.September.08.2023.docx
+
+2024-03-14 11:47:36,791 - Selected start date: 08-10-2023
+2024-03-14 11:47:36,791 - Selected end date: 03-14-2024
+2024-03-14 11:47:36,792 - Attempting to convert date format for: 08-10-2023
+2024-03-14 11:47:36,792 - Converted date format to: 2023-08-10
+2024-03-14 11:47:36,792 - Attempting to convert date format for: 03-14-2024
+2024-03-14 11:47:36,793 - Converted date format to: 2024-03-14
+2024-03-14 11:47:36,793 - Displaying date range: August 10, 2023 to
+March 14, 2024
+2024-03-14 11:47:39,888 - Subprocess failed with error: Command '['python', './Unexcused Absences.py', 'C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240314.csv', '2023-08-10', '2024-03-14']' returned non-zero exit status 1.
+2024-03-14 11:47:41,246 - Subprocess stdout: Start Date: 2023-08-10 00:00:00 End Date: 2024-03-14 00:00:00 CSV File Path: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240314.csv
+Identified headers: {'AO': {'Dec-23'}, 'CF': {'Jan-24'}, 'DW': {'Feb-24'}, 'FN': {'Mar-24'}}
+
+2024-03-14 11:47:41,247 - Subprocess stderr: Traceback (most recent call last):
+  File "C:\Users\vaner\OneDrive\Desktop\Python\Unexcused Absences.py", line 121, in <module>
+    month_year = get_absence_month_year(cell, headers)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaner\OneDrive\Desktop\Python\Unexcused Absences.py", line 109, in get_absence_month_year
+    return datetime.strptime(header_cell.value, "%B%Y")  # Parse the month and year from the header cell
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaner\AppData\Local\Programs\Python\Python312\Lib\_strptime.py", line 555, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaner\AppData\Local\Programs\Python\Python312\Lib\_strptime.py", line 333, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'Jan-24' does not match format '%B%Y'
+
+2024-03-14 11:49:06,310 - This is a test log message.
+2024-03-14 11:49:09,937 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240314.csv
+2024-03-14 11:49:17,050 - Selected start date: 08-10-2023
+2024-03-14 11:49:17,051 - Selected end date: 03-14-2024
+2024-03-14 11:49:17,051 - Attempting to convert date format for: 08-10-2023
+2024-03-14 11:49:17,054 - Converted date format to: 2023-08-10
+2024-03-14 11:49:17,054 - Attempting to convert date format for: 03-14-2024
+2024-03-14 11:49:17,054 - Converted date format to: 2024-03-14
+2024-03-14 11:49:17,055 - Displaying date range: August 10, 2023 to
+March 14, 2024
+2024-03-14 11:49:19,794 - Subprocess failed with error: Command '['python', './Unexcused Absences.py', 'C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240314.csv', '2023-08-10', '2024-03-14']' returned non-zero exit status 1.
+2024-03-14 11:49:21,158 - Subprocess stdout: Start Date: 2023-08-10 00:00:00 End Date: 2024-03-14 00:00:00 CSV File Path: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240314.csv
+Identified headers: {'AO': {'Dec-23'}, 'CF': {'Jan-24'}, 'DW': {'Feb-24'}, 'FN': {'Mar-24'}}
+
+2024-03-14 11:49:21,159 - Subprocess stderr: Traceback (most recent call last):
+  File "C:\Users\vaner\OneDrive\Desktop\Python\Unexcused Absences.py", line 121, in <module>
+    month_year = get_absence_month_year(cell, headers)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaner\OneDrive\Desktop\Python\Unexcused Absences.py", line 109, in get_absence_month_year
+    return datetime.strptime(header_cell.value, "%B%Y")  # Parse the month and year from the header cell
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaner\AppData\Local\Programs\Python\Python312\Lib\_strptime.py", line 555, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaner\AppData\Local\Programs\Python\Python312\Lib\_strptime.py", line 333, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'Jan-24' does not match format '%B%Y'
+
+2024-03-14 11:51:51,503 - This is a test log message.
+2024-03-14 11:51:53,843 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240314.csv
+2024-03-14 11:52:00,435 - Selected start date: 08-10-2023
+2024-03-14 11:52:00,435 - Selected end date: 03-14-2024
+2024-03-14 11:52:00,436 - Attempting to convert date format for: 08-10-2023
+2024-03-14 11:52:00,438 - Converted date format to: 2023-08-10
+2024-03-14 11:52:00,438 - Attempting to convert date format for: 03-14-2024
+2024-03-14 11:52:00,438 - Converted date format to: 2024-03-14
+2024-03-14 11:52:00,439 - Displaying date range: August 10, 2023 to
+March 14, 2024
+2024-03-14 11:52:03,123 - Subprocess failed with error: Command '['python', './Unexcused Absences.py', 'C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240314.csv', '2023-08-10', '2024-03-14']' returned non-zero exit status 1.
+2024-03-14 11:52:06,257 - Subprocess stdout: Start Date: 2023-08-10 00:00:00 End Date: 2024-03-14 00:00:00 CSV File Path: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240314.csv
+Identified headers: {'AO': {'Dec-23'}, 'CF': {'Jan-24'}, 'DW': {'Feb-24'}, 'FN': {'Mar-24'}}
+
+2024-03-14 11:52:06,257 - Subprocess stderr: Traceback (most recent call last):
+  File "C:\Users\vaner\OneDrive\Desktop\Python\Unexcused Absences.py", line 121, in <module>
+    month_year = get_absence_month_year(cell, headers)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaner\OneDrive\Desktop\Python\Unexcused Absences.py", line 109, in get_absence_month_year
+    return datetime.strptime(header_cell.value, "%B-%Y")  # Parse the month and year from the header cell
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaner\AppData\Local\Programs\Python\Python312\Lib\_strptime.py", line 555, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaner\AppData\Local\Programs\Python\Python312\Lib\_strptime.py", line 333, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'Jan-24' does not match format '%B-%Y'
+
+2024-03-14 11:53:16,039 - This is a test log message.
+2024-03-14 11:53:18,250 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240314.csv
+2024-03-14 11:53:23,608 - Selected start date: 08-10-2023
+2024-03-14 11:53:23,609 - Selected end date: 03-14-2024
+2024-03-14 11:53:23,609 - Attempting to convert date format for: 08-10-2023
+2024-03-14 11:53:23,611 - Converted date format to: 2023-08-10
+2024-03-14 11:53:23,611 - Attempting to convert date format for: 03-14-2024
+2024-03-14 11:53:23,612 - Converted date format to: 2024-03-14
+2024-03-14 11:53:23,612 - Displaying date range: August 10, 2023 to
+March 14, 2024
+2024-03-14 11:53:26,035 - Subprocess failed with error: Command '['python', './Unexcused Absences.py', 'C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240314.csv', '2023-08-10', '2024-03-14']' returned non-zero exit status 1.
+2024-03-14 11:53:27,950 - Subprocess stdout: Start Date: 2023-08-10 00:00:00 End Date: 2024-03-14 00:00:00 CSV File Path: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240314.csv
+Identified headers: {'AO': {'Dec-23'}, 'CF': {'Jan-24'}, 'DW': {'Feb-24'}, 'FN': {'Mar-24'}}
+Detected absence in row 3, column DC, date: January 2024
+
+2024-03-14 11:53:27,951 - Subprocess stderr: Traceback (most recent call last):
+  File "C:\Users\vaner\OneDrive\Desktop\Python\Unexcused Absences.py", line 129, in <module>
+    dob = datetime.strptime(row[7].value, '%m/%d/%y').strftime('%m/%d/%Y')  # Column H
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaner\AppData\Local\Programs\Python\Python312\Lib\_strptime.py", line 555, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaner\AppData\Local\Programs\Python\Python312\Lib\_strptime.py", line 336, in _strptime
+    raise ValueError("unconverted data remains: %s" %
+ValueError: unconverted data remains: 93
+
+2024-03-14 11:54:58,769 - This is a test log message.
+2024-03-14 11:55:01,781 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240314.csv
+2024-03-14 11:55:07,181 - Selected start date: 08-10-2023
+2024-03-14 11:55:07,182 - Selected end date: 03-14-2024
+2024-03-14 11:55:07,182 - Attempting to convert date format for: 08-10-2023
+2024-03-14 11:55:07,184 - Converted date format to: 2023-08-10
+2024-03-14 11:55:07,184 - Attempting to convert date format for: 03-14-2024
+2024-03-14 11:55:07,185 - Converted date format to: 2024-03-14
+2024-03-14 11:55:07,185 - Displaying date range: August 10, 2023 to
+March 14, 2024
+2024-03-14 11:57:29,112 - Subprocess output: Start Date: 2023-08-10 00:00:00 End Date: 2024-03-14 00:00:00 CSV File Path: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240314.csv
+Identified headers: {'AO': {'Dec-23'}, 'CF': {'Jan-24'}, 'DW': {'Feb-24'}, 'FN': {'Mar-24'}}
+Detected absence in row 3, column DC, date: January 2024
+Detected absence in row 3, column DJ, date: January 2024
+Detected absence in row 3, column EB, date: February 2024
+Detected absence in row 3, column EF, date: February 2024
+Detected absence in row 3, column EI, date: February 2024
+Detected absence in row 3, column ET, date: February 2024
+Detected absence in row 3, column FW, date: March 2024
+Detected absence in row 4, column AX, date: December 2023
+Detected absence in row 4, column BE, date: December 2023
+Detected absence in row 4, column BI, date: December 2023
+Detected absence in row 4, column BL, date: December 2023
+Detected absence in row 4, column BP, date: December 2023
+Detected absence in row 4, column BS, date: December 2023
+Detected absence in row 4, column BW, date: December 2023
+Detected absence in row 4, column CN, date: January 2024
+Detected absence in row 4, column CS, date: January 2024
+Detected absence in row 4, column CZ, date: January 2024
+Detected absence in row 4, column DB, date: January 2024
+Detected absence in row 4, column DG, date: January 2024
+Detected absence in row 4, column EE, date: February 2024
+Detected absence in row 4, column EJ, date: February 2024
+Detected absence in row 4, column EL, date: February 2024
+Detected absence in row 4, column EQ, date: February 2024
+Detected absence in row 4, column ES, date: February 2024
+Detected absence in row 4, column EX, date: February 2024
+Detected absence in row 4, column EZ, date: February 2024
+Detected absence in row 4, column FV, date: March 2024
+Detected absence in row 4, column GA, date: March 2024
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.22.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.22.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.22.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.29.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.29.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.29.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.01.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.01.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.01.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.05.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.05.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.05.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.08.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.08.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.08.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.19.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.19.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.19.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.04.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.04.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.04.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.December.04.2023.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.December.04.2023.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.December.04.2023.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.December.11.2023.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.December.11.2023.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.December.11.2023.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.December.15.2023.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.December.15.2023.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.December.15.2023.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.December.18.2023.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.December.18.2023.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.December.18.2023.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.December.22.2023.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.December.22.2023.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.December.22.2023.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.December.25.2023.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.December.25.2023.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.December.25.2023.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.December.29.2023.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.December.29.2023.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.December.29.2023.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.January.07.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.January.07.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.January.07.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.January.12.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.January.12.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.January.12.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.January.19.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.January.19.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.January.19.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.January.21.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.January.21.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.January.21.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.January.26.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.January.26.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.January.26.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.February.04.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.February.04.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.February.04.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.February.09.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.February.09.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.February.09.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.February.11.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.February.11.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.February.11.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.February.16.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.February.16.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.February.16.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.February.18.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.February.18.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.February.18.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.February.23.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.February.23.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.February.23.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.February.25.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.February.25.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.February.25.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.March.03.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.March.03.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.March.03.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.March.08.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.March.08.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.March.08.2024.docx
+
+2024-03-14 12:02:01,166 - This is a test log message.
+2024-03-14 12:02:03,594 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240314.csv
+2024-03-14 12:02:40,051 - Selected start date: 05-21-2023
+2024-03-14 12:02:40,051 - Selected end date: 09-09-2023
+2024-03-14 12:02:40,051 - Attempting to convert date format for: 05-21-2023
+2024-03-14 12:02:40,052 - Converted date format to: 2023-05-21
+2024-03-14 12:02:40,053 - Attempting to convert date format for: 09-09-2023
+2024-03-14 12:02:40,053 - Converted date format to: 2023-09-09
+2024-03-14 12:02:40,053 - Displaying date range: May 21, 2023 to
+September 09, 2023
+2024-03-14 12:02:41,020 - Attempting to convert date format for: 05-21-2023
+2024-03-14 12:02:41,021 - Converted date format to: 2023-05-21
+2024-03-14 12:02:41,021 - Attempting to convert date format for: 09-09-2023
+2024-03-14 12:02:41,021 - Converted date format to: 2023-09-09
+2024-03-14 12:02:41,022 - Running Entrance Notifications.py with start date 2023-05-21 and end date 2023-09-09
+2024-03-14 12:03:19,586 - Subprocess output: Start Date: 2023-05-21 00:00:00 End Date: 2023-09-09 00:00:00 CSV File Path: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240314.csv
+Detected entrance in row 2, column AK, date: May 2023
+Detected entrance in row 3, column AK, date: August 2023
+Detected entrance in row 4, column AK, date: September 2023
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Teric Dorsey-Hopkins\Baughman.Kayla.EntranceNotification.May.22.2023.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Teric Dorsey-Hopkins\Baughman.Kayla.EntranceNotification.May.22.2023.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Teric Dorsey-Hopkins\Baughman.Kayla.EntranceNotification.May.22.2023.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Amber Fort\Andazola.Fabian.EntranceNotification.August.10.2023.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Amber Fort\Andazola.Fabian.EntranceNotification.August.10.2023.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Amber Fort\Andazola.Fabian.EntranceNotification.August.10.2023.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Nigel Reynolds\Bickems.Charles.EntranceNotification.September.08.2023.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Nigel Reynolds\Bickems.Charles.EntranceNotification.September.08.2023.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Nigel Reynolds\Bickems.Charles.EntranceNotification.September.08.2023.docx
+
+2024-03-14 12:18:07,554 - Subprocess output: Start Date: 2023-05-21 00:00:00 End Date: 2023-09-09 00:00:00 CSV File Path: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240314.csv
+Identified headers: {'AO': {'Dec-23'}, 'CF': {'Jan-24'}, 'DW': {'Feb-24'}, 'FN': {'Mar-24'}}
+
+2024-03-14 12:18:23,585 - Subprocess output: Start Date: 2023-05-21 00:00:00 End Date: 2023-09-09 00:00:00 CSV File Path: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240314.csv
+Identified headers: {'AO': {'Dec-23'}, 'CF': {'Jan-24'}, 'DW': {'Feb-24'}, 'FN': {'Mar-24'}}
+
+2024-03-14 12:19:47,948 - This is a test log message.
+2024-03-14 12:19:50,531 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240314.csv
+2024-03-14 12:19:54,843 - Selected start date: 03-04-2024
+2024-03-14 12:19:54,843 - Selected end date: 03-14-2024
+2024-03-14 12:19:54,843 - Attempting to convert date format for: 03-04-2024
+2024-03-14 12:19:54,846 - Converted date format to: 2024-03-04
+2024-03-14 12:19:54,846 - Attempting to convert date format for: 03-14-2024
+2024-03-14 12:19:54,846 - Converted date format to: 2024-03-14
+2024-03-14 12:19:54,846 - Displaying date range: March 04, 2024 to
+March 14, 2024
+2024-03-14 12:20:07,359 - Subprocess output: Start Date: 2024-03-04 00:00:00 End Date: 2024-03-14 00:00:00 CSV File Path: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240314.csv
+Identified headers: {'AO': {'Dec-23'}, 'CF': {'Jan-24'}, 'DW': {'Feb-24'}, 'FN': {'Mar-24'}}
+Detected absence in row 3, column FW, date: March 2024
+Detected absence in row 4, column GA, date: March 2024
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.04.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.04.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.04.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.March.08.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.March.08.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.March.08.2024.docx
+
+2024-03-14 12:26:03,024 - This is a test log message.
+2024-03-14 12:26:06,300 - This is a test log message.
+2024-03-14 12:26:09,515 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240314.csv
+2024-03-14 12:26:12,632 - Selected start date: 03-04-2024
+2024-03-14 12:26:12,632 - Selected end date: 03-14-2024
+2024-03-14 12:26:12,633 - Attempting to convert date format for: 03-04-2024
+2024-03-14 12:26:12,635 - Converted date format to: 2024-03-04
+2024-03-14 12:26:12,635 - Attempting to convert date format for: 03-14-2024
+2024-03-14 12:26:12,635 - Converted date format to: 2024-03-14
+2024-03-14 12:26:12,635 - Displaying date range: March 04, 2024 to
+March 14, 2024
+2024-03-14 12:26:56,026 - Subprocess output: Start Date: 2024-03-04 00:00:00 End Date: 2024-03-14 00:00:00 CSV File Path: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240314.csv
+Identified headers: {'AO': {'Dec-23'}, 'CF': {'Jan-24'}, 'DW': {'Feb-24'}, 'FN': {'Mar-24'}}
+Detected absence in row 3, column FW, date: March 2024
+Detected absence in row 4, column GA, date: March 2024
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.04.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.04.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.04.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.March.08.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.March.08.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Nigel Reynolds\Bickems.Charles.UnexcusedAbsence.March.08.2024.docx
+
+2024-03-14 12:37:11,209 - This is a test log message.
+2024-03-14 12:37:17,265 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240314.csv
+2024-03-14 12:37:20,588 - Selected start date: 03-14-2024
+2024-03-14 12:37:20,588 - Selected end date: 03-14-2024
+2024-03-14 12:37:20,588 - Attempting to convert date format for: 03-14-2024
+2024-03-14 12:37:20,590 - Converted date format to: 2024-03-14
+2024-03-14 12:37:20,590 - Attempting to convert date format for: 03-14-2024
+2024-03-14 12:37:20,590 - Converted date format to: 2024-03-14
+2024-03-14 12:37:20,590 - Displaying date range: March 14, 2024
+2024-03-14 12:37:22,517 - Subprocess failed with error: Command '['python', './Progress Reports.py', 'C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240314.csv', '2024-03-14']' returned non-zero exit status 1.
+2024-03-14 12:37:24,337 - Subprocess stdout: Reading CSV file into DataFrame...
+Subset of 'report_date': 0    2024-03-14
+1    2024-03-14
+2    2024-03-14
+Name: report_date, dtype: object
+Date variable: 2024-03-14 00:00:00
+DataFrame info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3 entries, 0 to 2
+Columns: 213 entries, client_id to last_attended
+dtypes: float64(49), int64(80), object(84)
+memory usage: 5.1+ KB
+None
+Combining 'case_manager_first_name' and 'case_manager_last_name' columns...
+Unique dates in 'report_date' before filtering: ['2024-03-14']
+Filtering DataFrame based on the date...
+Unique dates in 'report_date' before filtering: ['2024-03-14']
+Unique dates in 'report_date': ['2024-03-14']
+Unique dates in 'report_date' after converting to string: ['2024-03-14']
+DataFrame after filtering:
+   client_id report_date  ... last_attended        parole_officer
+0         16  2024-03-14  ...     3/11/2024  Teric Dorsey-Hopkins
+1        111  2024-03-14  ...      3/7/2024            Amber Fort
+2        135  2024-03-14  ...     3/11/2024        Nigel Reynolds
+
+[3 rows x 214 columns]
+
+2024-03-14 12:37:24,339 - Subprocess stderr: Traceback (most recent call last):
+  File "C:\Users\vaner\OneDrive\Desktop\Python\Progress Reports.py", line 155, in <module>
+    doc.render(context)
+  File "C:\Users\vaner\AppData\Local\Programs\Python\Python312\Lib\site-packages\docxtpl\template.py", line 359, in render
+    self.render_init()
+  File "C:\Users\vaner\AppData\Local\Programs\Python\Python312\Lib\site-packages\docxtpl\template.py", line 52, in render_init
+    self.init_docx()
+  File "C:\Users\vaner\AppData\Local\Programs\Python\Python312\Lib\site-packages\docxtpl\template.py", line 48, in init_docx
+    self.docx = Document(self.template_file)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaner\AppData\Local\Programs\Python\Python312\Lib\site-packages\docx\api.py", line 23, in Document
+    document_part = Package.open(docx).main_document_part
+                    ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaner\AppData\Local\Programs\Python\Python312\Lib\site-packages\docx\opc\package.py", line 116, in open
+    pkg_reader = PackageReader.from_file(pkg_file)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaner\AppData\Local\Programs\Python\Python312\Lib\site-packages\docx\opc\pkgreader.py", line 22, in from_file
+    phys_reader = PhysPkgReader(pkg_file)
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaner\AppData\Local\Programs\Python\Python312\Lib\site-packages\docx\opc\phys_pkg.py", line 21, in __new__
+    raise PackageNotFoundError("Package not found at '%s'" % pkg_file)
+docx.opc.exceptions.PackageNotFoundError: Package not found at 'C:\Users\vaner\OneDrive\Free for Life\Project\Projects\Source Documents\ProgressReports.Template.docx'
+
+2024-03-14 12:53:30,440 - This is a test log message.
+2024-03-14 12:53:32,937 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240314.csv
+2024-03-14 12:53:35,702 - Selected start date: 03-14-2024
+2024-03-14 12:53:35,702 - Selected end date: 03-14-2024
+2024-03-14 12:53:35,703 - Attempting to convert date format for: 03-14-2024
+2024-03-14 12:53:35,704 - Converted date format to: 2024-03-14
+2024-03-14 12:53:35,704 - Attempting to convert date format for: 03-14-2024
+2024-03-14 12:53:35,705 - Converted date format to: 2024-03-14
+2024-03-14 12:53:35,705 - Displaying date range: March 14, 2024
+2024-03-14 12:53:37,610 - Subprocess output: Reading CSV file into DataFrame...
+Subset of 'report_date': 0    2024-03-14
+1    2024-03-14
+2    2024-03-14
+Name: report_date, dtype: object
+Date variable: 2024-03-14 00:00:00
+DataFrame info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3 entries, 0 to 2
+Columns: 213 entries, client_id to last_attended
+dtypes: float64(49), int64(80), object(84)
+memory usage: 5.1+ KB
+None
+Combining 'case_manager_first_name' and 'case_manager_last_name' columns...
+Unique dates in 'report_date' before filtering: ['2024-03-14']
+Filtering DataFrame based on the date...
+Unique dates in 'report_date' before filtering: ['2024-03-14']
+Unique dates in 'report_date': ['2024-03-14']
+Unique dates in 'report_date' after converting to string: ['2024-03-14']
+DataFrame after filtering:
+   client_id report_date  ... last_attended        parole_officer
+0         16  2024-03-14  ...     3/11/2024  Teric Dorsey-Hopkins
+1        111  2024-03-14  ...      3/7/2024            Amber Fort
+2        135  2024-03-14  ...     3/11/2024        Nigel Reynolds
+
+[3 rows x 214 columns]
+Error rendering document for Kayla Baughman: unexpected char '\\' at 17499
+Error rendering document for Fabian Andazola: unexpected char '\\' at 17499
+Error rendering document for Charles Bickems: unexpected char '\\' at 17499
+
+2024-03-14 13:06:02,884 - This is a test log message.
+2024-03-14 13:06:06,546 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240314.csv
+2024-03-14 13:06:07,460 - Selected start date: 03-14-2024
+2024-03-14 13:06:07,460 - Selected end date: 03-14-2024
+2024-03-14 13:06:07,460 - Attempting to convert date format for: 03-14-2024
+2024-03-14 13:06:07,461 - Converted date format to: 2024-03-14
+2024-03-14 13:06:07,462 - Attempting to convert date format for: 03-14-2024
+2024-03-14 13:06:07,462 - Converted date format to: 2024-03-14
+2024-03-14 13:06:07,462 - Displaying date range: March 14, 2024
+2024-03-14 13:06:09,517 - Subprocess output: Reading CSV file into DataFrame...
+Subset of 'report_date': 0    2024-03-14
+1    2024-03-14
+2    2024-03-14
+Name: report_date, dtype: object
+Date variable: 2024-03-14 00:00:00
+DataFrame info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3 entries, 0 to 2
+Columns: 213 entries, client_id to last_attended
+dtypes: float64(49), int64(80), object(84)
+memory usage: 5.1+ KB
+None
+Combining 'case_manager_first_name' and 'case_manager_last_name' columns...
+Unique dates in 'report_date' before filtering: ['2024-03-14']
+Filtering DataFrame based on the date...
+Unique dates in 'report_date' before filtering: ['2024-03-14']
+Unique dates in 'report_date': ['2024-03-14']
+Unique dates in 'report_date' after converting to string: ['2024-03-14']
+DataFrame after filtering:
+   client_id report_date  ... last_attended        parole_officer
+0         16  2024-03-14  ...     3/11/2024  Teric Dorsey-Hopkins
+1        111  2024-03-14  ...      3/7/2024            Amber Fort
+2        135  2024-03-14  ...     3/11/2024        Nigel Reynolds
+
+[3 rows x 214 columns]
+Context around character 17499:
+
+Error rendering document for Kayla Baughman: unexpected char '\\' at 17499
+Context around character 17499:
+
+Error rendering document for Fabian Andazola: unexpected char '\\' at 17499
+Context around character 17499:
+
+Error rendering document for Charles Bickems: unexpected char '\\' at 17499
+
+2024-03-14 13:10:56,765 - This is a test log message.
+2024-03-14 13:10:59,734 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240314.csv
+2024-03-14 13:11:01,061 - Selected start date: 03-14-2024
+2024-03-14 13:11:01,061 - Selected end date: 03-14-2024
+2024-03-14 13:11:01,062 - Attempting to convert date format for: 03-14-2024
+2024-03-14 13:11:01,063 - Converted date format to: 2024-03-14
+2024-03-14 13:11:01,063 - Attempting to convert date format for: 03-14-2024
+2024-03-14 13:11:01,064 - Converted date format to: 2024-03-14
+2024-03-14 13:11:01,064 - Displaying date range: March 14, 2024
+2024-03-14 13:11:02,829 - Subprocess output: Reading CSV file into DataFrame...
+Subset of 'report_date': 0    2024-03-14
+1    2024-03-14
+2    2024-03-14
+Name: report_date, dtype: object
+Date variable: 2024-03-14 00:00:00
+DataFrame info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3 entries, 0 to 2
+Columns: 213 entries, client_id to last_attended
+dtypes: float64(49), int64(80), object(84)
+memory usage: 5.1+ KB
+None
+Combining 'case_manager_first_name' and 'case_manager_last_name' columns...
+Unique dates in 'report_date' before filtering: ['2024-03-14']
+Filtering DataFrame based on the date...
+Unique dates in 'report_date' before filtering: ['2024-03-14']
+Unique dates in 'report_date': ['2024-03-14']
+Unique dates in 'report_date' after converting to string: ['2024-03-14']
+DataFrame after filtering:
+   client_id report_date  ... last_attended        parole_officer
+0         16  2024-03-14  ...     3/11/2024  Teric Dorsey-Hopkins
+1        111  2024-03-14  ...      3/7/2024            Amber Fort
+2        135  2024-03-14  ...     3/11/2024        Nigel Reynolds
+
+[3 rows x 214 columns]
+Context around character 17499:
+
+Error rendering document for Kayla Baughman: unexpected char '\\' at 17499
+Context around character 17499:
+
+Error rendering document for Fabian Andazola: unexpected char '\\' at 17499
+Context around character 17499:
+
+Error rendering document for Charles Bickems: unexpected char '\\' at 17499
+
+2024-03-14 13:21:42,337 - This is a test log message.
+2024-03-14 13:21:45,828 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240314.csv
+2024-03-14 13:21:46,417 - Selected start date: 03-14-2024
+2024-03-14 13:21:46,417 - Selected end date: 03-14-2024
+2024-03-14 13:21:46,417 - Attempting to convert date format for: 03-14-2024
+2024-03-14 13:21:46,419 - Converted date format to: 2024-03-14
+2024-03-14 13:21:46,419 - Attempting to convert date format for: 03-14-2024
+2024-03-14 13:21:46,419 - Converted date format to: 2024-03-14
+2024-03-14 13:21:46,419 - Displaying date range: March 14, 2024
+2024-03-14 13:21:56,992 - Subprocess output: Reading CSV file into DataFrame...
+Subset of 'report_date': 0    2024-03-14
+1    2024-03-14
+2    2024-03-14
+Name: report_date, dtype: object
+Date variable: 2024-03-14 00:00:00
+DataFrame info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3 entries, 0 to 2
+Columns: 213 entries, client_id to last_attended
+dtypes: float64(49), int64(80), object(84)
+memory usage: 5.1+ KB
+None
+Combining 'case_manager_first_name' and 'case_manager_last_name' columns...
+Unique dates in 'report_date' before filtering: ['2024-03-14']
+Filtering DataFrame based on the date...
+Unique dates in 'report_date' before filtering: ['2024-03-14']
+Unique dates in 'report_date': ['2024-03-14']
+Unique dates in 'report_date' after converting to string: ['2024-03-14']
+DataFrame after filtering:
+   client_id report_date  ... last_attended        parole_officer
+0         16  2024-03-14  ...     3/11/2024  Teric Dorsey-Hopkins
+1        111  2024-03-14  ...      3/7/2024            Amber Fort
+2        135  2024-03-14  ...     3/11/2024        Nigel Reynolds
+
+[3 rows x 214 columns]
+Context around character 17499:
+
+Progress Report for Kayla Baughman saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\Reports\Teric Dorsey-Hopkins\Progress_Report_Kayla_Baughman.pdf
+Context around character 17499:
+
+Progress Report for Fabian Andazola saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\Reports\Amber Fort\Progress_Report_Fabian_Andazola.pdf
+Context around character 17499:
+
+Progress Report for Charles Bickems saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\Reports\Nigel Reynolds\Progress_Report_Charles_Bickems.pdf
+
+2024-03-14 13:29:09,242 - This is a test log message.
+2024-03-14 13:29:11,843 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240314.csv
+2024-03-14 13:29:13,739 - Selected start date: 03-14-2024
+2024-03-14 13:29:13,740 - Selected end date: 03-14-2024
+2024-03-14 13:29:13,740 - Attempting to convert date format for: 03-14-2024
+2024-03-14 13:29:13,742 - Converted date format to: 2024-03-14
+2024-03-14 13:29:13,742 - Attempting to convert date format for: 03-14-2024
+2024-03-14 13:29:13,742 - Converted date format to: 2024-03-14
+2024-03-14 13:29:13,742 - Displaying date range: March 14, 2024
+2024-03-14 13:29:18,303 - Subprocess failed with error: Command '['python', './Progress Reports.py', 'C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240314.csv', '2024-03-14']' returned non-zero exit status 1.
+2024-03-14 13:29:35,103 - Subprocess stdout: Reading CSV file into DataFrame...
+Subset of 'report_date': 0    2024-03-14
+1    2024-03-14
+2    2024-03-14
+Name: report_date, dtype: object
+Date variable: 2024-03-14 00:00:00
+DataFrame info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3 entries, 0 to 2
+Columns: 213 entries, client_id to last_attended
+dtypes: float64(49), int64(80), object(84)
+memory usage: 5.1+ KB
+None
+Combining 'case_manager_first_name' and 'case_manager_last_name' columns...
+Unique dates in 'report_date' before filtering: ['2024-03-14']
+Filtering DataFrame based on the date...
+Unique dates in 'report_date' before filtering: ['2024-03-14']
+Unique dates in 'report_date': ['2024-03-14']
+Unique dates in 'report_date' after converting to string: ['2024-03-14']
+DataFrame after filtering:
+   client_id report_date  ... last_attended        parole_officer
+0         16  2024-03-14  ...     3/11/2024  Teric Dorsey-Hopkins
+1        111  2024-03-14  ...      3/7/2024            Amber Fort
+2        135  2024-03-14  ...     3/11/2024        Nigel Reynolds
+
+[3 rows x 214 columns]
+Context around character 17499:
+
+
+2024-03-14 13:29:35,104 - Subprocess stderr: Traceback (most recent call last):
+  File "C:\Users\vaner\OneDrive\Desktop\Python\Progress Reports.py", line 174, in <module>
+    os.rename(pdf_filename, final_pdf_path)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\Users\\vaner\\OneDrive\\Free for Life\\F4L Documents\\Thinking for Change\\Progress Reports\\Progress_Report_Kayla_Baughman.pdf' -> 'C:\\Users\\vaner\\OneDrive\\Free for Life\\F4L Documents\\Thinking for Change\\Progress Reports\\Reports\\Teric Dorsey-Hopkins\\Progress_Report_Kayla_Baughman.pdf'
+
+2024-03-14 13:30:32,897 - This is a test log message.
+2024-03-14 13:30:35,376 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240314.csv
+2024-03-14 13:30:35,809 - Selected start date: 03-14-2024
+2024-03-14 13:30:35,809 - Selected end date: 03-14-2024
+2024-03-14 13:30:35,810 - Attempting to convert date format for: 03-14-2024
+2024-03-14 13:30:35,811 - Converted date format to: 2024-03-14
+2024-03-14 13:30:35,812 - Attempting to convert date format for: 03-14-2024
+2024-03-14 13:30:35,812 - Converted date format to: 2024-03-14
+2024-03-14 13:30:35,812 - Displaying date range: March 14, 2024
+2024-03-14 13:30:45,578 - Subprocess output: Reading CSV file into DataFrame...
+Subset of 'report_date': 0    2024-03-14
+1    2024-03-14
+2    2024-03-14
+Name: report_date, dtype: object
+Date variable: 2024-03-14 00:00:00
+DataFrame info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3 entries, 0 to 2
+Columns: 213 entries, client_id to last_attended
+dtypes: float64(49), int64(80), object(84)
+memory usage: 5.1+ KB
+None
+Combining 'case_manager_first_name' and 'case_manager_last_name' columns...
+Unique dates in 'report_date' before filtering: ['2024-03-14']
+Filtering DataFrame based on the date...
+Unique dates in 'report_date' before filtering: ['2024-03-14']
+Unique dates in 'report_date': ['2024-03-14']
+Unique dates in 'report_date' after converting to string: ['2024-03-14']
+DataFrame after filtering:
+   client_id report_date  ... last_attended        parole_officer
+0         16  2024-03-14  ...     3/11/2024  Teric Dorsey-Hopkins
+1        111  2024-03-14  ...      3/7/2024            Amber Fort
+2        135  2024-03-14  ...     3/11/2024        Nigel Reynolds
+
+[3 rows x 214 columns]
+Context around character 17499:
+
+Progress Report for Kayla Baughman saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\Reports\Teric Dorsey-Hopkins\Progress_Report_Kayla_Baughman.pdf
+Context around character 17499:
+
+Progress Report for Fabian Andazola saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\Reports\Amber Fort\Progress_Report_Fabian_Andazola.pdf
+Context around character 17499:
+
+Progress Report for Charles Bickems saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\Reports\Nigel Reynolds\Progress_Report_Charles_Bickems.pdf
+
+2024-03-14 13:37:43,089 - Subprocess output: Reading CSV file into DataFrame...
+Subset of 'report_date': 0    2024-03-14
+1    2024-03-14
+2    2024-03-14
+Name: report_date, dtype: object
+Date variable: 2024-03-14 00:00:00
+DataFrame info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3 entries, 0 to 2
+Columns: 213 entries, client_id to last_attended
+dtypes: float64(49), int64(80), object(84)
+memory usage: 5.1+ KB
+None
+Combining 'case_manager_first_name' and 'case_manager_last_name' columns...
+Unique dates in 'report_date' before filtering: ['2024-03-14']
+Filtering DataFrame based on the date...
+Unique dates in 'report_date' before filtering: ['2024-03-14']
+Unique dates in 'report_date': ['2024-03-14']
+Unique dates in 'report_date' after converting to string: ['2024-03-14']
+DataFrame after filtering:
+   client_id report_date  ... last_attended        parole_officer
+0         16  2024-03-14  ...     3/11/2024  Teric Dorsey-Hopkins
+1        111  2024-03-14  ...      3/7/2024            Amber Fort
+2        135  2024-03-14  ...     3/11/2024        Nigel Reynolds
+
+[3 rows x 214 columns]
+Context around character 17499:
+
+Progress Report for Kayla Baughman saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\Reports\Teric Dorsey-Hopkins\Progress_Report_Kayla_Baughman.pdf
+Context around character 17499:
+
+Progress Report for Fabian Andazola saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\Reports\Amber Fort\Progress_Report_Fabian_Andazola.pdf
+Context around character 17499:
+
+Progress Report for Charles Bickems saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\Reports\Nigel Reynolds\Progress_Report_Charles_Bickems.pdf
+
+2024-03-14 13:38:46,273 - This is a test log message.
+2024-03-14 13:38:48,765 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240314.csv
+2024-03-14 13:38:49,305 - Selected start date: 03-14-2024
+2024-03-14 13:38:49,305 - Selected end date: 03-14-2024
+2024-03-14 13:38:49,305 - Attempting to convert date format for: 03-14-2024
+2024-03-14 13:38:49,307 - Converted date format to: 2024-03-14
+2024-03-14 13:38:49,308 - Attempting to convert date format for: 03-14-2024
+2024-03-14 13:38:49,308 - Converted date format to: 2024-03-14
+2024-03-14 13:38:49,308 - Displaying date range: March 14, 2024
+2024-03-14 13:39:01,511 - Subprocess output: Reading CSV file into DataFrame...
+Subset of 'report_date': 0    2024-03-14
+1    2024-03-14
+2    2024-03-14
+Name: report_date, dtype: object
+Date variable: 2024-03-14 00:00:00
+DataFrame info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3 entries, 0 to 2
+Columns: 213 entries, client_id to last_attended
+dtypes: float64(49), int64(80), object(84)
+memory usage: 5.1+ KB
+None
+Combining 'case_manager_first_name' and 'case_manager_last_name' columns...
+Unique dates in 'report_date' before filtering: ['2024-03-14']
+Filtering DataFrame based on the date...
+Unique dates in 'report_date' before filtering: ['2024-03-14']
+Unique dates in 'report_date': ['2024-03-14']
+Unique dates in 'report_date' after converting to string: ['2024-03-14']
+DataFrame after filtering:
+   client_id report_date  ... last_attended        parole_officer
+0         16  2024-03-14  ...     3/11/2024  Teric Dorsey-Hopkins
+1        111  2024-03-14  ...      3/7/2024            Amber Fort
+2        135  2024-03-14  ...     3/11/2024        Nigel Reynolds
+
+[3 rows x 214 columns]
+Context around character 17499:
+
+Progress Report for Kayla Baughman saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\Reports\Teric Dorsey-Hopkins\Progress_Report_Kayla_Baughman.pdf
+Context around character 17499:
+
+Progress Report for Fabian Andazola saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\Reports\Amber Fort\Progress_Report_Fabian_Andazola.pdf
+Context around character 17499:
+
+Progress Report for Charles Bickems saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\Reports\Nigel Reynolds\Progress_Report_Charles_Bickems.pdf
+
+2024-03-14 13:48:37,446 - This is a test log message.
+2024-03-14 13:48:40,672 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240314.csv
+2024-03-14 13:48:41,777 - Selected start date: 03-14-2024
+2024-03-14 13:48:41,778 - Selected end date: 03-14-2024
+2024-03-14 13:48:41,778 - Attempting to convert date format for: 03-14-2024
+2024-03-14 13:48:41,779 - Converted date format to: 2024-03-14
+2024-03-14 13:48:41,780 - Attempting to convert date format for: 03-14-2024
+2024-03-14 13:48:41,780 - Converted date format to: 2024-03-14
+2024-03-14 13:48:41,780 - Displaying date range: March 14, 2024
+2024-03-14 13:48:44,052 - Subprocess failed with error: Command '['python', './Progress Reports.py', 'C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240314.csv', '2024-03-14']' returned non-zero exit status 1.
+2024-03-14 13:48:49,645 - Subprocess stdout: Reading CSV file into DataFrame...
+Subset of 'report_date': 0    2024-03-14
+1    2024-03-14
+2    2024-03-14
+Name: report_date, dtype: object
+Date variable: 2024-03-14 00:00:00
+DataFrame info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3 entries, 0 to 2
+Columns: 213 entries, client_id to last_attended
+dtypes: float64(49), int64(80), object(84)
+memory usage: 5.1+ KB
+None
+Combining 'case_manager_first_name' and 'case_manager_last_name' columns...
+Unique dates in 'report_date' before filtering: ['2024-03-14']
+Filtering DataFrame based on the date...
+Unique dates in 'report_date' before filtering: ['2024-03-14']
+Unique dates in 'report_date': ['2024-03-14']
+Unique dates in 'report_date' after converting to string: ['2024-03-14']
+DataFrame after filtering:
+   client_id report_date  ... last_attended        parole_officer
+0         16  2024-03-14  ...     3/11/2024  Teric Dorsey-Hopkins
+1        111  2024-03-14  ...      3/7/2024            Amber Fort
+2        135  2024-03-14  ...     3/11/2024        Nigel Reynolds
+
+[3 rows x 214 columns]
+
+2024-03-14 13:48:49,646 - Subprocess stderr: Traceback (most recent call last):
+  File "C:\Users\vaner\OneDrive\Desktop\Python\Progress Reports.py", line 116, in <module>
+    img = Image.open(BytesIO(response.content))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaner\AppData\Local\Programs\Python\Python312\Lib\site-packages\PIL\Image.py", line 3309, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x00000190A4D11170>
+
+2024-03-14 13:53:42,598 - This is a test log message.
+2024-03-14 13:53:45,344 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240314.csv
+2024-03-14 13:53:46,121 - Selected start date: 03-14-2024
+2024-03-14 13:53:46,121 - Selected end date: 03-14-2024
+2024-03-14 13:53:46,121 - Attempting to convert date format for: 03-14-2024
+2024-03-14 13:53:46,123 - Converted date format to: 2024-03-14
+2024-03-14 13:53:46,124 - Attempting to convert date format for: 03-14-2024
+2024-03-14 13:53:46,124 - Converted date format to: 2024-03-14
+2024-03-14 13:53:46,124 - Displaying date range: March 14, 2024
+2024-03-14 13:53:48,055 - Subprocess failed with error: Command '['python', './Progress Reports.py', 'C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240314.csv', '2024-03-14']' returned non-zero exit status 1.
+2024-03-14 13:53:51,720 - Subprocess stdout: Reading CSV file into DataFrame...
+Subset of 'report_date': 0    2024-03-14
+1    2024-03-14
+2    2024-03-14
+Name: report_date, dtype: object
+Date variable: 2024-03-14 00:00:00
+DataFrame info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3 entries, 0 to 2
+Columns: 213 entries, client_id to last_attended
+dtypes: float64(49), int64(80), object(84)
+memory usage: 5.1+ KB
+None
+Combining 'case_manager_first_name' and 'case_manager_last_name' columns...
+Unique dates in 'report_date' before filtering: ['2024-03-14']
+Filtering DataFrame based on the date...
+Unique dates in 'report_date' before filtering: ['2024-03-14']
+Unique dates in 'report_date': ['2024-03-14']
+Unique dates in 'report_date' after converting to string: ['2024-03-14']
+DataFrame after filtering:
+   client_id report_date  ... last_attended        parole_officer
+0         16  2024-03-14  ...     3/11/2024  Teric Dorsey-Hopkins
+1        111  2024-03-14  ...      3/7/2024            Amber Fort
+2        135  2024-03-14  ...     3/11/2024        Nigel Reynolds
+
+[3 rows x 214 columns]
+
+2024-03-14 13:53:51,721 - Subprocess stderr: Traceback (most recent call last):
+  File "C:\Users\vaner\OneDrive\Desktop\Python\Progress Reports.py", line 119, in <module>
+    img = Image.open(BytesIO(response.content))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaner\AppData\Local\Programs\Python\Python312\Lib\site-packages\PIL\Image.py", line 3309, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x000002DEF58D3060>
+
+2024-03-14 14:05:50,899 - This is a test log message.
+2024-03-14 14:05:55,141 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240314.csv
+2024-03-14 14:05:55,988 - Selected start date: 03-14-2024
+2024-03-14 14:05:55,988 - Selected end date: 03-14-2024
+2024-03-14 14:05:55,989 - Attempting to convert date format for: 03-14-2024
+2024-03-14 14:05:55,991 - Converted date format to: 2024-03-14
+2024-03-14 14:05:55,991 - Attempting to convert date format for: 03-14-2024
+2024-03-14 14:05:55,992 - Converted date format to: 2024-03-14
+2024-03-14 14:05:55,992 - Displaying date range: March 14, 2024
+2024-03-14 14:05:59,207 - Subprocess failed with error: Command '['python', './Progress Reports.py', 'C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240314.csv', '2024-03-14']' returned non-zero exit status 1.
+2024-03-14 14:06:04,723 - Subprocess stdout: Reading CSV file into DataFrame...
+Subset of 'report_date': 0    2024-03-14
+1    2024-03-14
+2    2024-03-14
+Name: report_date, dtype: object
+Date variable: 2024-03-14 00:00:00
+DataFrame info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3 entries, 0 to 2
+Columns: 213 entries, client_id to last_attended
+dtypes: float64(49), int64(80), object(84)
+memory usage: 5.1+ KB
+None
+Combining 'case_manager_first_name' and 'case_manager_last_name' columns...
+Unique dates in 'report_date' before filtering: ['2024-03-14']
+Filtering DataFrame based on the date...
+Unique dates in 'report_date' before filtering: ['2024-03-14']
+Unique dates in 'report_date': ['2024-03-14']
+Unique dates in 'report_date' after converting to string: ['2024-03-14']
+DataFrame after filtering:
+   client_id report_date  ... last_attended        parole_officer
+0         16  2024-03-14  ...     3/11/2024  Teric Dorsey-Hopkins
+1        111  2024-03-14  ...      3/7/2024            Amber Fort
+2        135  2024-03-14  ...     3/11/2024        Nigel Reynolds
+
+[3 rows x 214 columns]
+
+2024-03-14 14:06:04,723 - Subprocess stderr: Traceback (most recent call last):
+  File "C:\Users\vaner\OneDrive\Desktop\Python\Progress Reports.py", line 122, in <module>
+    img = Image.open(BytesIO(response.content))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaner\AppData\Local\Programs\Python\Python312\Lib\site-packages\PIL\Image.py", line 3309, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x000001A059DF33D0>
+
