@@ -23518,3 +23518,280 @@ DataFrame after filtering:
     raise UnidentifiedImageError(msg)
 PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x000001A059DF33D0>
 
+2024-03-14 15:01:10,633 - This is a test log message.
+2024-03-14 15:01:13,218 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240314.csv
+2024-03-14 15:01:13,950 - Selected start date: 03-14-2024
+2024-03-14 15:01:13,951 - Selected end date: 03-14-2024
+2024-03-14 15:01:13,951 - Attempting to convert date format for: 03-14-2024
+2024-03-14 15:01:13,952 - Converted date format to: 2024-03-14
+2024-03-14 15:01:13,952 - Attempting to convert date format for: 03-14-2024
+2024-03-14 15:01:13,953 - Converted date format to: 2024-03-14
+2024-03-14 15:01:13,953 - Displaying date range: March 14, 2024
+2024-03-14 15:01:17,060 - Subprocess failed with error: Command '['python', './Progress Reports.py', 'C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240314.csv', '2024-03-14']' returned non-zero exit status 1.
+2024-03-14 15:01:20,169 - Subprocess stdout: Reading CSV file into DataFrame...
+Subset of 'report_date': 0    2024-03-14
+1    2024-03-14
+2    2024-03-14
+Name: report_date, dtype: object
+Date variable: 2024-03-14 00:00:00
+DataFrame info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3 entries, 0 to 2
+Columns: 213 entries, client_id to last_attended
+dtypes: float64(49), int64(80), object(84)
+memory usage: 5.1+ KB
+None
+Combining 'case_manager_first_name' and 'case_manager_last_name' columns...
+Unique dates in 'report_date' before filtering: ['2024-03-14']
+Filtering DataFrame based on the date...
+Unique dates in 'report_date' before filtering: ['2024-03-14']
+Unique dates in 'report_date': ['2024-03-14']
+Unique dates in 'report_date' after converting to string: ['2024-03-14']
+DataFrame after filtering:
+   client_id report_date  ... last_attended        parole_officer
+0         16  2024-03-14  ...     3/11/2024  Teric Dorsey-Hopkins
+1        111  2024-03-14  ...      3/7/2024            Amber Fort
+2        135  2024-03-14  ...     3/11/2024        Nigel Reynolds
+
+[3 rows x 214 columns]
+Context around character 17499:
+
+
+2024-03-14 15:01:20,170 - Subprocess stderr: Traceback (most recent call last):
+  File "C:\Users\vaner\OneDrive\Desktop\Python\Progress Reports.py", line 185, in <module>
+    doc = Document('rendered.docx')
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaner\AppData\Local\Programs\Python\Python312\Lib\site-packages\docx\api.py", line 23, in Document
+    document_part = Package.open(docx).main_document_part
+                    ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaner\AppData\Local\Programs\Python\Python312\Lib\site-packages\docx\opc\package.py", line 116, in open
+    pkg_reader = PackageReader.from_file(pkg_file)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaner\AppData\Local\Programs\Python\Python312\Lib\site-packages\docx\opc\pkgreader.py", line 22, in from_file
+    phys_reader = PhysPkgReader(pkg_file)
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaner\AppData\Local\Programs\Python\Python312\Lib\site-packages\docx\opc\phys_pkg.py", line 21, in __new__
+    raise PackageNotFoundError("Package not found at '%s'" % pkg_file)
+docx.opc.exceptions.PackageNotFoundError: Package not found at 'rendered.docx'
+
+2024-03-14 15:02:40,940 - This is a test log message.
+2024-03-14 15:02:45,078 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240314.csv
+2024-03-14 15:02:45,515 - Selected start date: 03-14-2024
+2024-03-14 15:02:45,515 - Selected end date: 03-14-2024
+2024-03-14 15:02:45,515 - Attempting to convert date format for: 03-14-2024
+2024-03-14 15:02:45,518 - Converted date format to: 2024-03-14
+2024-03-14 15:02:45,518 - Attempting to convert date format for: 03-14-2024
+2024-03-14 15:02:45,518 - Converted date format to: 2024-03-14
+2024-03-14 15:02:45,518 - Displaying date range: March 14, 2024
+2024-03-14 15:02:47,703 - Subprocess failed with error: Command '['python', './Progress Reports.py', 'C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240314.csv', '2024-03-14']' returned non-zero exit status 1.
+2024-03-14 15:02:49,252 - Subprocess stdout: Reading CSV file into DataFrame...
+Subset of 'report_date': 0    2024-03-14
+1    2024-03-14
+2    2024-03-14
+Name: report_date, dtype: object
+Date variable: 2024-03-14 00:00:00
+DataFrame info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3 entries, 0 to 2
+Columns: 213 entries, client_id to last_attended
+dtypes: float64(49), int64(80), object(84)
+memory usage: 5.1+ KB
+None
+Combining 'case_manager_first_name' and 'case_manager_last_name' columns...
+Unique dates in 'report_date' before filtering: ['2024-03-14']
+Filtering DataFrame based on the date...
+Unique dates in 'report_date' before filtering: ['2024-03-14']
+Unique dates in 'report_date': ['2024-03-14']
+Unique dates in 'report_date' after converting to string: ['2024-03-14']
+DataFrame after filtering:
+   client_id report_date  ... last_attended        parole_officer
+0         16  2024-03-14  ...     3/11/2024  Teric Dorsey-Hopkins
+1        111  2024-03-14  ...      3/7/2024            Amber Fort
+2        135  2024-03-14  ...     3/11/2024        Nigel Reynolds
+
+[3 rows x 214 columns]
+Context around character 17499:
+
+
+2024-03-14 15:02:49,253 - Subprocess stderr: Traceback (most recent call last):
+  File "C:\Users\vaner\OneDrive\Desktop\Python\Progress Reports.py", line 185, in <module>
+    doc = Document('rendered.docx')
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaner\AppData\Local\Programs\Python\Python312\Lib\site-packages\docx\api.py", line 23, in Document
+    document_part = Package.open(docx).main_document_part
+                    ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaner\AppData\Local\Programs\Python\Python312\Lib\site-packages\docx\opc\package.py", line 116, in open
+    pkg_reader = PackageReader.from_file(pkg_file)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaner\AppData\Local\Programs\Python\Python312\Lib\site-packages\docx\opc\pkgreader.py", line 22, in from_file
+    phys_reader = PhysPkgReader(pkg_file)
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaner\AppData\Local\Programs\Python\Python312\Lib\site-packages\docx\opc\phys_pkg.py", line 21, in __new__
+    raise PackageNotFoundError("Package not found at '%s'" % pkg_file)
+docx.opc.exceptions.PackageNotFoundError: Package not found at 'rendered.docx'
+
+2024-03-14 15:08:08,310 - This is a test log message.
+2024-03-14 15:08:10,828 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240314.csv
+2024-03-14 15:08:11,379 - Selected start date: 03-14-2024
+2024-03-14 15:08:11,379 - Selected end date: 03-14-2024
+2024-03-14 15:08:11,379 - Attempting to convert date format for: 03-14-2024
+2024-03-14 15:08:11,381 - Converted date format to: 2024-03-14
+2024-03-14 15:08:11,381 - Attempting to convert date format for: 03-14-2024
+2024-03-14 15:08:11,381 - Converted date format to: 2024-03-14
+2024-03-14 15:08:11,381 - Displaying date range: March 14, 2024
+2024-03-14 15:08:35,169 - Subprocess output: Reading CSV file into DataFrame...
+Subset of 'report_date': 0    2024-03-14
+1    2024-03-14
+2    2024-03-14
+Name: report_date, dtype: object
+Date variable: 2024-03-14 00:00:00
+DataFrame info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3 entries, 0 to 2
+Columns: 213 entries, client_id to last_attended
+dtypes: float64(49), int64(80), object(84)
+memory usage: 5.1+ KB
+None
+Combining 'case_manager_first_name' and 'case_manager_last_name' columns...
+Unique dates in 'report_date' before filtering: ['2024-03-14']
+Filtering DataFrame based on the date...
+Unique dates in 'report_date' before filtering: ['2024-03-14']
+Unique dates in 'report_date': ['2024-03-14']
+Unique dates in 'report_date' after converting to string: ['2024-03-14']
+DataFrame after filtering:
+   client_id report_date  ... last_attended        parole_officer
+0         16  2024-03-14  ...     3/11/2024  Teric Dorsey-Hopkins
+1        111  2024-03-14  ...      3/7/2024            Amber Fort
+2        135  2024-03-14  ...     3/11/2024        Nigel Reynolds
+
+[3 rows x 214 columns]
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Progress Report for Kayla Baughman saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\Reports\Teric Dorsey-Hopkins\Progress_Report_Kayla_Baughman.pdf
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Progress Report for Fabian Andazola saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\Reports\Amber Fort\Progress_Report_Fabian_Andazola.pdf
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Progress Report for Charles Bickems saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\Reports\Nigel Reynolds\Progress_Report_Charles_Bickems.pdf
+

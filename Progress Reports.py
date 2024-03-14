@@ -113,16 +113,25 @@ def convert_to_pdf(input_file_path, output_file_path):
 for index, row in df.iterrows():
     
     # Create a session and set headers
-    s = requests.Session()
-    s.headers.update({'User-Agent': 'Mozilla/5.0'})
+    headers = {
+        'Accept': '*/*',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'
+    }
 
     # Use the session to make the request
-    response = s.get(row['image_url'])
+    response = requests.get(row['image_url'], headers=headers)
 
-    img = Image.open(BytesIO(response.content))
-    img.show()
-
-    img.save('temp.jpg')
+    if response.status_code == 200:
+        try:
+            # If the response is successful, proceed
+            img = Image.open (BytesIO(response.content))
+            img.save('temp.jpg')
+        except Exception as e:
+            print(f"Error opening image for {row['first_name']} {row['last_name']}: {e}")
+            continue
+    else:
+        print(f"Failed to fetch the image for {row['first_name']} {row['last_name']}. Status code: {response.status_code}")
+        continue    
 
     # Prepare the context for the template with correct information
     context = {
@@ -153,34 +162,38 @@ for index, row in df.iterrows():
         if isinstance(value, str):
             context[key] = value.replace("\\", "\\\\")
 
-    # Load the template document correctly
-    print_context_around_error(context, 17499)
+        # Load the template document correctly
+        print_context_around_error(context, 17499)
 
         # Before your try-except block, remove or comment out the incorrect initialization
-    # print_context_around_error(context, 17499) -- This line seems correctly placed for debugging purposes
+        # print_context_around_error(context, 17499) -- This line seems correctly placed for debugging purposes
 
-    doc = DocxTemplate(template_path)  # Correct initialization of DocxTemplate
+        doc = DocxTemplate(template_path)  # Correct initialization of DocxTemplate
 
-    try:
-        doc.render(context)
-    except TemplateSyntaxError as e:
-        print(f"Error rendering document for {row['first_name']} {row['last_name']}: {e}")
-        continue  # Correctly skip to the next iteration upon encountering a TemplateSyntaxError
-    except Exception as e:  # Catching other exceptions
-        print(f"Error rendering document for {row['first_name']} {row['last_name']}: {e}")
-        continue
+        try:
+            doc.render(context)
+        except TemplateSyntaxError as e:
+            print(f"Error rendering document for {row['first_name']} {row['last_name']}: {e}")
+            continue  # Correctly skip to the next iteration upon encountering a TemplateSyntaxError
+        except Exception as e:  # Catching other exceptions
+            print(f"Error rendering document for {row['first_name']} {row['last_name']}: {e}")
+            continue
 
-    # Construct the filename for saving
-    doc_filename = os.path.join(output_path, f"Progress_Report_{row['first_name']}_{row['last_name']}.docx")
+        # Construct the filename for saving
+        doc_filename = os.path.join(output_path, f"Progress_Report_{row['first_name']}_{row['last_name']}.docx")
 
-    doc = Document('rendered.docx')
+        # Save the rendered document
+        doc.save(doc_filename)
 
-    for paragraph in doc.paragraphs:
-        if 'IMAGE_PLACEHOLDER' in paragraph.text:
-            paragraph.clear()
-            run = paragraph.add_run()
-            run.add_picture(context['image_path'], width=Inches(1.0))
-            
+        # Now you can open it with Document
+        doc = Document(doc_filename)
+
+        for paragraph in doc.paragraphs:
+            if 'IMAGE_PLACEHOLDER' in paragraph.text:
+                paragraph.clear()
+                run = paragraph.add_run()
+                run.add_picture(context['image_path'], width=Inches(1.0))            
+    
     # Save the document
     doc.save(doc_filename)
 
