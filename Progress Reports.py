@@ -35,6 +35,9 @@ date = datetime.strptime(sys.argv[2], "%Y-%m-%d")
 
 # Define the path to your .docx template file
 template_path = './Source Documents/ProgressReports.Template.docx'
+temp_images_path = './Temporary Images'
+
+os.makedirs(temp_images_path, exist_ok=True)
 
 # Load the configuration settings from the JSON file
 with open('config.json') as f:
@@ -125,7 +128,14 @@ for index, row in df.iterrows():
         try:
             # If the response is successful, proceed
             img = Image.open (BytesIO(response.content))
-            img.save('temp.jpg')
+            
+            image_filename = f"{context['first_name']}_{context['last_name']}_temp.jpg"
+
+            image_path = os.path.join(temp_images_path, image_filename)
+
+            img.save(image_path)
+
+            context['image_path'] = image_path
         except Exception as e:
             print(f"Error opening image for {row['first_name']} {row['last_name']}: {e}")
             continue
@@ -155,7 +165,7 @@ for index, row in df.iterrows():
         'AF': row['blames_victim'],
         'AG': row['appears_drug_alcohol'],
         'AH': row['inappropriate_to_staff'],
-        'image_path' : 'temp.jpg'
+        'image_path' : '' # Initialize with an empty string, will be updated later
     }
 
     for key, value in context.items():
