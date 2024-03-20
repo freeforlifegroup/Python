@@ -198,5 +198,5 @@ for output_filename in output_filenames:
     while not os.path.exists(output_filename):
         time.sleep(1)
 
-# Open the folder containing the generated PDFs
+# Open the folder containing the generated PDFs (test it works)
 os.startfile(absences_folder)
