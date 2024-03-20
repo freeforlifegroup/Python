@@ -23795,3 +23795,461 @@ Context around character 17499:
 
 Progress Report for Charles Bickems saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\Reports\Nigel Reynolds\Progress_Report_Charles_Bickems.pdf
 
+2024-03-20 12:53:47,256 - This is a test log message.
+2024-03-20 12:53:57,513 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv
+2024-03-20 12:54:26,175 - Selected start date: 05-21-2023
+2024-03-20 12:54:26,175 - Selected end date: 08-11-2023
+2024-03-20 12:54:26,175 - Attempting to convert date format for: 05-21-2023
+2024-03-20 12:54:26,187 - Converted date format to: 2023-05-21
+2024-03-20 12:54:26,187 - Attempting to convert date format for: 08-11-2023
+2024-03-20 12:54:26,187 - Converted date format to: 2023-08-11
+2024-03-20 12:54:26,187 - Displaying date range: May 21, 2023 to
+August 11, 2023
+2024-03-20 12:54:29,401 - Attempting to convert date format for: 05-21-2023
+2024-03-20 12:54:29,401 - Converted date format to: 2023-05-21
+2024-03-20 12:54:29,401 - Attempting to convert date format for: 08-11-2023
+2024-03-20 12:54:29,401 - Converted date format to: 2023-08-11
+2024-03-20 12:54:29,401 - Running Entrance Notifications.py with start date 2023-05-21 and end date 2023-08-11
+2024-03-20 12:55:03,057 - Subprocess output: Start Date: 2023-05-21 00:00:00 End Date: 2023-08-11 00:00:00 CSV File Path: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv
+Detected entrance in row 2, column AK, date: May 2023
+Detected entrance in row 3, column AK, date: August 2023
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Teric Dorsey-Hopkins\Baughman.Kayla.EntranceNotification.May.22.2023.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Teric Dorsey-Hopkins\Baughman.Kayla.EntranceNotification.May.22.2023.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Teric Dorsey-Hopkins\Baughman.Kayla.EntranceNotification.May.22.2023.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Amber Fort\Andazola.Fabian.EntranceNotification.August.10.2023.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Amber Fort\Andazola.Fabian.EntranceNotification.August.10.2023.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Amber Fort\Andazola.Fabian.EntranceNotification.August.10.2023.docx
+
+2024-03-20 12:56:18,497 - Selected start date: 08-10-2023
+2024-03-20 12:56:18,497 - Selected end date: 03-20-2024
+2024-03-20 12:56:18,497 - Attempting to convert date format for: 08-10-2023
+2024-03-20 12:56:18,498 - Converted date format to: 2023-08-10
+2024-03-20 12:56:18,498 - Attempting to convert date format for: 03-20-2024
+2024-03-20 12:56:18,498 - Converted date format to: 2024-03-20
+2024-03-20 12:56:18,499 - Displaying date range: August 10, 2023 to
+March 20, 2024
+2024-03-20 12:57:29,014 - Subprocess output: Start Date: 2023-08-10 00:00:00 End Date: 2024-03-20 00:00:00 CSV File Path: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv
+Identified headers: {'AO': {'Dec-23'}, 'CF': {'Jan-24'}, 'DW': {'Feb-24'}, 'FN': {'Mar-24'}}
+Detected absence in row 3, column DC, date: January 2024
+Detected absence in row 3, column DJ, date: January 2024
+Detected absence in row 3, column EB, date: February 2024
+Detected absence in row 3, column EF, date: February 2024
+Detected absence in row 3, column EI, date: February 2024
+Detected absence in row 3, column ET, date: February 2024
+Detected absence in row 3, column FW, date: March 2024
+Detected absence in row 3, column GD, date: March 2024
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.22.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.22.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.22.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.29.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.29.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.29.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.01.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.01.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.01.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.05.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.05.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.05.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.08.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.08.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.08.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.19.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.19.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.19.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.04.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.04.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.04.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.11.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.11.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.11.2024.docx
+
+2024-03-20 13:05:37,647 - This is a test log message.
+2024-03-20 13:05:44,072 - Selected start date: 08-10-2023
+2024-03-20 13:05:44,072 - Selected end date: 03-20-2024
+2024-03-20 13:05:44,072 - Attempting to convert date format for: 08-10-2023
+2024-03-20 13:05:44,072 - Converted date format to: 2023-08-10
+2024-03-20 13:05:44,072 - Attempting to convert date format for: 03-20-2024
+2024-03-20 13:05:44,072 - Converted date format to: 2024-03-20
+2024-03-20 13:05:44,072 - Displaying date range: August 10, 2023 to
+March 20, 2024
+2024-03-20 13:05:48,945 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv
+2024-03-20 13:06:57,877 - Subprocess output: Start Date: 2023-08-10 00:00:00 End Date: 2024-03-20 00:00:00 CSV File Path: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv
+Identified headers: {'AO': {'Dec-23'}, 'CF': {'Jan-24'}, 'DW': {'Feb-24'}, 'FN': {'Mar-24'}}
+Detected absence in row 3, column DC, date: January 2024
+Detected absence in row 3, column DJ, date: January 2024
+Detected absence in row 3, column EB, date: February 2024
+Detected absence in row 3, column EF, date: February 2024
+Detected absence in row 3, column EI, date: February 2024
+Detected absence in row 3, column ET, date: February 2024
+Detected absence in row 3, column FW, date: March 2024
+Detected absence in row 3, column GD, date: March 2024
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.22.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.22.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.22.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.29.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.29.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.29.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.01.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.01.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.01.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.05.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.05.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.05.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.08.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.08.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.08.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.19.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.19.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.19.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.04.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.04.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.04.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.11.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.11.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.11.2024.docx
+
+2024-03-20 13:18:58,733 - This is a test log message.
+2024-03-20 13:19:01,981 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv
+2024-03-20 13:19:11,140 - Selected start date: 08-10-2023
+2024-03-20 13:19:11,141 - Selected end date: 03-20-2024
+2024-03-20 13:19:11,142 - Attempting to convert date format for: 08-10-2023
+2024-03-20 13:19:11,144 - Converted date format to: 2023-08-10
+2024-03-20 13:19:11,144 - Attempting to convert date format for: 03-20-2024
+2024-03-20 13:19:11,144 - Converted date format to: 2024-03-20
+2024-03-20 13:19:11,144 - Displaying date range: August 10, 2023 to
+March 20, 2024
+2024-03-20 13:19:52,224 - Subprocess output: Start Date: 2023-08-10 00:00:00 End Date: 2024-03-20 00:00:00 CSV File Path: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv
+Identified headers: {'AO': {'Dec-23'}, 'CF': {'Jan-24'}, 'DW': {'Feb-24'}, 'FN': {'Mar-24'}}
+Detected absence in row 3, column DC, date: January 2024
+Detected absence in row 3, column DJ, date: January 2024
+Detected absence in row 3, column EB, date: February 2024
+Detected absence in row 3, column EF, date: February 2024
+Detected absence in row 3, column EI, date: February 2024
+Detected absence in row 3, column ET, date: February 2024
+Detected absence in row 3, column FW, date: March 2024
+Detected absence in row 3, column GD, date: March 2024
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.22.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.22.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.22.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.29.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.29.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.29.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.01.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.01.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.01.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.05.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.05.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.05.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.08.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.08.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.08.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.19.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.19.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.19.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.04.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.04.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.04.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.11.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.11.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.11.2024.docx
+
+2024-03-20 13:22:19,746 - This is a test log message.
+2024-03-20 13:22:22,398 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv
+2024-03-20 13:22:24,102 - Selected start date: 03-20-2024
+2024-03-20 13:22:24,102 - Selected end date: 03-20-2024
+2024-03-20 13:22:24,102 - Attempting to convert date format for: 03-20-2024
+2024-03-20 13:22:24,102 - Converted date format to: 2024-03-20
+2024-03-20 13:22:24,102 - Attempting to convert date format for: 03-20-2024
+2024-03-20 13:22:24,102 - Converted date format to: 2024-03-20
+2024-03-20 13:22:24,102 - Displaying date range: March 20, 2024
+2024-03-20 13:22:30,675 - Selected start date: 08-10-2023
+2024-03-20 13:22:30,675 - Selected end date: 03-20-2024
+2024-03-20 13:22:30,675 - Attempting to convert date format for: 08-10-2023
+2024-03-20 13:22:30,675 - Converted date format to: 2023-08-10
+2024-03-20 13:22:30,675 - Attempting to convert date format for: 03-20-2024
+2024-03-20 13:22:30,675 - Converted date format to: 2024-03-20
+2024-03-20 13:22:30,675 - Displaying date range: August 10, 2023 to
+March 20, 2024
+2024-03-20 13:23:11,228 - Subprocess output: Start Date: 2023-08-10 00:00:00 End Date: 2024-03-20 00:00:00 CSV File Path: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv
+Identified headers: {'AO': {'Dec-23'}, 'CF': {'Jan-24'}, 'DW': {'Feb-24'}, 'FN': {'Mar-24'}}
+Detected absence in row 3, column DC, date: January 2024
+Detected absence in row 3, column DJ, date: January 2024
+Detected absence in row 3, column EB, date: February 2024
+Detected absence in row 3, column EF, date: February 2024
+Detected absence in row 3, column EI, date: February 2024
+Detected absence in row 3, column ET, date: February 2024
+Detected absence in row 3, column FW, date: March 2024
+Detected absence in row 3, column GD, date: March 2024
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.22.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.22.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.22.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.29.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.29.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.29.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.01.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.01.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.01.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.05.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.05.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.05.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.08.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.08.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.08.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.19.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.19.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.19.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.04.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.04.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.04.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.11.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.11.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.11.2024.docx
+
+2024-03-20 13:25:17,925 - This is a test log message.
+2024-03-20 13:25:21,008 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv
+2024-03-20 13:25:21,832 - Selected start date: 03-20-2024
+2024-03-20 13:25:21,832 - Selected end date: 03-20-2024
+2024-03-20 13:25:21,832 - Attempting to convert date format for: 03-20-2024
+2024-03-20 13:25:21,832 - Converted date format to: 2024-03-20
+2024-03-20 13:25:21,832 - Attempting to convert date format for: 03-20-2024
+2024-03-20 13:25:21,832 - Converted date format to: 2024-03-20
+2024-03-20 13:25:21,832 - Displaying date range: March 20, 2024
+2024-03-20 13:25:27,531 - Selected start date: 08-10-2023
+2024-03-20 13:25:27,534 - Selected end date: 03-20-2024
+2024-03-20 13:25:27,534 - Attempting to convert date format for: 08-10-2023
+2024-03-20 13:25:27,534 - Converted date format to: 2023-08-10
+2024-03-20 13:25:27,534 - Attempting to convert date format for: 03-20-2024
+2024-03-20 13:25:27,534 - Converted date format to: 2024-03-20
+2024-03-20 13:25:27,534 - Displaying date range: August 10, 2023 to
+March 20, 2024
+2024-03-20 13:26:09,401 - Subprocess output: Start Date: 2023-08-10 00:00:00 End Date: 2024-03-20 00:00:00 CSV File Path: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv
+Identified headers: {'AO': {'Dec-23'}, 'CF': {'Jan-24'}, 'DW': {'Feb-24'}, 'FN': {'Mar-24'}}
+Detected absence in row 3, column DC, date: January 2024
+Detected absence in row 3, column DJ, date: January 2024
+Detected absence in row 3, column EB, date: February 2024
+Detected absence in row 3, column EF, date: February 2024
+Detected absence in row 3, column EI, date: February 2024
+Detected absence in row 3, column ET, date: February 2024
+Detected absence in row 3, column FW, date: March 2024
+Detected absence in row 3, column GD, date: March 2024
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.22.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.22.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.22.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.29.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.29.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.29.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.01.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.01.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.01.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.05.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.05.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.05.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.08.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.08.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.08.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.19.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.19.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.19.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.04.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.04.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.04.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.11.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.11.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.11.2024.docx
+
+2024-03-20 13:26:45,440 - This is a test log message.
+2024-03-20 13:26:47,758 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv
+2024-03-20 13:26:53,144 - Selected start date: 08-10-2023
+2024-03-20 13:26:53,144 - Selected end date: 03-20-2024
+2024-03-20 13:26:53,144 - Attempting to convert date format for: 08-10-2023
+2024-03-20 13:26:53,144 - Converted date format to: 2023-08-10
+2024-03-20 13:26:53,144 - Attempting to convert date format for: 03-20-2024
+2024-03-20 13:26:53,144 - Converted date format to: 2024-03-20
+2024-03-20 13:26:53,144 - Displaying date range: August 10, 2023 to
+March 20, 2024
+2024-03-20 13:27:35,799 - Subprocess output: Start Date: 2023-08-10 00:00:00 End Date: 2024-03-20 00:00:00 CSV File Path: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv
+Identified headers: {'AO': {'Dec-23'}, 'CF': {'Jan-24'}, 'DW': {'Feb-24'}, 'FN': {'Mar-24'}}
+Detected absence in row 3, column DC, date: January 2024
+Detected absence in row 3, column DJ, date: January 2024
+Detected absence in row 3, column EB, date: February 2024
+Detected absence in row 3, column EF, date: February 2024
+Detected absence in row 3, column EI, date: February 2024
+Detected absence in row 3, column ET, date: February 2024
+Detected absence in row 3, column FW, date: March 2024
+Detected absence in row 3, column GD, date: March 2024
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.22.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.22.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.22.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.29.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.29.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.29.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.01.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.01.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.01.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.05.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.05.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.05.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.08.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.08.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.08.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.19.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.19.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.19.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.04.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.04.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.04.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.11.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.11.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.11.2024.docx
+
+2024-03-20 13:36:20,527 - This is a test log message.
+2024-03-20 13:36:39,524 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv
+2024-03-20 13:36:45,755 - Selected start date: 08-10-2023
+2024-03-20 13:36:45,755 - Selected end date: 03-20-2024
+2024-03-20 13:36:45,755 - Attempting to convert date format for: 08-10-2023
+2024-03-20 13:36:45,755 - Converted date format to: 2023-08-10
+2024-03-20 13:36:45,755 - Attempting to convert date format for: 03-20-2024
+2024-03-20 13:36:45,755 - Converted date format to: 2024-03-20
+2024-03-20 13:36:45,755 - Displaying date range: August 10, 2023 to
+March 20, 2024
+2024-03-20 13:37:27,700 - Subprocess output: Start Date: 2023-08-10 00:00:00 End Date: 2024-03-20 00:00:00 CSV File Path: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv
+Identified headers: {'AO': {'Dec-23'}, 'CF': {'Jan-24'}, 'DW': {'Feb-24'}, 'FN': {'Mar-24'}}
+Detected absence in row 3, column DC, date: January 2024
+Detected absence in row 3, column DJ, date: January 2024
+Detected absence in row 3, column EB, date: February 2024
+Detected absence in row 3, column EF, date: February 2024
+Detected absence in row 3, column EI, date: February 2024
+Detected absence in row 3, column ET, date: February 2024
+Detected absence in row 3, column FW, date: March 2024
+Detected absence in row 3, column GD, date: March 2024
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.22.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.22.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.22.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.29.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.29.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.29.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.01.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.01.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.01.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.05.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.05.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.05.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.08.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.08.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.08.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.19.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.19.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.19.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.04.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.04.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.04.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.11.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.11.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.11.2024.docx
+
+2024-03-20 13:46:12,671 - This is a test log message.
+2024-03-20 13:46:24,055 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv
+2024-03-20 13:46:33,468 - Selected start date: 08-10-2023
+2024-03-20 13:46:33,468 - Selected end date: 03-20-2024
+2024-03-20 13:46:33,468 - Attempting to convert date format for: 08-10-2023
+2024-03-20 13:46:33,468 - Converted date format to: 2023-08-10
+2024-03-20 13:46:33,468 - Attempting to convert date format for: 03-20-2024
+2024-03-20 13:46:33,468 - Converted date format to: 2024-03-20
+2024-03-20 13:46:33,476 - Displaying date range: August 10, 2023 to
+March 20, 2024
+2024-03-20 13:48:18,355 - Subprocess output: Start Date: 2023-08-10 00:00:00 End Date: 2024-03-20 00:00:00 CSV File Path: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv
+Identified headers: {'AO': {'Dec-23'}, 'CF': {'Jan-24'}, 'DW': {'Feb-24'}, 'FN': {'Mar-24'}}
+Detected absence in row 3, column DC, date: January 2024
+Detected absence in row 3, column DJ, date: January 2024
+Detected absence in row 3, column EB, date: February 2024
+Detected absence in row 3, column EF, date: February 2024
+Detected absence in row 3, column EI, date: February 2024
+Detected absence in row 3, column ET, date: February 2024
+Detected absence in row 3, column FW, date: March 2024
+Detected absence in row 3, column GD, date: March 2024
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.22.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.22.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.22.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.29.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.29.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.29.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.01.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.01.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.01.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.05.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.05.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.05.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.08.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.08.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.08.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.19.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.19.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.19.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.04.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.04.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.04.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.11.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.11.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.11.2024.docx
+
+2024-03-20 13:48:18,355 - Subprocess error: 0.01s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+
+2024-03-20 13:53:08,340 - This is a test log message.
+2024-03-20 13:55:15,626 - This is a test log message.
+2024-03-20 13:55:18,868 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv
+2024-03-20 13:55:26,079 - Selected start date: 08-10-2023
+2024-03-20 13:55:26,079 - Selected end date: 03-20-2024
+2024-03-20 13:55:26,079 - Attempting to convert date format for: 08-10-2023
+2024-03-20 13:55:26,079 - Converted date format to: 2023-08-10
+2024-03-20 13:55:26,079 - Attempting to convert date format for: 03-20-2024
+2024-03-20 13:55:26,079 - Converted date format to: 2024-03-20
+2024-03-20 13:55:26,079 - Displaying date range: August 10, 2023 to
+March 20, 2024
+2024-03-20 13:56:12,804 - This is a test log message.
+2024-03-20 13:56:16,367 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv
+2024-03-20 13:56:21,707 - Selected start date: 08-10-2023
+2024-03-20 13:56:21,707 - Selected end date: 03-20-2024
+2024-03-20 13:56:21,707 - Attempting to convert date format for: 08-10-2023
+2024-03-20 13:56:21,707 - Converted date format to: 2023-08-10
+2024-03-20 13:56:21,707 - Attempting to convert date format for: 03-20-2024
+2024-03-20 13:56:21,707 - Converted date format to: 2024-03-20
+2024-03-20 13:56:21,707 - Displaying date range: August 10, 2023 to
+March 20, 2024
+2024-03-20 13:56:43,902 - Subprocess output: Start Date: 2023-08-10 00:00:00 End Date: 2024-03-20 00:00:00 CSV File Path: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv
+Identified headers: {'AO': {'Dec-23'}, 'CF': {'Jan-24'}, 'DW': {'Feb-24'}, 'FN': {'Mar-24'}}
+Detected absence in row 3, column DC, date: January 2024
+Detected absence in row 3, column DJ, date: January 2024
+Detected absence in row 3, column EB, date: February 2024
+Detected absence in row 3, column EF, date: February 2024
+Detected absence in row 3, column EI, date: February 2024
+Detected absence in row 3, column ET, date: February 2024
+Detected absence in row 3, column FW, date: March 2024
+Detected absence in row 3, column GD, date: March 2024
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.22.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.22.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.22.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.29.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.29.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.29.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.01.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.01.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.01.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.05.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.05.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.05.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.08.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.08.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.08.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.19.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.19.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.19.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.04.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.04.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.04.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.11.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.11.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.11.2024.docx
+

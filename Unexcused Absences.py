@@ -107,6 +107,7 @@ def get_absence_month_year(cell, headers):
 headers = find_month_year_headers(sheet)
 
 structured_data = []
+output_filenames = []
 
 # Iterate over rows to find unexcused absences
 for row in sheet.iter_rows(min_row=2):
@@ -180,7 +181,8 @@ for data in structured_data:
         pdf_output_filename = output_filename.replace('.docx', '.pdf')
         convert_to_pdf(output_filename, pdf_output_filename)
         print(f"PDF saved: {pdf_output_filename}")
-
+        output_filenames.append(pdf_output_filename)
+        
         # Delete the Word document
         try:
             os.remove(output_filename)
@@ -191,6 +193,10 @@ for data in structured_data:
     except Exception as e:
         print(f"Error generating document for {data['Name']}: {e}")  # More detailed error handling
 
-time.sleep(15)
+for output_filename in output_filenames:
+    # Wait for the file to be created
+    while not os.path.exists(output_filename):
+        time.sleep(1)
+
 # Open the folder containing the generated PDFs
-os.startfile(absences_folder)  # Opens the folder in the default file explorer
+os.startfile(absences_folder)

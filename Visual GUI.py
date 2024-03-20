@@ -168,8 +168,6 @@ def request_date_range_ue():
         return
     start_date = datetime.strptime(start_date, "%m-%d-%Y").strftime("%Y-%m-%d")
     end_date = datetime.strptime(end_date, "%m-%d-%Y").strftime("%Y-%m-%d")
-    command = ["python", './Unexcused Absences.py', csv_file_path, start_date, end_date]
-    subprocess.run(command)
     run_subprocess('./Unexcused Absences.py', csv_file_path, start_date, end_date)
 
 def request_progress_reports():
