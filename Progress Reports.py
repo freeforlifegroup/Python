@@ -51,7 +51,7 @@ temp_images_path = './Temporary Images'
 
 os.makedirs(temp_images_path, exist_ok=True)
 
-clear_directory(output_path)
+clear_directory(temp_images_path)
 
 def print_context_around_error(context, char_position, window=50):
     context_string = str(context)  # Convert context dictionary to string
