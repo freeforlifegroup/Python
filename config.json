@@ -4,7 +4,7 @@
     "en_script": "C:\\Users\\vaner\\OneDrive\\Desktop\\Project\\en.py"
   },
   "entrance_notifications_path": {
-    "csv_path": "C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv",
+    "csv_path": "C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240321.csv",
     "template_path": "C:\\Users\\vaner\\OneDrive\\Free for Life\\Project\\DocumentGenerator\\Source Documents\\EntranceNotifications.Template.docx",
     "output_path": "C:\\Users\\vaner\\OneDrive\\Free for Life\\F4L Documents\\Thinking for Change\\Entrance Notifications"
   },
@@ -32,7 +32,7 @@
   "ui_settings": {
     "window_title": "Free For Life Group",
     "window_width": 425,
-    "window_height": 350,
+    "window_height": 360,
     "button_width": 30
   }
 }

@@ -27141,3 +27141,648 @@ Progress Report for Fabian Andazola saved to: C:\Users\vaner\OneDrive\Free for L
 2024-03-20 21:45:22,253 - This is a test log message.
 2024-03-20 21:45:29,945 - This is a test log message.
 2024-03-20 22:00:58,606 - This is a test log message.
+2024-03-21 08:15:39,010 - This is a test log message.
+2024-03-21 08:15:42,386 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240321.csv
+2024-03-21 08:15:43,811 - Selected start date: 03-21-2024
+2024-03-21 08:15:43,812 - Selected end date: 03-21-2024
+2024-03-21 08:15:43,812 - Attempting to convert date format for: 03-21-2024
+2024-03-21 08:15:43,817 - Converted date format to: 2024-03-21
+2024-03-21 08:15:43,817 - Attempting to convert date format for: 03-21-2024
+2024-03-21 08:15:43,817 - Converted date format to: 2024-03-21
+2024-03-21 08:15:43,817 - Displaying date range: March 21, 2024
+2024-03-21 08:15:48,509 - Subprocess failed with error: Command '['python', './Progress Reports.py', 'C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240321.csv', '2024-03-21']' returned non-zero exit status 1.
+2024-03-21 08:15:51,440 - Subprocess stdout: Reading CSV file into DataFrame...
+Subset of 'report_date': 0    2024-03-21
+1    2024-03-21
+2    2024-03-21
+3    2024-03-21
+4    2024-03-21
+Name: report_date, dtype: object
+Date variable: 2024-03-21 00:00:00
+DataFrame info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 291 entries, 0 to 290
+Columns: 213 entries, client_id to last_attended
+dtypes: float64(58), int64(13), object(142)
+memory usage: 484.4+ KB
+None
+Combining 'case_manager_first_name' and 'case_manager_last_name' columns...
+Unique dates in 'report_date' before filtering: ['2024-03-21']
+Filtering DataFrame based on the date...
+Unique dates in 'report_date' before filtering: ['2024-03-21']
+Unique dates in 'report_date': ['2024-03-21']
+Unique dates in 'report_date' after converting to string: ['2024-03-21']
+DataFrame after filtering:
+     client_id report_date  ... last_attended              parole_officer
+0            5  2024-03-21  ...    2023-09-28           Sucondra Holloway
+1            6  2024-03-21  ...    2023-08-24           Sucondra Holloway
+2            7  2024-03-21  ...    2023-08-13              Brittany Karas
+3            8  2024-03-21  ...    2023-08-14                Denise Perez
+4            9  2024-03-21  ...    2023-08-17             April Westbrook
+..         ...         ...  ...           ...                         ...
+286        305  2024-03-21  ...    2024-03-18               Preston Busby
+287        306  2024-03-21  ...    2024-03-14            Mallory Campbell
+288        307  2024-03-21  ...    2024-03-17                 Aleena Cruz
+289        308  2024-03-21  ...    2024-03-14  OTHER 1 officer not listed
+290        309  2024-03-21  ...    2024-03-18               Preston Busby
+
+[291 rows x 214 columns]
+
+2024-03-21 08:15:51,441 - Subprocess stderr: Traceback (most recent call last):
+  File "C:\Users\vaner\OneDrive\Desktop\Python\Progress Reports.py", line 157, in <module>
+    'c1_header': datetime.strptime(row['c1_header'], '%b-%y').strftime('%B %Y'),
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaner\AppData\Local\Programs\Python\Python312\Lib\_strptime.py", line 555, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaner\AppData\Local\Programs\Python\Python312\Lib\_strptime.py", line 333, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'June2023' does not match format '%b-%y'
+
+2024-03-21 08:17:28,689 - This is a test log message.
+2024-03-21 08:17:32,011 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240321.csv
+2024-03-21 08:17:32,567 - Selected start date: 03-21-2024
+2024-03-21 08:17:32,567 - Selected end date: 03-21-2024
+2024-03-21 08:17:32,568 - Attempting to convert date format for: 03-21-2024
+2024-03-21 08:17:32,569 - Converted date format to: 2024-03-21
+2024-03-21 08:17:32,569 - Attempting to convert date format for: 03-21-2024
+2024-03-21 08:17:32,570 - Converted date format to: 2024-03-21
+2024-03-21 08:17:32,570 - Displaying date range: March 21, 2024
+2024-03-21 08:17:34,399 - Subprocess failed with error: Command '['python', './Progress Reports.py', 'C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240321.csv', '2024-03-21']' returned non-zero exit status 1.
+2024-03-21 08:17:35,219 - Subprocess stdout: Reading CSV file into DataFrame...
+Subset of 'report_date': 0    2024-03-21
+1    2024-03-21
+2    2024-03-21
+3    2024-03-21
+4    2024-03-21
+Name: report_date, dtype: object
+Date variable: 2024-03-21 00:00:00
+DataFrame info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 291 entries, 0 to 290
+Columns: 213 entries, client_id to last_attended
+dtypes: float64(58), int64(13), object(142)
+memory usage: 484.4+ KB
+None
+Combining 'case_manager_first_name' and 'case_manager_last_name' columns...
+Unique dates in 'report_date' before filtering: ['2024-03-21']
+Filtering DataFrame based on the date...
+Unique dates in 'report_date' before filtering: ['2024-03-21']
+Unique dates in 'report_date': ['2024-03-21']
+Unique dates in 'report_date' after converting to string: ['2024-03-21']
+DataFrame after filtering:
+     client_id report_date  ... last_attended              parole_officer
+0            5  2024-03-21  ...    2023-09-28           Sucondra Holloway
+1            6  2024-03-21  ...    2023-08-24           Sucondra Holloway
+2            7  2024-03-21  ...    2023-08-13              Brittany Karas
+3            8  2024-03-21  ...    2023-08-14                Denise Perez
+4            9  2024-03-21  ...    2023-08-17             April Westbrook
+..         ...         ...  ...           ...                         ...
+286        305  2024-03-21  ...    2024-03-18               Preston Busby
+287        306  2024-03-21  ...    2024-03-14            Mallory Campbell
+288        307  2024-03-21  ...    2024-03-17                 Aleena Cruz
+289        308  2024-03-21  ...    2024-03-14  OTHER 1 officer not listed
+290        309  2024-03-21  ...    2024-03-18               Preston Busby
+
+[291 rows x 214 columns]
+
+2024-03-21 08:17:35,220 - Subprocess stderr: Traceback (most recent call last):
+  File "C:\Users\vaner\OneDrive\Desktop\Python\Progress Reports.py", line 157, in <module>
+    'c1_header': datetime.strptime(row['c1_header'], '%B%y').strftime('%B %Y'),
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaner\AppData\Local\Programs\Python\Python312\Lib\_strptime.py", line 555, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaner\AppData\Local\Programs\Python\Python312\Lib\_strptime.py", line 336, in _strptime
+    raise ValueError("unconverted data remains: %s" %
+ValueError: unconverted data remains: 23
+
+2024-03-21 08:18:43,679 - This is a test log message.
+2024-03-21 08:18:46,230 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240321.csv
+2024-03-21 08:18:46,660 - Selected start date: 03-21-2024
+2024-03-21 08:18:46,660 - Selected end date: 03-21-2024
+2024-03-21 08:18:46,661 - Attempting to convert date format for: 03-21-2024
+2024-03-21 08:18:46,663 - Converted date format to: 2024-03-21
+2024-03-21 08:18:46,663 - Attempting to convert date format for: 03-21-2024
+2024-03-21 08:18:46,663 - Converted date format to: 2024-03-21
+2024-03-21 08:18:46,663 - Displaying date range: March 21, 2024
+2024-03-21 08:19:33,586 - Subprocess failed with error: Command '['python', './Progress Reports.py', 'C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240321.csv', '2024-03-21']' returned non-zero exit status 1.
+2024-03-21 08:19:41,410 - Subprocess stdout: Reading CSV file into DataFrame...
+Subset of 'report_date': 0    2024-03-21
+1    2024-03-21
+2    2024-03-21
+3    2024-03-21
+4    2024-03-21
+Name: report_date, dtype: object
+Date variable: 2024-03-21 00:00:00
+DataFrame info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 291 entries, 0 to 290
+Columns: 213 entries, client_id to last_attended
+dtypes: float64(58), int64(13), object(142)
+memory usage: 484.4+ KB
+None
+Combining 'case_manager_first_name' and 'case_manager_last_name' columns...
+Unique dates in 'report_date' before filtering: ['2024-03-21']
+Filtering DataFrame based on the date...
+Unique dates in 'report_date' before filtering: ['2024-03-21']
+Unique dates in 'report_date': ['2024-03-21']
+Unique dates in 'report_date' after converting to string: ['2024-03-21']
+DataFrame after filtering:
+     client_id report_date  ... last_attended              parole_officer
+0            5  2024-03-21  ...    2023-09-28           Sucondra Holloway
+1            6  2024-03-21  ...    2023-08-24           Sucondra Holloway
+2            7  2024-03-21  ...    2023-08-13              Brittany Karas
+3            8  2024-03-21  ...    2023-08-14                Denise Perez
+4            9  2024-03-21  ...    2023-08-17             April Westbrook
+..         ...         ...  ...           ...                         ...
+286        305  2024-03-21  ...    2024-03-18               Preston Busby
+287        306  2024-03-21  ...    2024-03-14            Mallory Campbell
+288        307  2024-03-21  ...    2024-03-17                 Aleena Cruz
+289        308  2024-03-21  ...    2024-03-14  OTHER 1 officer not listed
+290        309  2024-03-21  ...    2024-03-18               Preston Busby
+
+[291 rows x 214 columns]
+Progress Report for Erin Dimes saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\SE; Arlington Field Service 724B E. Border St\Sucondra Holloway\ErinDimes.ProgressReport.pdf
+Progress Report for Daedren Morrow saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\SE; Arlington Field Service 724B E. Border St\Sucondra Holloway\DaedrenMorrow.ProgressReport.pdf
+Progress Report for Jonathan Sandoval saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\M; Miller Complex 3210 Miller Avenue, FW\Brittany Karas\JonathanSandoval.ProgressReport.pdf
+Progress Report for Keith Guy saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\M; Miller Complex 3210 Miller Avenue, FW\Denise Perez\KeithGuy.ProgressReport.pdf
+Progress Report for Christian Barron saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\SW; Field Service 3829 Alta Mere Blvd, FW\April Westbrook\ChristianBarron.ProgressReport.pdf
+
+2024-03-21 08:19:41,412 - Subprocess stderr: Traceback (most recent call last):
+  File "C:\Users\vaner\OneDrive\Desktop\Python\Progress Reports.py", line 159, in <module>
+    'c3_header': datetime.strptime(row['c3_header'], '%B%Y').strftime('%B %Y'),
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: strptime() argument 1 must be str, not float
+
+2024-03-21 08:21:02,205 - This is a test log message.
+2024-03-21 08:21:04,887 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240321.csv
+2024-03-21 08:21:05,645 - Selected start date: 03-21-2024
+2024-03-21 08:21:05,645 - Selected end date: 03-21-2024
+2024-03-21 08:21:05,646 - Attempting to convert date format for: 03-21-2024
+2024-03-21 08:21:05,648 - Converted date format to: 2024-03-21
+2024-03-21 08:21:05,649 - Attempting to convert date format for: 03-21-2024
+2024-03-21 08:21:05,649 - Converted date format to: 2024-03-21
+2024-03-21 08:21:05,649 - Displaying date range: March 21, 2024
+2024-03-21 08:40:05,437 - This is a test log message.
+2024-03-21 08:40:08,637 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240321.csv
+2024-03-21 08:40:09,331 - Selected start date: 03-21-2024
+2024-03-21 08:40:09,331 - Selected end date: 03-21-2024
+2024-03-21 08:40:09,332 - Attempting to convert date format for: 03-21-2024
+2024-03-21 08:40:09,333 - Converted date format to: 2024-03-21
+2024-03-21 08:40:09,333 - Attempting to convert date format for: 03-21-2024
+2024-03-21 08:40:09,334 - Converted date format to: 2024-03-21
+2024-03-21 08:40:09,334 - Displaying date range: March 21, 2024
+2024-03-21 08:45:55,654 - Subprocess failed with error: Command '['python', './Progress Reports.py', 'C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240321.csv', '2024-03-21']' returned non-zero exit status 1.
+2024-03-21 08:46:02,956 - Subprocess stdout: Reading CSV file into DataFrame...
+Subset of 'report_date': 0    2024-03-21
+1    2024-03-21
+2    2024-03-21
+3    2024-03-21
+4    2024-03-21
+Name: report_date, dtype: object
+Date variable: 2024-03-21 00:00:00
+DataFrame info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 101 entries, 0 to 100
+Columns: 213 entries, client_id to last_attended
+dtypes: float64(82), int64(16), object(115)
+memory usage: 168.2+ KB
+None
+Combining 'case_manager_first_name' and 'case_manager_last_name' columns...
+Unique dates in 'report_date' before filtering: ['2024-03-21']
+Filtering DataFrame based on the date...
+Unique dates in 'report_date' before filtering: ['2024-03-21']
+Unique dates in 'report_date': ['2024-03-21']
+Unique dates in 'report_date' after converting to string: ['2024-03-21']
+DataFrame after filtering:
+     client_id report_date  ... last_attended              parole_officer
+0           16  2024-03-21  ...    2024-03-18        Teric Dorsey-Hopkins
+1          111  2024-03-21  ...    2024-03-14                  Amber Fort
+2          135  2024-03-21  ...    2024-03-11              Nigel Reynolds
+3          139  2024-03-21  ...    2024-03-14              Tymarra Bryant
+4          155  2024-03-21  ...    2024-03-17           Michelle Holloway
+..         ...         ...  ...           ...                         ...
+96         305  2024-03-21  ...    2024-03-18               Preston Busby
+97         306  2024-03-21  ...    2024-03-14            Mallory Campbell
+98         307  2024-03-21  ...    2024-03-17                 Aleena Cruz
+99         308  2024-03-21  ...    2024-03-14  OTHER 1 officer not listed
+100        309  2024-03-21  ...    2024-03-18               Preston Busby
+
+[101 rows x 214 columns]
+Progress Report for Kayla Baughman saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\M; Miller Complex 3210 Miller Avenue, FW\Teric Dorsey-Hopkins\KaylaBaughman.ProgressReport.pdf
+Progress Report for Fabian Andazola saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\SW; Field Service 3829 Alta Mere Blvd, FW\Amber Fort\FabianAndazola.ProgressReport.pdf
+Progress Report for Charles Bickems saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\M; Miller Complex 3210 Miller Avenue, FW\Nigel Reynolds\CharlesBickems.ProgressReport.pdf
+Progress Report for Antwan Lightfoot saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\NW; Field Services 3800 Adam Grubb s.100, FW\Tymarra Bryant\AntwanLightfoot.ProgressReport.pdf
+Progress Report for David Mtanous saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\M; Miller Complex 3210 Miller Avenue, FW\Michelle Holloway\DavidMtanous.ProgressReport.pdf
+Progress Report for James Crusaw saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\NW; Field Services 3800 Adam Grubb s.100, FW\Deanna Hurst\JamesCrusaw.ProgressReport.pdf
+Progress Report for Sameer Campos saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\C-300; Pretrial 3 300 W. Belknap, FW\Treshure Jones\SameerCampos.ProgressReport.pdf
+Progress Report for Trevor Rivera saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\NE; Field Services 201 E. Plaza, Hurst\Abigail Pacheco\TrevorRivera.ProgressReport.pdf
+
+2024-03-21 08:46:02,958 - Subprocess stderr: Traceback (most recent call last):
+  File "C:\Users\vaner\OneDrive\Desktop\Python\Progress Reports.py", line 317, in <module>
+    case_manager_office_folder = os.path.join(output_path, row['case_manager_office'])
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen ntpath>", line 149, in join
+  File "<frozen genericpath>", line 164, in _check_arg_types
+TypeError: join() argument must be str, bytes, or os.PathLike object, not 'float'
+
+2024-03-21 08:48:02,800 - This is a test log message.
+2024-03-21 08:48:06,340 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240321.csv
+2024-03-21 08:48:07,315 - Selected start date: 03-21-2024
+2024-03-21 08:48:07,316 - Selected end date: 03-21-2024
+2024-03-21 08:48:07,316 - Attempting to convert date format for: 03-21-2024
+2024-03-21 08:48:07,317 - Converted date format to: 2024-03-21
+2024-03-21 08:48:07,317 - Attempting to convert date format for: 03-21-2024
+2024-03-21 08:48:07,317 - Converted date format to: 2024-03-21
+2024-03-21 08:48:07,318 - Displaying date range: March 21, 2024
+2024-03-21 09:02:36,661 - Subprocess output: Reading CSV file into DataFrame...
+Subset of 'report_date': 0    2024-03-21
+1    2024-03-21
+2    2024-03-21
+3    2024-03-21
+4    2024-03-21
+Name: report_date, dtype: object
+Date variable: 2024-03-21 00:00:00
+DataFrame info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 101 entries, 0 to 100
+Columns: 213 entries, client_id to last_attended
+dtypes: float64(82), int64(16), object(115)
+memory usage: 168.2+ KB
+None
+Combining 'case_manager_first_name' and 'case_manager_last_name' columns...
+Unique dates in 'report_date' before filtering: ['2024-03-21']
+Filtering DataFrame based on the date...
+Unique dates in 'report_date' before filtering: ['2024-03-21']
+Unique dates in 'report_date': ['2024-03-21']
+Unique dates in 'report_date' after converting to string: ['2024-03-21']
+DataFrame after filtering:
+     client_id report_date  ... last_attended              parole_officer
+0           16  2024-03-21  ...    2024-03-18        Teric Dorsey-Hopkins
+1          111  2024-03-21  ...    2024-03-14                  Amber Fort
+2          135  2024-03-21  ...    2024-03-11              Nigel Reynolds
+3          139  2024-03-21  ...    2024-03-14              Tymarra Bryant
+4          155  2024-03-21  ...    2024-03-17           Michelle Holloway
+..         ...         ...  ...           ...                         ...
+96         305  2024-03-21  ...    2024-03-18               Preston Busby
+97         306  2024-03-21  ...    2024-03-14            Mallory Campbell
+98         307  2024-03-21  ...    2024-03-17                 Aleena Cruz
+99         308  2024-03-21  ...    2024-03-14  OTHER 1 officer not listed
+100        309  2024-03-21  ...    2024-03-18               Preston Busby
+
+[101 rows x 214 columns]
+Progress Report for Kayla Baughman saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\M; Miller Complex 3210 Miller Avenue, FW\Teric Dorsey-Hopkins\KaylaBaughman.ProgressReport.pdf
+Progress Report for Fabian Andazola saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\SW; Field Service 3829 Alta Mere Blvd, FW\Amber Fort\FabianAndazola.ProgressReport.pdf
+Progress Report for Charles Bickems saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\M; Miller Complex 3210 Miller Avenue, FW\Nigel Reynolds\CharlesBickems.ProgressReport.pdf
+Progress Report for Antwan Lightfoot saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\NW; Field Services 3800 Adam Grubb s.100, FW\Tymarra Bryant\AntwanLightfoot.ProgressReport.pdf
+Progress Report for David Mtanous saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\M; Miller Complex 3210 Miller Avenue, FW\Michelle Holloway\DavidMtanous.ProgressReport.pdf
+Progress Report for James Crusaw saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\NW; Field Services 3800 Adam Grubb s.100, FW\Deanna Hurst\JamesCrusaw.ProgressReport.pdf
+Progress Report for Sameer Campos saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\C-300; Pretrial 3 300 W. Belknap, FW\Treshure Jones\SameerCampos.ProgressReport.pdf
+Progress Report for Trevor Rivera saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\NE; Field Services 201 E. Plaza, Hurst\Abigail Pacheco\TrevorRivera.ProgressReport.pdf
+Progress Report for Shardae Smith saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\nan\OTHER 1 officer not listed\ShardaeSmith.ProgressReport.pdf
+Progress Report for DeAunte Clay saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\NE; Field Services 201 E. Plaza, Hurst\Sawaki Samuels\DeAunteClay.ProgressReport.pdf
+Progress Report for Jony Higuita saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\C-2; Transfer-In 200 W. Belknap, FW\Gavin Adamson\JonyHiguita.ProgressReport.pdf
+Progress Report for Miguel Juarez saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\SW; Field Service 3829 Alta Mere Blvd, FW\Preston Busby\MiguelJuarez.ProgressReport.pdf
+Progress Report for Sarah Brewer saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\NE; Field Services 201 E. Plaza, Hurst\Davon Roscoe\SarahBrewer.ProgressReport.pdf
+Progress Report for Todd Adams saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\NE; Field Services 201 E. Plaza, Hurst\Caroline Jenkins\ToddAdams.ProgressReport.pdf
+Progress Report for Alfred Thomas saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\M; Miller Complex 3210 Miller Avenue, FW\Teric Dorsey-Hopkins\AlfredThomas.ProgressReport.pdf
+Progress Report for Jeffrey Holbrooks saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\C-300; Pretrial 3 300 W. Belknap, FW\Maggie Goble\JeffreyHolbrooks.ProgressReport.pdf
+Progress Report for Barry Mayfield saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\M; Miller Complex 3210 Miller Avenue, FW\Ursula Nelson\BarryMayfield.ProgressReport.pdf
+Progress Report for Daniel Gonzales saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\C-4; Central Courts 200 W. Belknap, FW\Cynthia Manuel\DanielGonzales.ProgressReport.pdf
+Progress Report for Brantley Mays saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\SW; Field Service 3829 Alta Mere Blvd, FW\Preston Busby\BrantleyMays.ProgressReport.pdf
+Progress Report for Davontay Guzman saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\C-300; Pretrial 3 300 W. Belknap, FW\Treshure Jones\DavontayGuzman.ProgressReport.pdf
+Progress Report for Ronald Chavez saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\M; Miller Complex 3210 Miller Avenue, FW\Wesley Hawthorne\RonaldChavez.ProgressReport.pdf
+Progress Report for George Brian saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\SE; Arlington Field Service 724B E. Border St\Mallory Campbell\GeorgeBrian.ProgressReport.pdf
+Progress Report for Marco Garcia saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\M; Miller Complex 3210 Miller Avenue, FW\Rosa Diaz\MarcoGarcia.ProgressReport.pdf
+Progress Report for Isaac Morehouse saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\M; Miller Complex 3210 Miller Avenue, FW\Lauren Jumes\IsaacMorehouse.ProgressReport.pdf
+Progress Report for Kevin Almanza saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\M; Miller Complex 3210 Miller Avenue, FW\Victoria Hampton\KevinAlmanza.ProgressReport.pdf
+Progress Report for Samuel Castillo saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\NW; Field Services 3800 Adam Grubb s.100, FW\Nereida Jimenez\SamuelCastillo.ProgressReport.pdf
+Progress Report for Luis Garcia saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\SE; Arlington Field Service 724B E. Border St\Mallory Campbell\LuisGarcia.ProgressReport.pdf
+Progress Report for Richie Whitfield saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\M; Miller Complex 3210 Miller Avenue, FW\S. Low\RichieWhitfield.ProgressReport.pdf
+Progress Report for Anthony Henderson saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\M; Miller Complex 3210 Miller Avenue, FW\Toni Worthy\AnthonyHenderson.ProgressReport.pdf
+Progress Report for Javier Razo saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\M; Miller Complex 3210 Miller Avenue, FW\Rosa Diaz\JavierRazo.ProgressReport.pdf
+Progress Report for Daniel Ramsey saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\SW; Field Service 3829 Alta Mere Blvd, FW\Pamala Price\DanielRamsey.ProgressReport.pdf
+Progress Report for Elijah Katende saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\NE; Field Services 201 E. Plaza, Hurst\Cristal Sandate\ElijahKatende.ProgressReport.pdf
+Progress Report for Xavier Flores saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\M; Miller Complex 3210 Miller Avenue, FW\Shenelle Price\XavierFlores.ProgressReport.pdf
+Progress Report for Jaya Webb saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\M; Miller Complex 3210 Miller Avenue, FW\Shenelle Price\JayaWebb.ProgressReport.pdf
+Progress Report for Kareem Lynn saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\M; Miller Complex 3210 Miller Avenue, FW\Naomy Franco\KareemLynn.ProgressReport.pdf
+Progress Report for Dale'Lon Price saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\SW; Field Service 3829 Alta Mere Blvd, FW\Andrea Sampson\Dale'LonPrice.ProgressReport.pdf
+Progress Report for J'Korien Woods saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\NE; Field Services 201 E. Plaza, Hurst\Caroline Jenkins\J'KorienWoods.ProgressReport.pdf
+Progress Report for Day'jaun Moss saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\M; Miller Complex 3210 Miller Avenue, FW\A Cayanan\Day'jaunMoss.ProgressReport.pdf
+Progress Report for Kingsley Ehiemua saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\SW; Field Service 3829 Alta Mere Blvd, FW\Andrea Sampson\KingsleyEhiemua.ProgressReport.pdf
+Progress Report for Marco Martinez saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\M; Miller Complex 3210 Miller Avenue, FW\Nigel Reynolds\MarcoMartinez.ProgressReport.pdf
+Progress Report for Ashleigh Black saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\M; Miller Complex 3210 Miller Avenue, FW\Alexis Clettenberg\AshleighBlack.ProgressReport.pdf
+Progress Report for Nelli Ornelas saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\NE; Field Services 201 E. Plaza, Hurst\Mark Massey\NelliOrnelas.ProgressReport.pdf
+Progress Report for Walter Austin saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\SE; Arlington Field Service 724B E. Border St\Mallory Campbell\WalterAustin.ProgressReport.pdf
+Progress Report for Wendell Johnson saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\M; Miller Complex 3210 Miller Avenue, FW\Shannon Rutledge\WendellJohnson.ProgressReport.pdf
+Progress Report for Timothy Uranga saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\C-300; Pretrial 3 300 W. Belknap, FW\Zackrey Waterman\TimothyUranga.ProgressReport.pdf
+Progress Report for Danecia Harris saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\M; Miller Complex 3210 Miller Avenue, FW\Toni Worthy\DaneciaHarris.ProgressReport.pdf
+Progress Report for Joselyn Martinez saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\Rockwall\Sophia Rodriguez\JoselynMartinez.ProgressReport.pdf
+Progress Report for Chris Pennington saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\M; Miller Complex 3210 Miller Avenue, FW\Paul Zalar\ChrisPennington.ProgressReport.pdf
+Progress Report for Cedric Moland saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\M; Miller Complex 3210 Miller Avenue, FW\Victoria Hampton\CedricMoland.ProgressReport.pdf
+Progress Report for Avery Howard saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\M; Miller Complex 3210 Miller Avenue, FW\Nigel Reynolds\AveryHoward.ProgressReport.pdf
+Progress Report for Kawanna Williams saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\SW; Field Service 3829 Alta Mere Blvd, FW\Andrea Sampson\KawannaWilliams.ProgressReport.pdf
+Progress Report for James Jonathon saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\SW; Field Service 3829 Alta Mere Blvd, FW\Pamala Price\JamesJonathon.ProgressReport.pdf
+Progress Report for Lavonte Warren saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\SW; Field Service 3829 Alta Mere Blvd, FW\Andrea Sampson\LavonteWarren.ProgressReport.pdf
+Progress Report for Deddrick Jones saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\C-2; Transfer-In 200 W. Belknap, FW\Maria Armendariz\DeddrickJones.ProgressReport.pdf
+Progress Report for Brandon Hodges saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\SW; Field Service 3829 Alta Mere Blvd, FW\Andrea Sampson\BrandonHodges.ProgressReport.pdf
+Progress Report for Erik Roberts saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\SW; Field Service 3829 Alta Mere Blvd, FW\Angela Hawthorne\ErikRoberts.ProgressReport.pdf
+Progress Report for Royce Weaver saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\M; Miller Complex 3210 Miller Avenue, FW\Lashena Cochran\RoyceWeaver.ProgressReport.pdf
+Progress Report for Brenda Rivera saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\NE; Field Services 201 E. Plaza, Hurst\Laura Fennell\BrendaRivera.ProgressReport.pdf
+Progress Report for Kisi Moeakiola saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\NE; Field Services 201 E. Plaza, Hurst\T. Freimark\KisiMoeakiola.ProgressReport.pdf
+Progress Report for Demeatrics Robertson saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\M; Miller Complex 3210 Miller Avenue, FW\Michelle Holloway\DemeatricsRobertson.ProgressReport.pdf
+Progress Report for Cintya Covarrubias saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\NW; Field Services 3800 Adam Grubb s.100, FW\Deanna Hurst\CintyaCovarrubias.ProgressReport.pdf
+Progress Report for Brian Onuoha saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\M; Miller Complex 3210 Miller Avenue, FW\Teric Dorsey-Hopkins\BrianOnuoha.ProgressReport.pdf
+Progress Report for Quinton Thompson saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\NE; Field Services 201 E. Plaza, Hurst\Cristal Sandate\QuintonThompson.ProgressReport.pdf
+Progress Report for Blake Trisler saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\SW; Field Service 3829 Alta Mere Blvd, FW\Angela Hawthorne\BlakeTrisler.ProgressReport.pdf
+Progress Report for LaRodrick Jenkins saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\C-2; Transfer-In 200 W. Belknap, FW\Gavin Adamson\LaRodrickJenkins.ProgressReport.pdf
+Progress Report for Robert Shephard saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\NE; Field Services 201 E. Plaza, Hurst\Ruben Rodriguez Jr.\RobertShephard.ProgressReport.pdf
+Progress Report for Eric Rogers saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\SW; Field Service 3829 Alta Mere Blvd, FW\Kanita Pruitt\EricRogers.ProgressReport.pdf
+Progress Report for Robert Kirk saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\SW; Field Service 3829 Alta Mere Blvd, FW\Preston Busby\RobertKirk.ProgressReport.pdf
+Progress Report for Javon Smith saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\SW; Field Service 3829 Alta Mere Blvd, FW\Sabrina Clark\JavonSmith.ProgressReport.pdf
+Progress Report for Jermond Hobson saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\Hurst\Calvin McNiel\JermondHobson.ProgressReport.pdf
+Progress Report for Darrion Barton saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\Hurst\Calvin McNiel\DarrionBarton.ProgressReport.pdf
+Progress Report for Eric Gonzales saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\NE; Field Services 201 E. Plaza, Hurst\Taylor Bean\EricGonzales.ProgressReport.pdf
+Progress Report for Anthony Williams saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\NE; Field Services 201 E. Plaza, Hurst\Cristal Sandate\AnthonyWilliams.ProgressReport.pdf
+Progress Report for Desia Ray Thompson saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\M; Miller Complex 3210 Miller Avenue, FW\Victoria Hampton\Desia RayThompson.ProgressReport.pdf
+Progress Report for Conner Enriquez saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\NW; Field Services 3800 Adam Grubb s.100, FW\Tymarra Bryant\ConnerEnriquez.ProgressReport.pdf
+Progress Report for Charles Carlson saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\NW; Field Services 3800 Adam Grubb s.100, FW\Zoe Chance\CharlesCarlson.ProgressReport.pdf
+Progress Report for Carlos Cortinas saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\M; Miller Complex 3210 Miller Avenue, FW\Lorena Avelar\CarlosCortinas.ProgressReport.pdf
+Progress Report for Daniel Vazquez saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\M; Miller Complex 3210 Miller Avenue, FW\Lashena Cochran\DanielVazquez.ProgressReport.pdf
+Progress Report for Morris Roshard saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\SW; Field Service 3829 Alta Mere Blvd, FW\Preston Busby\MorrisRoshard.ProgressReport.pdf
+Progress Report for Leroy McWilliams saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\NE; Field Services 201 E. Plaza, Hurst\Cristal Sandate\LeroyMcWilliams.ProgressReport.pdf
+Progress Report for Jessie Beaver saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\M; Miller Complex 3210 Miller Avenue, FW\Wesley Hawthorne\JessieBeaver.ProgressReport.pdf
+Progress Report for Amanda Hunt saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\SW; Field Service 3829 Alta Mere Blvd, FW\Angela Hawthorne\AmandaHunt.ProgressReport.pdf
+Progress Report for Binh Le saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\SW; Field Service 3829 Alta Mere Blvd, FW\Laura Perez\BinhLe.ProgressReport.pdf
+Progress Report for Marcus Campbell saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\SE; Arlington Field Service 724B E. Border St\Kataine McGriff\MarcusCampbell.ProgressReport.pdf
+Progress Report for Keith Loucks saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\C-1; Pretrial 1 200 W. Belknap, FW\Maxwell Folden\KeithLoucks.ProgressReport.pdf
+Progress Report for Cimmy Nguyen saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\M; Miller Complex 3210 Miller Avenue, FW\Lashena Cochran\CimmyNguyen.ProgressReport.pdf
+Progress Report for Jessika Tolbert saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\NE; Field Services 201 E. Plaza, Hurst\Muhammed Jackson\JessikaTolbert.ProgressReport.pdf
+Progress Report for Jacob Crawford saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\C-2; Transfer-In 200 W. Belknap, FW\Gavin Adamson\JacobCrawford.ProgressReport.pdf
+Progress Report for Shazea Barrett saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\M; Miller Complex 3210 Miller Avenue, FW\Shenelle Price\ShazeaBarrett.ProgressReport.pdf
+Progress Report for Jose Ricardo-Moreno saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\NE; Field Services 201 E. Plaza, Hurst\Laura Fennell\JoseRicardo-Moreno.ProgressReport.pdf
+Progress Report for Dorian Scott saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\SW; Field Service 3829 Alta Mere Blvd, FW\Kanita Pruitt\DorianScott.ProgressReport.pdf
+Progress Report for Adrion Curtis saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\M; Miller Complex 3210 Miller Avenue, FW\Lashena Cochran\AdrionCurtis.ProgressReport.pdf
+Progress Report for Patrick Brown saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\M; Miller Complex 3210 Miller Avenue, FW\Lashena Cochran\PatrickBrown.ProgressReport.pdf
+Progress Report for Rishaurd Barriere saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\SW; Field Service 3829 Alta Mere Blvd, FW\Andrea Sampson\RishaurdBarriere.ProgressReport.pdf
+Progress Report for Jasmine Campbell saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\M; Miller Complex 3210 Miller Avenue, FW\Katy Aldridge\JasmineCampbell.ProgressReport.pdf
+Progress Report for Larry Julian saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\M; Miller Complex 3210 Miller Avenue, FW\Paul Zalar\LarryJulian.ProgressReport.pdf
+Progress Report for Ariel Raibon saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\SW; Field Service 3829 Alta Mere Blvd, FW\Preston Busby\ArielRaibon.ProgressReport.pdf
+Progress Report for Samuel Eckenroed saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\SE; Arlington Field Service 724B E. Border St\Mallory Campbell\SamuelEckenroed.ProgressReport.pdf
+Progress Report for Jerry Gore saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\C-4; Central Courts 200 W. Belknap, FW\Aleena Cruz\JerryGore.ProgressReport.pdf
+Progress Report for King Martin saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\nan\OTHER 1 officer not listed\KingMartin.ProgressReport.pdf
+Progress Report for Christopher Baker saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\SW; Field Service 3829 Alta Mere Blvd, FW\Preston Busby\ChristopherBaker.ProgressReport.pdf
+
+2024-03-21 13:21:23,618 - This is a test log message.
+2024-03-21 13:21:26,715 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240321.csv
+2024-03-21 13:21:33,125 - Selected start date: 05-20-2023
+2024-03-21 13:21:33,125 - Selected end date: 03-21-2024
+2024-03-21 13:21:33,125 - Attempting to convert date format for: 05-20-2023
+2024-03-21 13:21:33,125 - Converted date format to: 2023-05-20
+2024-03-21 13:21:33,125 - Attempting to convert date format for: 03-21-2024
+2024-03-21 13:21:33,125 - Converted date format to: 2024-03-21
+2024-03-21 13:21:33,125 - Displaying date range: May 20, 2023 to
+March 21, 2024
+2024-03-21 13:21:34,192 - Attempting to convert date format for: 05-20-2023
+2024-03-21 13:21:34,192 - Converted date format to: 2023-05-20
+2024-03-21 13:21:34,192 - Attempting to convert date format for: 03-21-2024
+2024-03-21 13:21:34,192 - Converted date format to: 2024-03-21
+2024-03-21 13:21:34,192 - Running Entrance Notifications.py with start date 2023-05-20 and end date 2024-03-21
+2024-03-21 13:22:02,319 - Subprocess output: Start Date: 2023-05-20 00:00:00 End Date: 2024-03-21 00:00:00 CSV File Path: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240321.csv
+Detected entrance in row 2, column AK, date: May 2023
+Detected entrance in row 3, column AK, date: August 2023
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\M; Miller Complex 3210 Miller Avenue, FW\Teric Dorsey-Hopkins\KaylaBaughman.EntranceNotification.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\M; Miller Complex 3210 Miller Avenue, FW\Teric Dorsey-Hopkins\KaylaBaughman.EntranceNotification.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\M; Miller Complex 3210 Miller Avenue, FW\Teric Dorsey-Hopkins\KaylaBaughman.EntranceNotification.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\SW; Field Service 3829 Alta Mere Blvd, FW\Amber Fort\FabianAndazola.EntranceNotification.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\SW; Field Service 3829 Alta Mere Blvd, FW\Amber Fort\FabianAndazola.EntranceNotification.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\SW; Field Service 3829 Alta Mere Blvd, FW\Amber Fort\FabianAndazola.EntranceNotification.docx
+
+2024-03-21 13:22:56,882 - Subprocess output: Start Date: 2023-05-20 00:00:00 End Date: 2024-03-21 00:00:00 CSV File Path: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240321.csv
+Identified headers: {'AO': {'Dec-23'}, 'CF': {'Jan-24'}, 'DW': {'Feb-24'}, 'FN': {'Mar-24'}}
+Detected absence in row 3, column DC, date: January 2024
+Detected absence in row 3, column DJ, date: January 2024
+Detected absence in row 3, column EB, date: February 2024
+Detected absence in row 3, column EF, date: February 2024
+Detected absence in row 3, column EI, date: February 2024
+Detected absence in row 3, column ET, date: February 2024
+Detected absence in row 3, column FW, date: March 2024
+Detected absence in row 3, column GD, date: March 2024
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\SW; Field Service 3829 Alta Mere Blvd, FW\Amber Fort\FabianAndazola.January.22.2024.UnexcusedAbsence.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\SW; Field Service 3829 Alta Mere Blvd, FW\Amber Fort\FabianAndazola.January.22.2024.UnexcusedAbsence.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\SW; Field Service 3829 Alta Mere Blvd, FW\Amber Fort\FabianAndazola.January.22.2024.UnexcusedAbsence.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\SW; Field Service 3829 Alta Mere Blvd, FW\Amber Fort\FabianAndazola.January.29.2024.UnexcusedAbsence.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\SW; Field Service 3829 Alta Mere Blvd, FW\Amber Fort\FabianAndazola.January.29.2024.UnexcusedAbsence.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\SW; Field Service 3829 Alta Mere Blvd, FW\Amber Fort\FabianAndazola.January.29.2024.UnexcusedAbsence.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\SW; Field Service 3829 Alta Mere Blvd, FW\Amber Fort\FabianAndazola.February.01.2024.UnexcusedAbsence.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\SW; Field Service 3829 Alta Mere Blvd, FW\Amber Fort\FabianAndazola.February.01.2024.UnexcusedAbsence.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\SW; Field Service 3829 Alta Mere Blvd, FW\Amber Fort\FabianAndazola.February.01.2024.UnexcusedAbsence.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\SW; Field Service 3829 Alta Mere Blvd, FW\Amber Fort\FabianAndazola.February.05.2024.UnexcusedAbsence.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\SW; Field Service 3829 Alta Mere Blvd, FW\Amber Fort\FabianAndazola.February.05.2024.UnexcusedAbsence.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\SW; Field Service 3829 Alta Mere Blvd, FW\Amber Fort\FabianAndazola.February.05.2024.UnexcusedAbsence.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\SW; Field Service 3829 Alta Mere Blvd, FW\Amber Fort\FabianAndazola.February.08.2024.UnexcusedAbsence.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\SW; Field Service 3829 Alta Mere Blvd, FW\Amber Fort\FabianAndazola.February.08.2024.UnexcusedAbsence.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\SW; Field Service 3829 Alta Mere Blvd, FW\Amber Fort\FabianAndazola.February.08.2024.UnexcusedAbsence.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\SW; Field Service 3829 Alta Mere Blvd, FW\Amber Fort\FabianAndazola.February.19.2024.UnexcusedAbsence.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\SW; Field Service 3829 Alta Mere Blvd, FW\Amber Fort\FabianAndazola.February.19.2024.UnexcusedAbsence.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\SW; Field Service 3829 Alta Mere Blvd, FW\Amber Fort\FabianAndazola.February.19.2024.UnexcusedAbsence.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\SW; Field Service 3829 Alta Mere Blvd, FW\Amber Fort\FabianAndazola.March.04.2024.UnexcusedAbsence.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\SW; Field Service 3829 Alta Mere Blvd, FW\Amber Fort\FabianAndazola.March.04.2024.UnexcusedAbsence.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\SW; Field Service 3829 Alta Mere Blvd, FW\Amber Fort\FabianAndazola.March.04.2024.UnexcusedAbsence.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\SW; Field Service 3829 Alta Mere Blvd, FW\Amber Fort\FabianAndazola.March.11.2024.UnexcusedAbsence.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\SW; Field Service 3829 Alta Mere Blvd, FW\Amber Fort\FabianAndazola.March.11.2024.UnexcusedAbsence.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\SW; Field Service 3829 Alta Mere Blvd, FW\Amber Fort\FabianAndazola.March.11.2024.UnexcusedAbsence.docx
+
+2024-03-21 13:24:42,879 - This is a test log message.
+2024-03-21 13:24:46,621 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240321.csv
+2024-03-21 13:24:57,771 - Selected start date: 05-20-2023
+2024-03-21 13:24:57,772 - Selected end date: 03-21-2024
+2024-03-21 13:24:57,772 - Attempting to convert date format for: 05-20-2023
+2024-03-21 13:24:57,773 - Converted date format to: 2023-05-20
+2024-03-21 13:24:57,773 - Attempting to convert date format for: 03-21-2024
+2024-03-21 13:24:57,773 - Converted date format to: 2024-03-21
+2024-03-21 13:24:57,775 - Displaying date range: May 20, 2023 to
+March 21, 2024
+2024-03-21 13:25:11,674 - This is a test log message.
+2024-03-21 13:25:14,433 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240321.csv
+2024-03-21 13:25:22,752 - Selected start date: 05-20-2023
+2024-03-21 13:25:22,752 - Selected end date: 03-21-2024
+2024-03-21 13:25:22,752 - Attempting to convert date format for: 05-20-2023
+2024-03-21 13:25:22,754 - Converted date format to: 2023-05-20
+2024-03-21 13:25:22,754 - Attempting to convert date format for: 03-21-2024
+2024-03-21 13:25:22,754 - Converted date format to: 2024-03-21
+2024-03-21 13:25:22,754 - Displaying date range: May 20, 2023 to
+March 21, 2024
+2024-03-21 13:25:36,557 - Selected start date: 03-21-2024
+2024-03-21 13:25:36,557 - Selected end date: 03-21-2024
+2024-03-21 13:25:36,558 - Attempting to convert date format for: 03-21-2024
+2024-03-21 13:25:36,558 - Converted date format to: 2024-03-21
+2024-03-21 13:25:36,558 - Attempting to convert date format for: 03-21-2024
+2024-03-21 13:25:36,558 - Converted date format to: 2024-03-21
+2024-03-21 13:25:36,559 - Displaying date range: March 21, 2024
+2024-03-21 13:25:49,277 - Subprocess failed with error: Command '['python', './Progress Reports.py', 'C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240321.csv', '2024-03-21']' returned non-zero exit status 1.
+2024-03-21 13:25:53,393 - Subprocess stderr: Traceback (most recent call last):
+  File "C:\Users\vaner\OneDrive\Desktop\Python\Progress Reports.py", line 57, in <module>
+    clear_directory(temp_images_path)
+TypeError: clear_directory() missing 1 required positional argument: 'current_client_ids'
+
+2024-03-21 13:30:32,427 - This is a test log message.
+2024-03-21 13:30:35,527 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240321.csv
+2024-03-21 13:30:36,092 - Selected start date: 03-21-2024
+2024-03-21 13:30:36,092 - Selected end date: 03-21-2024
+2024-03-21 13:30:36,092 - Attempting to convert date format for: 03-21-2024
+2024-03-21 13:30:36,094 - Converted date format to: 2024-03-21
+2024-03-21 13:30:36,094 - Attempting to convert date format for: 03-21-2024
+2024-03-21 13:30:36,094 - Converted date format to: 2024-03-21
+2024-03-21 13:30:36,094 - Displaying date range: March 21, 2024
+2024-03-21 13:30:38,085 - Subprocess failed with error: Command '['python', './Progress Reports.py', 'C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240321.csv', '2024-03-21']' returned non-zero exit status 1.
+2024-03-21 13:30:41,140 - Subprocess stderr: Traceback (most recent call last):
+  File "C:\Users\vaner\OneDrive\Desktop\Python\Progress Reports.py", line 57, in <module>
+    clear_directory(temp_images_path)
+TypeError: clear_directory() missing 1 required positional argument: 'current_client_ids'
+
+2024-03-21 13:36:36,603 - This is a test log message.
+2024-03-21 13:36:38,964 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240321.csv
+2024-03-21 13:36:39,667 - Selected start date: 03-21-2024
+2024-03-21 13:36:39,667 - Selected end date: 03-21-2024
+2024-03-21 13:36:39,668 - Attempting to convert date format for: 03-21-2024
+2024-03-21 13:36:39,670 - Converted date format to: 2024-03-21
+2024-03-21 13:36:39,670 - Attempting to convert date format for: 03-21-2024
+2024-03-21 13:36:39,670 - Converted date format to: 2024-03-21
+2024-03-21 13:36:39,671 - Displaying date range: March 21, 2024
+2024-03-21 13:36:41,257 - Subprocess failed with error: Command '['python', './Progress Reports.py', 'C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240321.csv', '2024-03-21']' returned non-zero exit status 1.
+2024-03-21 13:36:45,006 - Subprocess stderr: Traceback (most recent call last):
+  File "C:\Users\vaner\OneDrive\Desktop\Python\Progress Reports.py", line 66, in <module>
+    clear_directory(temp_images_path, 'current_client_ids')
+  File "C:\Users\vaner\OneDrive\Desktop\Python\Progress Reports.py", line 33, in clear_directory
+    first_name, last_name = client_name.split('_')
+    ^^^^^^^^^^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 2)
+
+2024-03-21 13:48:06,568 - This is a test log message.
+2024-03-21 13:48:08,871 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240321.csv
+2024-03-21 13:48:09,418 - Selected start date: 03-21-2024
+2024-03-21 13:48:09,418 - Selected end date: 03-21-2024
+2024-03-21 13:48:09,418 - Attempting to convert date format for: 03-21-2024
+2024-03-21 13:48:09,418 - Converted date format to: 2024-03-21
+2024-03-21 13:48:09,418 - Attempting to convert date format for: 03-21-2024
+2024-03-21 13:48:09,418 - Converted date format to: 2024-03-21
+2024-03-21 13:48:09,418 - Displaying date range: March 21, 2024
+2024-03-21 13:48:12,460 - Subprocess failed with error: Command '['python', './Progress Reports.py', 'C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240321.csv', '2024-03-21']' returned non-zero exit status 1.
+2024-03-21 13:48:14,564 - Subprocess stdout: Reading CSV file into DataFrame...
+Reading CSV file into DataFrame...
+Subset of 'report_date': 0    2024-03-21
+1    2024-03-21
+Name: report_date, dtype: object
+Date variable: 2024-03-21 00:00:00
+DataFrame info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2 entries, 0 to 1
+Columns: 213 entries, client_id to last_attended
+dtypes: float64(49), int64(99), object(65)
+memory usage: 3.5+ KB
+None
+Combining 'case_manager_first_name' and 'case_manager_last_name' columns...
+Unique dates in 'report_date' before filtering: ['2024-03-21']
+Filtering DataFrame based on the date...
+Unique dates in 'report_date' before filtering: ['2024-03-21']
+Unique dates in 'report_date': ['2024-03-21']
+Unique dates in 'report_date' after converting to string: ['2024-03-21']
+DataFrame after filtering:
+   client_id report_date  ... last_attended        parole_officer
+0         16  2024-03-21  ...     3/18/2024  Teric Dorsey-Hopkins
+1        111  2024-03-21  ...     3/14/2024            Amber Fort
+
+[2 rows x 214 columns]
+
+2024-03-21 13:48:14,565 - Subprocess stderr: Traceback (most recent call last):
+  File "C:\Users\vaner\OneDrive\Desktop\Python\Progress Reports.py", line 209, in <module>
+    'c1_22': '' if pd.isna(row['c1_22']) else str(int(row['c1_22'])) if row['c1_22'].is_integer() else row['c1_22'],
+                                                                        ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'is_integer'
+
+2024-03-21 13:53:40,518 - This is a test log message.
+2024-03-21 13:53:42,762 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240321.csv
+2024-03-21 13:53:43,566 - Selected start date: 03-21-2024
+2024-03-21 13:53:43,566 - Selected end date: 03-21-2024
+2024-03-21 13:53:43,566 - Attempting to convert date format for: 03-21-2024
+2024-03-21 13:53:43,566 - Converted date format to: 2024-03-21
+2024-03-21 13:53:43,566 - Attempting to convert date format for: 03-21-2024
+2024-03-21 13:53:43,566 - Converted date format to: 2024-03-21
+2024-03-21 13:53:43,566 - Displaying date range: March 21, 2024
+2024-03-21 13:53:45,570 - Subprocess failed with error: Command '['python', './Progress Reports.py', 'C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240321.csv', '2024-03-21']' returned non-zero exit status 1.
+2024-03-21 13:53:47,613 - Subprocess stdout: Reading CSV file into DataFrame...
+Reading CSV file into DataFrame...
+Subset of 'report_date': 0    2024-03-21
+1    2024-03-21
+Name: report_date, dtype: object
+Date variable: 2024-03-21 00:00:00
+DataFrame info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2 entries, 0 to 1
+Columns: 213 entries, client_id to last_attended
+dtypes: float64(49), int64(99), object(65)
+memory usage: 3.5+ KB
+None
+Combining 'case_manager_first_name' and 'case_manager_last_name' columns...
+Unique dates in 'report_date' before filtering: ['2024-03-21']
+Filtering DataFrame based on the date...
+Unique dates in 'report_date' before filtering: ['2024-03-21']
+Unique dates in 'report_date': ['2024-03-21']
+Unique dates in 'report_date' after converting to string: ['2024-03-21']
+DataFrame after filtering:
+   client_id report_date  ... last_attended        parole_officer
+0         16  2024-03-21  ...     3/18/2024  Teric Dorsey-Hopkins
+1        111  2024-03-21  ...     3/14/2024            Amber Fort
+
+[2 rows x 214 columns]
+
+2024-03-21 13:53:47,615 - Subprocess stderr: Traceback (most recent call last):
+  File "C:\Users\vaner\OneDrive\Desktop\Python\Progress Reports.py", line 209, in <module>
+    'c1_22': '' if pd.isna(row['c1_22']) else str(int(float(row['c1_22']))) if float(row['c1_22']).is_integer() else row['c1_22'],
+                                                                               ^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: '4 \u2716'
+
+2024-03-21 14:13:01,946 - This is a test log message.
+2024-03-21 14:13:04,324 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240321.csv
+2024-03-21 14:13:04,890 - Selected start date: 03-21-2024
+2024-03-21 14:13:04,890 - Selected end date: 03-21-2024
+2024-03-21 14:13:04,890 - Attempting to convert date format for: 03-21-2024
+2024-03-21 14:13:04,890 - Converted date format to: 2024-03-21
+2024-03-21 14:13:04,890 - Attempting to convert date format for: 03-21-2024
+2024-03-21 14:13:04,890 - Converted date format to: 2024-03-21
+2024-03-21 14:13:04,890 - Displaying date range: March 21, 2024
+2024-03-21 14:13:06,417 - Subprocess failed with error: Command '['python', './Progress Reports.py', 'C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240321.csv', '2024-03-21']' returned non-zero exit status 1.
+2024-03-21 14:13:07,143 - Subprocess stdout: Reading CSV file into DataFrame...
+Reading CSV file into DataFrame...
+Subset of 'report_date': 0    2024-03-21
+1    2024-03-21
+Name: report_date, dtype: object
+Date variable: 2024-03-21 00:00:00
+DataFrame info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2 entries, 0 to 1
+Columns: 213 entries, client_id to last_attended
+dtypes: float64(49), int64(99), object(65)
+memory usage: 3.5+ KB
+None
+Combining 'case_manager_first_name' and 'case_manager_last_name' columns...
+Unique dates in 'report_date' before filtering: ['2024-03-21']
+Filtering DataFrame based on the date...
+Unique dates in 'report_date' before filtering: ['2024-03-21']
+Unique dates in 'report_date': ['2024-03-21']
+Unique dates in 'report_date' after converting to string: ['2024-03-21']
+DataFrame after filtering:
+   client_id report_date  ... last_attended        parole_officer
+0         16  2024-03-21  ...     3/18/2024  Teric Dorsey-Hopkins
+1        111  2024-03-21  ...     3/14/2024            Amber Fort
+
+[2 rows x 214 columns]
+
+2024-03-21 14:13:07,144 - Subprocess stderr: Traceback (most recent call last):
+  File "C:\Users\vaner\OneDrive\Desktop\Python\Progress Reports.py", line 209, in <module>
+    'c1_22': '' if pd.isna(row['c1_22']) else str(int(float(row['c1_22']))) if float(row['c1_22']).is_integer() else row['c1_22'],
+                                                                               ^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: '4 \u2716'
+
