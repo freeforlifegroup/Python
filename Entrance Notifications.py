@@ -108,6 +108,7 @@ for row in sheet.iter_rows(min_row=2):
         dob = datetime.strptime(dob_value, '%m/%d/%Y').strftime('%m/%d/%Y')
         po_first_name = row[16].value  # Column Q
         po_last_name = row[17].value  # Column R
+        case_manager_office = row[18].value # Column S
         gender = row[9].value # Column J
 
         if gender.lower() == 'male':
@@ -129,6 +130,7 @@ for row in sheet.iter_rows(min_row=2):
             'Date': datetime.now().strftime("%B %d, %Y"),
             'gender': gender_pronoun,
             'gender1' : gender1_pronoun,
+            'case_manager_office' : case_manager_office
         })  
         
 # Define the path to your .docx template file
@@ -142,14 +144,20 @@ for data in structured_data:
         sanitized_date = data['entrance_date'].replace('/', '.').replace(' ', '.').replace(',', '')
         # Split the name into first and last name
         first_name, last_name = data['Name'].split(maxsplit=1)
-        filename = f"{last_name}.{first_name}.EntranceNotification.{sanitized_date}.docx"
+        filename = f"{first_name}{last_name}.EntranceNotification.docx"
         
+        case_manager_office = data['case_manager_office']
+
+        office_dir = f"C:\\Users\\vaner\\OneDrive\\Free for Life\\F4L Documents\\Thinking for Change\\Entrance Notifications\\{case_manager_office}"
+        if not os.path.exists(office_dir):
+            os.makedirs(office_dir)
+
+
         # Get the parole officer's name
         po_first_name, po_last_name = data['Parole_Officer'].split(maxsplit=1)
         officer_name = f"{po_first_name} {po_last_name}"
 
-        # Create a directory named after the officer if it doesn't exist
-        officer_dir = f"C:\\Users\\vaner\\OneDrive\\Free for Life\\F4L Documents\\Thinking for Change\\Entrance Notifications\\{officer_name}"
+        officer_dir = f"{office_dir}\\{officer_name}"
         if not os.path.exists(officer_dir):
             os.makedirs(officer_dir)
 

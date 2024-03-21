@@ -132,6 +132,7 @@ for index, row in df.iterrows():
     
 # Prepare the context for the template with correct information
     context = {
+        'case_manager_office': row['case_manager_office'],
         'first_name': row['first_name'],
         'last_name': row['last_name'],
         'report_date': datetime.strptime(row['report_date'], '%Y-%m-%d').strftime('%m/%d/%Y'),
@@ -300,7 +301,7 @@ for index, row in df.iterrows():
     # Render and save the document with the updated context
     try:
         doc.render(context)
-        doc_filename = os.path.join(output_path, f"Progress_Report_{row['first_name']}_{row['last_name']}.docx")
+        doc_filename = os.path.join(output_path, f"{row['first_name']}{row['last_name']}.ProgressReport.docx")
         doc.save(doc_filename)
     except TemplateSyntaxError as e:
         print(f"Error rendering document for {row['first_name']} {row['last_name']}: {e}")
@@ -313,8 +314,11 @@ for index, row in df.iterrows():
 
     os.remove(doc_filename)
 
+    case_manager_office_folder = os.path.join(output_path, row['case_manager_office'])
+    os.makedirs(case_manager_office_folder, exist_ok=True)
+
     # Determine the parole officer's folder path
-    parole_officer_folder = os.path.join(output_path, row['parole_officer'])
+    parole_officer_folder = os.path.join(case_manager_office_folder, row['parole_officer'])
     os.makedirs(parole_officer_folder, exist_ok=True)
 
     # Move the PDF to the parole officer's folder

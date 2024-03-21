@@ -127,6 +127,7 @@ for row in sheet.iter_rows(min_row=2):
                     dob = datetime.strptime(row[7].value, '%m/%d/%Y').strftime('%m/%d/%Y')  # Column H
                     po_first_name = row[16].value  # Column Q
                     po_last_name = row[17].value  # Column R
+                    case_manager_office = row[18].value # Column S
                     attendance = row[22].value # Column W
                     missed = row[24].value # Column Y
                     gender = row[9].value  # Column J
@@ -149,6 +150,7 @@ for row in sheet.iter_rows(min_row=2):
                         'attendance': attendance,
                         'missed': missed,
                         'unexcused_date' : absence_date.strftime("%B %d, %Y"), # Add this line
+                        'case_manager_office' : case_manager_office
             })
 
 # Generate documents for each unexcused absence within the date range
@@ -159,14 +161,22 @@ for data in structured_data:
         sanitized_date = data['unexcused_date'].replace('/', '.').replace(' ', '.').replace(',', '')
         # Split the name into first and last name
         first_name, last_name = data['Name'].split(maxsplit=1)
-        filename = f"{last_name}.{first_name}.UnexcusedAbsence.{sanitized_date}.docx"
+        filename = f"{first_name}{last_name}.{sanitized_date}.UnexcusedAbsence.docx"
         
         # Get the parole officer's name
         po_first_name, po_last_name = data['Parole_Officer'].split(maxsplit=1)
         officer_name = f"{po_first_name} {po_last_name}"
 
+        # Get the case manager's office
+        case_manager_office = data['case_manager_office']
+
+        # Create a directory named after the office if it doesn't exist
+        office_dir = f"{absences_folder}\\{case_manager_office}"
+        if not os.path.exists(office_dir):
+            os.makedirs(office_dir)
+
         # Create a directory named after the officer if it doesn't exist
-        officer_dir = f"{absences_folder}\\{officer_name}"
+        officer_dir = f"{office_dir}\\{officer_name}"
         if not os.path.exists(officer_dir):
             os.makedirs(officer_dir)
 
