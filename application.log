@@ -24547,3 +24547,2105 @@ DataFrame after filtering:
 Error opening image for Kayla Baughman: name 'context' is not defined
 Error opening image for Fabian Andazola: name 'context' is not defined
 
+2024-03-20 14:58:26,071 - This is a test log message.
+2024-03-20 14:58:29,059 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv
+2024-03-20 14:58:30,184 - Selected start date: 03-20-2024
+2024-03-20 14:58:30,184 - Selected end date: 03-20-2024
+2024-03-20 14:58:30,184 - Attempting to convert date format for: 03-20-2024
+2024-03-20 14:58:30,185 - Converted date format to: 2024-03-20
+2024-03-20 14:58:30,185 - Attempting to convert date format for: 03-20-2024
+2024-03-20 14:58:30,185 - Converted date format to: 2024-03-20
+2024-03-20 14:58:30,185 - Displaying date range: March 20, 2024
+2024-03-20 14:58:33,456 - Subprocess output: Reading CSV file into DataFrame...
+Subset of 'report_date': 0    2024-03-20
+1    2024-03-20
+Name: report_date, dtype: object
+Date variable: 2024-03-20 00:00:00
+DataFrame info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2 entries, 0 to 1
+Columns: 213 entries, client_id to last_attended
+dtypes: float64(49), int64(99), object(65)
+memory usage: 3.5+ KB
+None
+Combining 'case_manager_first_name' and 'case_manager_last_name' columns...
+Unique dates in 'report_date' before filtering: ['2024-03-20']
+Filtering DataFrame based on the date...
+Unique dates in 'report_date' before filtering: ['2024-03-20']
+Unique dates in 'report_date': ['2024-03-20']
+Unique dates in 'report_date' after converting to string: ['2024-03-20']
+DataFrame after filtering:
+   client_id report_date  ... last_attended        parole_officer
+0         16  2024-03-20  ...     3/18/2024  Teric Dorsey-Hopkins
+1        111  2024-03-20  ...     3/14/2024            Amber Fort
+
+[2 rows x 214 columns]
+Error opening image for Kayla Baughman: name 'context' is not defined
+Error opening image for Fabian Andazola: name 'context' is not defined
+
+2024-03-20 15:02:23,482 - This is a test log message.
+2024-03-20 15:02:27,621 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv
+2024-03-20 15:02:28,203 - Selected start date: 03-20-2024
+2024-03-20 15:02:28,203 - Selected end date: 03-20-2024
+2024-03-20 15:02:28,203 - Attempting to convert date format for: 03-20-2024
+2024-03-20 15:02:28,205 - Converted date format to: 2024-03-20
+2024-03-20 15:02:28,205 - Attempting to convert date format for: 03-20-2024
+2024-03-20 15:02:28,205 - Converted date format to: 2024-03-20
+2024-03-20 15:02:28,205 - Displaying date range: March 20, 2024
+2024-03-20 15:02:48,496 - Subprocess output: Reading CSV file into DataFrame...
+Subset of 'report_date': 0    2024-03-20
+1    2024-03-20
+Name: report_date, dtype: object
+Date variable: 2024-03-20 00:00:00
+DataFrame info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2 entries, 0 to 1
+Columns: 213 entries, client_id to last_attended
+dtypes: float64(49), int64(99), object(65)
+memory usage: 3.5+ KB
+None
+Combining 'case_manager_first_name' and 'case_manager_last_name' columns...
+Unique dates in 'report_date' before filtering: ['2024-03-20']
+Filtering DataFrame based on the date...
+Unique dates in 'report_date' before filtering: ['2024-03-20']
+Unique dates in 'report_date': ['2024-03-20']
+Unique dates in 'report_date' after converting to string: ['2024-03-20']
+DataFrame after filtering:
+   client_id report_date  ... last_attended        parole_officer
+0         16  2024-03-20  ...     3/18/2024  Teric Dorsey-Hopkins
+1        111  2024-03-20  ...     3/14/2024            Amber Fort
+
+[2 rows x 214 columns]
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Progress Report for Kayla Baughman saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\Reports\Teric Dorsey-Hopkins\Progress_Report_Kayla_Baughman.pdf
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Progress Report for Fabian Andazola saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\Reports\Amber Fort\Progress_Report_Fabian_Andazola.pdf
+
+2024-03-20 16:39:50,470 - This is a test log message.
+2024-03-20 16:39:53,666 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv
+2024-03-20 16:40:01,290 - Selected start date: 08-10-2023
+2024-03-20 16:40:01,290 - Selected end date: 03-20-2024
+2024-03-20 16:40:01,290 - Attempting to convert date format for: 08-10-2023
+2024-03-20 16:40:01,290 - Converted date format to: 2023-08-10
+2024-03-20 16:40:01,290 - Attempting to convert date format for: 03-20-2024
+2024-03-20 16:40:01,290 - Converted date format to: 2024-03-20
+2024-03-20 16:40:01,290 - Displaying date range: August 10, 2023 to
+March 20, 2024
+2024-03-20 16:40:24,079 - Subprocess output: Start Date: 2023-08-10 00:00:00 End Date: 2024-03-20 00:00:00 CSV File Path: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv
+Identified headers: {'AO': {'Dec-23'}, 'CF': {'Jan-24'}, 'DW': {'Feb-24'}, 'FN': {'Mar-24'}}
+Detected absence in row 3, column DC, date: January 2024
+Detected absence in row 3, column DJ, date: January 2024
+Detected absence in row 3, column EB, date: February 2024
+Detected absence in row 3, column EF, date: February 2024
+Detected absence in row 3, column EI, date: February 2024
+Detected absence in row 3, column ET, date: February 2024
+Detected absence in row 3, column FW, date: March 2024
+Detected absence in row 3, column GD, date: March 2024
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.22.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.22.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.22.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.29.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.29.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.29.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.01.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.01.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.01.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.05.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.05.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.05.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.08.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.08.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.08.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.19.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.19.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.19.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.04.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.04.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.04.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.11.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.11.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.11.2024.docx
+
+2024-03-20 16:43:57,173 - Attempting to convert date format for: 08-10-2023
+2024-03-20 16:43:57,173 - Converted date format to: 2023-08-10
+2024-03-20 16:43:57,173 - Attempting to convert date format for: 03-20-2024
+2024-03-20 16:43:57,173 - Converted date format to: 2024-03-20
+2024-03-20 16:43:57,173 - Running Entrance Notifications.py with start date 2023-08-10 and end date 2024-03-20
+2024-03-20 16:44:11,421 - Subprocess output: Start Date: 2023-08-10 00:00:00 End Date: 2024-03-20 00:00:00 CSV File Path: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv
+Detected entrance in row 3, column AK, date: August 2023
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Amber Fort\Andazola.Fabian.EntranceNotification.August.10.2023.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Amber Fort\Andazola.Fabian.EntranceNotification.August.10.2023.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Amber Fort\Andazola.Fabian.EntranceNotification.August.10.2023.docx
+
+2024-03-20 16:45:13,441 - Selected start date: 03-20-2024
+2024-03-20 16:45:13,441 - Selected end date: 03-20-2024
+2024-03-20 16:45:13,441 - Attempting to convert date format for: 03-20-2024
+2024-03-20 16:45:13,441 - Converted date format to: 2024-03-20
+2024-03-20 16:45:13,444 - Attempting to convert date format for: 03-20-2024
+2024-03-20 16:45:13,444 - Converted date format to: 2024-03-20
+2024-03-20 16:45:13,444 - Displaying date range: March 20, 2024
+2024-03-20 16:45:47,233 - Subprocess output: Reading CSV file into DataFrame...
+Subset of 'report_date': 0    2024-03-20
+1    2024-03-20
+Name: report_date, dtype: object
+Date variable: 2024-03-20 00:00:00
+DataFrame info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2 entries, 0 to 1
+Columns: 213 entries, client_id to last_attended
+dtypes: float64(49), int64(99), object(65)
+memory usage: 3.5+ KB
+None
+Combining 'case_manager_first_name' and 'case_manager_last_name' columns...
+Unique dates in 'report_date' before filtering: ['2024-03-20']
+Filtering DataFrame based on the date...
+Unique dates in 'report_date' before filtering: ['2024-03-20']
+Unique dates in 'report_date': ['2024-03-20']
+Unique dates in 'report_date' after converting to string: ['2024-03-20']
+DataFrame after filtering:
+   client_id report_date  ... last_attended        parole_officer
+0         16  2024-03-20  ...     3/18/2024  Teric Dorsey-Hopkins
+1        111  2024-03-20  ...     3/14/2024            Amber Fort
+
+[2 rows x 214 columns]
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Progress Report for Kayla Baughman saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\Teric Dorsey-Hopkins\Progress_Report_Kayla_Baughman.pdf
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Progress Report for Fabian Andazola saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\Amber Fort\Progress_Report_Fabian_Andazola.pdf
+
+2024-03-20 16:56:43,840 - This is a test log message.
+2024-03-20 16:56:47,150 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv
+2024-03-20 16:56:49,959 - Selected start date: 03-20-2024
+2024-03-20 16:56:49,959 - Selected end date: 03-20-2024
+2024-03-20 16:56:49,960 - Attempting to convert date format for: 03-20-2024
+2024-03-20 16:56:49,960 - Converted date format to: 2024-03-20
+2024-03-20 16:56:49,960 - Attempting to convert date format for: 03-20-2024
+2024-03-20 16:56:49,960 - Converted date format to: 2024-03-20
+2024-03-20 16:56:49,960 - Displaying date range: March 20, 2024
+2024-03-20 16:57:04,905 - Subprocess failed with error: Command '['python', './Progress Reports.py', 'C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv', '2024-03-20']' returned non-zero exit status 1.
+2024-03-20 16:57:18,171 - Subprocess stdout: Reading CSV file into DataFrame...
+Subset of 'report_date': 0    2024-03-20
+1    2024-03-20
+Name: report_date, dtype: object
+Date variable: 2024-03-20 00:00:00
+DataFrame info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2 entries, 0 to 1
+Columns: 213 entries, client_id to last_attended
+dtypes: float64(49), int64(99), object(65)
+memory usage: 3.5+ KB
+None
+Combining 'case_manager_first_name' and 'case_manager_last_name' columns...
+Unique dates in 'report_date' before filtering: ['2024-03-20']
+Filtering DataFrame based on the date...
+Unique dates in 'report_date' before filtering: ['2024-03-20']
+Unique dates in 'report_date': ['2024-03-20']
+Unique dates in 'report_date' after converting to string: ['2024-03-20']
+DataFrame after filtering:
+   client_id report_date  ... last_attended        parole_officer
+0         16  2024-03-20  ...     3/18/2024  Teric Dorsey-Hopkins
+1        111  2024-03-20  ...     3/14/2024            Amber Fort
+
+[2 rows x 214 columns]
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+
+2024-03-20 16:57:18,172 - Subprocess stderr: Traceback (most recent call last):
+  File "C:\Users\vaner\OneDrive\Desktop\Python\Progress Reports.py", line 230, in <module>
+    os.rename(pdf_filename, final_pdf_path)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\Users\\vaner\\OneDrive\\Free for Life\\F4L Documents\\Thinking for Change\\Progress Reports\\Progress_Report_Kayla_Baughman.pdf' -> 'C:\\Users\\vaner\\OneDrive\\Free for Life\\F4L Documents\\Thinking for Change\\Progress Reports\\Teric Dorsey-Hopkins\\Progress_Report_Kayla_Baughman.pdf'
+
+2024-03-20 16:57:54,251 - This is a test log message.
+2024-03-20 16:58:18,550 - This is a test log message.
+2024-03-20 16:58:21,840 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv
+2024-03-20 16:58:22,950 - Selected start date: 03-20-2024
+2024-03-20 16:58:22,950 - Selected end date: 03-20-2024
+2024-03-20 16:58:22,950 - Attempting to convert date format for: 03-20-2024
+2024-03-20 16:58:22,952 - Converted date format to: 2024-03-20
+2024-03-20 16:58:22,952 - Attempting to convert date format for: 03-20-2024
+2024-03-20 16:58:22,952 - Converted date format to: 2024-03-20
+2024-03-20 16:58:22,952 - Displaying date range: March 20, 2024
+2024-03-20 16:58:49,800 - Subprocess output: Reading CSV file into DataFrame...
+Subset of 'report_date': 0    2024-03-20
+1    2024-03-20
+Name: report_date, dtype: object
+Date variable: 2024-03-20 00:00:00
+DataFrame info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2 entries, 0 to 1
+Columns: 213 entries, client_id to last_attended
+dtypes: float64(49), int64(99), object(65)
+memory usage: 3.5+ KB
+None
+Combining 'case_manager_first_name' and 'case_manager_last_name' columns...
+Unique dates in 'report_date' before filtering: ['2024-03-20']
+Filtering DataFrame based on the date...
+Unique dates in 'report_date' before filtering: ['2024-03-20']
+Unique dates in 'report_date': ['2024-03-20']
+Unique dates in 'report_date' after converting to string: ['2024-03-20']
+DataFrame after filtering:
+   client_id report_date  ... last_attended        parole_officer
+0         16  2024-03-20  ...     3/18/2024  Teric Dorsey-Hopkins
+1        111  2024-03-20  ...     3/14/2024            Amber Fort
+
+[2 rows x 214 columns]
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Progress Report for Kayla Baughman saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\Teric Dorsey-Hopkins\Progress_Report_Kayla_Baughman.pdf
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Progress Report for Fabian Andazola saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\Amber Fort\Progress_Report_Fabian_Andazola.pdf
+
+2024-03-20 17:07:06,364 - This is a test log message.
+2024-03-20 17:07:09,714 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv
+2024-03-20 17:07:10,801 - Selected start date: 03-20-2024
+2024-03-20 17:07:10,801 - Selected end date: 03-20-2024
+2024-03-20 17:07:10,801 - Attempting to convert date format for: 03-20-2024
+2024-03-20 17:07:10,801 - Converted date format to: 2024-03-20
+2024-03-20 17:07:10,801 - Attempting to convert date format for: 03-20-2024
+2024-03-20 17:07:10,804 - Converted date format to: 2024-03-20
+2024-03-20 17:07:10,804 - Displaying date range: March 20, 2024
+2024-03-20 17:07:36,897 - Subprocess output: Reading CSV file into DataFrame...
+Subset of 'report_date': 0    2024-03-20
+1    2024-03-20
+Name: report_date, dtype: object
+Date variable: 2024-03-20 00:00:00
+DataFrame info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2 entries, 0 to 1
+Columns: 213 entries, client_id to last_attended
+dtypes: float64(49), int64(99), object(65)
+memory usage: 3.5+ KB
+None
+Combining 'case_manager_first_name' and 'case_manager_last_name' columns...
+Unique dates in 'report_date' before filtering: ['2024-03-20']
+Filtering DataFrame based on the date...
+Unique dates in 'report_date' before filtering: ['2024-03-20']
+Unique dates in 'report_date': ['2024-03-20']
+Unique dates in 'report_date' after converting to string: ['2024-03-20']
+DataFrame after filtering:
+   client_id report_date  ... last_attended        parole_officer
+0         16  2024-03-20  ...     3/18/2024  Teric Dorsey-Hopkins
+1        111  2024-03-20  ...     3/14/2024            Amber Fort
+
+[2 rows x 214 columns]
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Progress Report for Kayla Baughman saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\Teric Dorsey-Hopkins\Progress_Report_Kayla_Baughman.pdf
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Progress Report for Fabian Andazola saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\Amber Fort\Progress_Report_Fabian_Andazola.pdf
+
+2024-03-20 17:09:21,154 - This is a test log message.
+2024-03-20 17:09:24,665 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv
+2024-03-20 17:09:25,256 - Selected start date: 03-20-2024
+2024-03-20 17:09:25,256 - Selected end date: 03-20-2024
+2024-03-20 17:09:25,256 - Attempting to convert date format for: 03-20-2024
+2024-03-20 17:09:25,256 - Converted date format to: 2024-03-20
+2024-03-20 17:09:25,256 - Attempting to convert date format for: 03-20-2024
+2024-03-20 17:09:25,256 - Converted date format to: 2024-03-20
+2024-03-20 17:09:25,256 - Displaying date range: March 20, 2024
+2024-03-20 17:09:52,577 - Subprocess output: Reading CSV file into DataFrame...
+Subset of 'report_date': 0    2024-03-20
+1    2024-03-20
+Name: report_date, dtype: object
+Date variable: 2024-03-20 00:00:00
+DataFrame info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2 entries, 0 to 1
+Columns: 213 entries, client_id to last_attended
+dtypes: float64(49), int64(99), object(65)
+memory usage: 3.5+ KB
+None
+Combining 'case_manager_first_name' and 'case_manager_last_name' columns...
+Unique dates in 'report_date' before filtering: ['2024-03-20']
+Filtering DataFrame based on the date...
+Unique dates in 'report_date' before filtering: ['2024-03-20']
+Unique dates in 'report_date': ['2024-03-20']
+Unique dates in 'report_date' after converting to string: ['2024-03-20']
+DataFrame after filtering:
+   client_id report_date  ... last_attended        parole_officer
+0         16  2024-03-20  ...     3/18/2024  Teric Dorsey-Hopkins
+1        111  2024-03-20  ...     3/14/2024            Amber Fort
+
+[2 rows x 214 columns]
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Progress Report for Kayla Baughman saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\Teric Dorsey-Hopkins\Progress_Report_Kayla_Baughman.pdf
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Progress Report for Fabian Andazola saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\Amber Fort\Progress_Report_Fabian_Andazola.pdf
+
+2024-03-20 17:14:34,482 - This is a test log message.
+2024-03-20 17:14:38,054 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv
+2024-03-20 17:14:38,953 - Selected start date: 03-20-2024
+2024-03-20 17:14:38,953 - Selected end date: 03-20-2024
+2024-03-20 17:14:38,953 - Attempting to convert date format for: 03-20-2024
+2024-03-20 17:14:38,953 - Converted date format to: 2024-03-20
+2024-03-20 17:14:38,953 - Attempting to convert date format for: 03-20-2024
+2024-03-20 17:14:38,953 - Converted date format to: 2024-03-20
+2024-03-20 17:14:38,953 - Displaying date range: March 20, 2024
+2024-03-20 17:15:06,409 - Subprocess output: Reading CSV file into DataFrame...
+Subset of 'report_date': 0    2024-03-20
+1    2024-03-20
+Name: report_date, dtype: object
+Date variable: 2024-03-20 00:00:00
+DataFrame info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2 entries, 0 to 1
+Columns: 213 entries, client_id to last_attended
+dtypes: float64(49), int64(99), object(65)
+memory usage: 3.5+ KB
+None
+Combining 'case_manager_first_name' and 'case_manager_last_name' columns...
+Unique dates in 'report_date' before filtering: ['2024-03-20']
+Filtering DataFrame based on the date...
+Unique dates in 'report_date' before filtering: ['2024-03-20']
+Unique dates in 'report_date': ['2024-03-20']
+Unique dates in 'report_date' after converting to string: ['2024-03-20']
+DataFrame after filtering:
+   client_id report_date  ... last_attended        parole_officer
+0         16  2024-03-20  ...     3/18/2024  Teric Dorsey-Hopkins
+1        111  2024-03-20  ...     3/14/2024            Amber Fort
+
+[2 rows x 214 columns]
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Progress Report for Kayla Baughman saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\Teric Dorsey-Hopkins\Progress_Report_Kayla_Baughman.pdf
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Progress Report for Fabian Andazola saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\Amber Fort\Progress_Report_Fabian_Andazola.pdf
+
+2024-03-20 17:17:55,031 - This is a test log message.
+2024-03-20 17:17:57,796 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv
+2024-03-20 17:17:59,001 - Selected start date: 03-20-2024
+2024-03-20 17:17:59,001 - Selected end date: 03-20-2024
+2024-03-20 17:17:59,001 - Attempting to convert date format for: 03-20-2024
+2024-03-20 17:17:59,002 - Converted date format to: 2024-03-20
+2024-03-20 17:17:59,002 - Attempting to convert date format for: 03-20-2024
+2024-03-20 17:17:59,002 - Converted date format to: 2024-03-20
+2024-03-20 17:17:59,002 - Displaying date range: March 20, 2024
+2024-03-20 17:18:27,855 - Subprocess output: Reading CSV file into DataFrame...
+Subset of 'report_date': 0    2024-03-20
+1    2024-03-20
+Name: report_date, dtype: object
+Date variable: 2024-03-20 00:00:00
+DataFrame info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2 entries, 0 to 1
+Columns: 213 entries, client_id to last_attended
+dtypes: float64(49), int64(99), object(65)
+memory usage: 3.5+ KB
+None
+Combining 'case_manager_first_name' and 'case_manager_last_name' columns...
+Unique dates in 'report_date' before filtering: ['2024-03-20']
+Filtering DataFrame based on the date...
+Unique dates in 'report_date' before filtering: ['2024-03-20']
+Unique dates in 'report_date': ['2024-03-20']
+Unique dates in 'report_date' after converting to string: ['2024-03-20']
+DataFrame after filtering:
+   client_id report_date  ... last_attended        parole_officer
+0         16  2024-03-20  ...     3/18/2024  Teric Dorsey-Hopkins
+1        111  2024-03-20  ...     3/14/2024            Amber Fort
+
+[2 rows x 214 columns]
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Progress Report for Kayla Baughman saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\Teric Dorsey-Hopkins\Progress_Report_Kayla_Baughman.pdf
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Progress Report for Fabian Andazola saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\Amber Fort\Progress_Report_Fabian_Andazola.pdf
+
+2024-03-20 17:26:42,849 - This is a test log message.
+2024-03-20 17:26:46,332 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv
+2024-03-20 17:26:46,933 - Selected start date: 03-20-2024
+2024-03-20 17:26:46,933 - Selected end date: 03-20-2024
+2024-03-20 17:26:46,933 - Attempting to convert date format for: 03-20-2024
+2024-03-20 17:26:46,933 - Converted date format to: 2024-03-20
+2024-03-20 17:26:46,933 - Attempting to convert date format for: 03-20-2024
+2024-03-20 17:26:46,933 - Converted date format to: 2024-03-20
+2024-03-20 17:26:46,933 - Displaying date range: March 20, 2024
+2024-03-20 17:26:49,445 - Subprocess failed with error: Command '['python', './Progress Reports.py', 'C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv', '2024-03-20']' returned non-zero exit status 1.
+2024-03-20 17:26:56,086 - Subprocess stdout: Reading CSV file into DataFrame...
+Subset of 'report_date': 0    2024-03-20
+1    2024-03-20
+Name: report_date, dtype: object
+Date variable: 2024-03-20 00:00:00
+DataFrame info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2 entries, 0 to 1
+Columns: 213 entries, client_id to last_attended
+dtypes: float64(49), int64(99), object(65)
+memory usage: 3.5+ KB
+None
+Combining 'case_manager_first_name' and 'case_manager_last_name' columns...
+Unique dates in 'report_date' before filtering: ['2024-03-20']
+Filtering DataFrame based on the date...
+Unique dates in 'report_date' before filtering: ['2024-03-20']
+Unique dates in 'report_date': ['2024-03-20']
+Unique dates in 'report_date' after converting to string: ['2024-03-20']
+DataFrame after filtering:
+   client_id report_date  ... last_attended        parole_officer
+0         16  2024-03-20  ...     3/18/2024  Teric Dorsey-Hopkins
+1        111  2024-03-20  ...     3/14/2024            Amber Fort
+
+[2 rows x 214 columns]
+Context around character 17499:
+
+
+2024-03-20 17:26:56,086 - Subprocess stderr: Traceback (most recent call last):
+  File "C:\Users\vaner\OneDrive\Desktop\Python\Progress Reports.py", line 183, in <module>
+    context['image_path'] = InlineImage(doc, image_path)
+                                        ^^^
+NameError: name 'doc' is not defined
+
+2024-03-20 17:28:23,632 - This is a test log message.
+2024-03-20 17:28:26,879 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv
+2024-03-20 17:28:27,824 - Selected start date: 03-20-2024
+2024-03-20 17:28:27,824 - Selected end date: 03-20-2024
+2024-03-20 17:28:27,824 - Attempting to convert date format for: 03-20-2024
+2024-03-20 17:28:27,826 - Converted date format to: 2024-03-20
+2024-03-20 17:28:27,826 - Attempting to convert date format for: 03-20-2024
+2024-03-20 17:28:27,826 - Converted date format to: 2024-03-20
+2024-03-20 17:28:27,827 - Displaying date range: March 20, 2024
+2024-03-20 17:28:41,243 - Subprocess failed with error: Command '['python', './Progress Reports.py', 'C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv', '2024-03-20']' returned non-zero exit status 1.
+2024-03-20 17:28:43,136 - Subprocess stdout: Reading CSV file into DataFrame...
+Subset of 'report_date': 0    2024-03-20
+1    2024-03-20
+Name: report_date, dtype: object
+Date variable: 2024-03-20 00:00:00
+DataFrame info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2 entries, 0 to 1
+Columns: 213 entries, client_id to last_attended
+dtypes: float64(49), int64(99), object(65)
+memory usage: 3.5+ KB
+None
+Combining 'case_manager_first_name' and 'case_manager_last_name' columns...
+Unique dates in 'report_date' before filtering: ['2024-03-20']
+Filtering DataFrame based on the date...
+Unique dates in 'report_date' before filtering: ['2024-03-20']
+Unique dates in 'report_date': ['2024-03-20']
+Unique dates in 'report_date' after converting to string: ['2024-03-20']
+DataFrame after filtering:
+   client_id report_date  ... last_attended        parole_officer
+0         16  2024-03-20  ...     3/18/2024  Teric Dorsey-Hopkins
+1        111  2024-03-20  ...     3/14/2024            Amber Fort
+
+[2 rows x 214 columns]
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+
+2024-03-20 17:28:43,138 - Subprocess stderr: Traceback (most recent call last):
+  File "C:\Users\vaner\OneDrive\Desktop\Python\Progress Reports.py", line 234, in <module>
+    os.rename(pdf_filename, final_pdf_path)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\Users\\vaner\\OneDrive\\Free for Life\\F4L Documents\\Thinking for Change\\Progress Reports\\Progress_Report_Kayla_Baughman.pdf' -> 'C:\\Users\\vaner\\OneDrive\\Free for Life\\F4L Documents\\Thinking for Change\\Progress Reports\\Teric Dorsey-Hopkins\\Progress_Report_Kayla_Baughman.pdf'
+
+2024-03-20 17:35:43,849 - This is a test log message.
+2024-03-20 17:35:46,865 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv
+2024-03-20 17:35:47,493 - Selected start date: 03-20-2024
+2024-03-20 17:35:47,493 - Selected end date: 03-20-2024
+2024-03-20 17:35:47,493 - Attempting to convert date format for: 03-20-2024
+2024-03-20 17:35:47,493 - Converted date format to: 2024-03-20
+2024-03-20 17:35:47,493 - Attempting to convert date format for: 03-20-2024
+2024-03-20 17:35:47,493 - Converted date format to: 2024-03-20
+2024-03-20 17:35:47,493 - Displaying date range: March 20, 2024
+2024-03-20 17:36:14,686 - Subprocess output: Reading CSV file into DataFrame...
+Subset of 'report_date': 0    2024-03-20
+1    2024-03-20
+Name: report_date, dtype: object
+Date variable: 2024-03-20 00:00:00
+DataFrame info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2 entries, 0 to 1
+Columns: 213 entries, client_id to last_attended
+dtypes: float64(49), int64(99), object(65)
+memory usage: 3.5+ KB
+None
+Combining 'case_manager_first_name' and 'case_manager_last_name' columns...
+Unique dates in 'report_date' before filtering: ['2024-03-20']
+Filtering DataFrame based on the date...
+Unique dates in 'report_date' before filtering: ['2024-03-20']
+Unique dates in 'report_date': ['2024-03-20']
+Unique dates in 'report_date' after converting to string: ['2024-03-20']
+DataFrame after filtering:
+   client_id report_date  ... last_attended        parole_officer
+0         16  2024-03-20  ...     3/18/2024  Teric Dorsey-Hopkins
+1        111  2024-03-20  ...     3/14/2024            Amber Fort
+
+[2 rows x 214 columns]
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Progress Report for Kayla Baughman saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\Teric Dorsey-Hopkins\Progress_Report_Kayla_Baughman.pdf
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Progress Report for Fabian Andazola saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\Amber Fort\Progress_Report_Fabian_Andazola.pdf
+
+2024-03-20 17:38:53,329 - This is a test log message.
+2024-03-20 17:38:56,277 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv
+2024-03-20 17:38:56,842 - Selected start date: 03-20-2024
+2024-03-20 17:38:56,842 - Selected end date: 03-20-2024
+2024-03-20 17:38:56,842 - Attempting to convert date format for: 03-20-2024
+2024-03-20 17:38:56,842 - Converted date format to: 2024-03-20
+2024-03-20 17:38:56,842 - Attempting to convert date format for: 03-20-2024
+2024-03-20 17:38:56,842 - Converted date format to: 2024-03-20
+2024-03-20 17:38:56,842 - Displaying date range: March 20, 2024
+2024-03-20 17:39:22,548 - Subprocess output: Reading CSV file into DataFrame...
+Subset of 'report_date': 0    2024-03-20
+1    2024-03-20
+Name: report_date, dtype: object
+Date variable: 2024-03-20 00:00:00
+DataFrame info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2 entries, 0 to 1
+Columns: 213 entries, client_id to last_attended
+dtypes: float64(49), int64(99), object(65)
+memory usage: 3.5+ KB
+None
+Combining 'case_manager_first_name' and 'case_manager_last_name' columns...
+Unique dates in 'report_date' before filtering: ['2024-03-20']
+Filtering DataFrame based on the date...
+Unique dates in 'report_date' before filtering: ['2024-03-20']
+Unique dates in 'report_date': ['2024-03-20']
+Unique dates in 'report_date' after converting to string: ['2024-03-20']
+DataFrame after filtering:
+   client_id report_date  ... last_attended        parole_officer
+0         16  2024-03-20  ...     3/18/2024  Teric Dorsey-Hopkins
+1        111  2024-03-20  ...     3/14/2024            Amber Fort
+
+[2 rows x 214 columns]
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Progress Report for Kayla Baughman saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\Teric Dorsey-Hopkins\Progress_Report_Kayla_Baughman.pdf
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Context around character 17499:
+
+Progress Report for Fabian Andazola saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\Amber Fort\Progress_Report_Fabian_Andazola.pdf
+
+2024-03-20 17:49:15,488 - This is a test log message.
+2024-03-20 17:49:19,297 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv
+2024-03-20 17:49:20,130 - Selected start date: 03-20-2024
+2024-03-20 17:49:20,130 - Selected end date: 03-20-2024
+2024-03-20 17:49:20,130 - Attempting to convert date format for: 03-20-2024
+2024-03-20 17:49:20,130 - Converted date format to: 2024-03-20
+2024-03-20 17:49:20,130 - Attempting to convert date format for: 03-20-2024
+2024-03-20 17:49:20,130 - Converted date format to: 2024-03-20
+2024-03-20 17:49:20,130 - Displaying date range: March 20, 2024
+2024-03-20 17:49:23,393 - Subprocess failed with error: Command '['python', './Progress Reports.py', 'C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv', '2024-03-20']' returned non-zero exit status 1.
+2024-03-20 17:49:28,646 - Subprocess stdout: Reading CSV file into DataFrame...
+Subset of 'report_date': 0    2024-03-20
+1    2024-03-20
+Name: report_date, dtype: object
+Date variable: 2024-03-20 00:00:00
+DataFrame info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2 entries, 0 to 1
+Columns: 213 entries, client_id to last_attended
+dtypes: float64(49), int64(99), object(65)
+memory usage: 3.5+ KB
+None
+Combining 'case_manager_first_name' and 'case_manager_last_name' columns...
+Unique dates in 'report_date' before filtering: ['2024-03-20']
+Filtering DataFrame based on the date...
+Unique dates in 'report_date' before filtering: ['2024-03-20']
+Unique dates in 'report_date': ['2024-03-20']
+Unique dates in 'report_date' after converting to string: ['2024-03-20']
+DataFrame after filtering:
+   client_id report_date  ... last_attended        parole_officer
+0         16  2024-03-20  ...     3/18/2024  Teric Dorsey-Hopkins
+1        111  2024-03-20  ...     3/14/2024            Amber Fort
+
+[2 rows x 214 columns]
+Context around character 17499:
+
+
+2024-03-20 17:49:28,646 - Subprocess stderr: Traceback (most recent call last):
+  File "C:\Users\vaner\OneDrive\Desktop\Python\Progress Reports.py", line 197, in <module>
+    context['image_path'] = InlineImage(doc, image_path)
+                                        ^^^
+NameError: name 'doc' is not defined
+
+2024-03-20 17:50:47,732 - This is a test log message.
+2024-03-20 17:50:51,478 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv
+2024-03-20 17:50:52,880 - Selected start date: 03-20-2024
+2024-03-20 17:50:52,880 - Selected end date: 03-20-2024
+2024-03-20 17:50:52,880 - Attempting to convert date format for: 03-20-2024
+2024-03-20 17:50:52,882 - Converted date format to: 2024-03-20
+2024-03-20 17:50:52,883 - Attempting to convert date format for: 03-20-2024
+2024-03-20 17:50:52,883 - Converted date format to: 2024-03-20
+2024-03-20 17:50:52,883 - Displaying date range: March 20, 2024
+2024-03-20 17:50:56,897 - Subprocess failed with error: Command '['python', './Progress Reports.py', 'C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv', '2024-03-20']' returned non-zero exit status 1.
+2024-03-20 17:50:58,478 - Subprocess stdout: Reading CSV file into DataFrame...
+Subset of 'report_date': 0    2024-03-20
+1    2024-03-20
+Name: report_date, dtype: object
+Date variable: 2024-03-20 00:00:00
+DataFrame info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2 entries, 0 to 1
+Columns: 213 entries, client_id to last_attended
+dtypes: float64(49), int64(99), object(65)
+memory usage: 3.5+ KB
+None
+Combining 'case_manager_first_name' and 'case_manager_last_name' columns...
+Unique dates in 'report_date' before filtering: ['2024-03-20']
+Filtering DataFrame based on the date...
+Unique dates in 'report_date' before filtering: ['2024-03-20']
+Unique dates in 'report_date': ['2024-03-20']
+Unique dates in 'report_date' after converting to string: ['2024-03-20']
+DataFrame after filtering:
+   client_id report_date  ... last_attended        parole_officer
+0         16  2024-03-20  ...     3/18/2024  Teric Dorsey-Hopkins
+1        111  2024-03-20  ...     3/14/2024            Amber Fort
+
+[2 rows x 214 columns]
+Context around character 17499:
+
+
+2024-03-20 17:50:58,480 - Subprocess stderr: Traceback (most recent call last):
+  File "C:\Users\vaner\OneDrive\Desktop\Python\Progress Reports.py", line 226, in <module>
+    if os.path.isfile(context['image_path']):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: isfile: path should be string, bytes, os.PathLike or integer, not InlineImage
+
+2024-03-20 18:32:21,379 - This is a test log message.
+2024-03-20 18:32:24,532 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv
+2024-03-20 18:32:25,256 - Selected start date: 03-20-2024
+2024-03-20 18:32:25,256 - Selected end date: 03-20-2024
+2024-03-20 18:32:25,256 - Attempting to convert date format for: 03-20-2024
+2024-03-20 18:32:25,258 - Converted date format to: 2024-03-20
+2024-03-20 18:32:25,258 - Attempting to convert date format for: 03-20-2024
+2024-03-20 18:32:25,258 - Converted date format to: 2024-03-20
+2024-03-20 18:32:25,258 - Displaying date range: March 20, 2024
+2024-03-20 18:32:28,593 - Subprocess failed with error: Command '['python', './Progress Reports.py', 'C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv', '2024-03-20']' returned non-zero exit status 1.
+2024-03-20 18:32:30,979 - Subprocess stdout: Reading CSV file into DataFrame...
+Subset of 'report_date': 0    2024-03-20
+1    2024-03-20
+Name: report_date, dtype: object
+Date variable: 2024-03-20 00:00:00
+DataFrame info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2 entries, 0 to 1
+Columns: 213 entries, client_id to last_attended
+dtypes: float64(49), int64(99), object(65)
+memory usage: 3.5+ KB
+None
+Combining 'case_manager_first_name' and 'case_manager_last_name' columns...
+Unique dates in 'report_date' before filtering: ['2024-03-20']
+Filtering DataFrame based on the date...
+Unique dates in 'report_date' before filtering: ['2024-03-20']
+Unique dates in 'report_date': ['2024-03-20']
+Unique dates in 'report_date' after converting to string: ['2024-03-20']
+DataFrame after filtering:
+   client_id report_date  ... last_attended        parole_officer
+0         16  2024-03-20  ...     3/18/2024  Teric Dorsey-Hopkins
+1        111  2024-03-20  ...     3/14/2024            Amber Fort
+
+[2 rows x 214 columns]
+Context around character 17499:
+
+Image file exists: ./Temporary Images\Kayla_Baughman_temp.jpg
+Error adding image to Word document: 'Document' object has no attribute 'render'
+
+2024-03-20 18:32:30,987 - Subprocess stderr: Traceback (most recent call last):
+  File "C:\Users\vaner\OneDrive\Desktop\Python\Progress Reports.py", line 187, in <module>
+    for key, value in context.items():
+RuntimeError: dictionary changed size during iteration
+
+2024-03-20 18:33:16,360 - This is a test log message.
+2024-03-20 18:33:19,329 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv
+2024-03-20 18:33:20,107 - Selected start date: 03-20-2024
+2024-03-20 18:33:20,107 - Selected end date: 03-20-2024
+2024-03-20 18:33:20,107 - Attempting to convert date format for: 03-20-2024
+2024-03-20 18:33:20,110 - Converted date format to: 2024-03-20
+2024-03-20 18:33:20,110 - Attempting to convert date format for: 03-20-2024
+2024-03-20 18:33:20,110 - Converted date format to: 2024-03-20
+2024-03-20 18:33:20,110 - Displaying date range: March 20, 2024
+2024-03-20 18:33:47,274 - Subprocess output: Reading CSV file into DataFrame...
+Subset of 'report_date': 0    2024-03-20
+1    2024-03-20
+Name: report_date, dtype: object
+Date variable: 2024-03-20 00:00:00
+DataFrame info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2 entries, 0 to 1
+Columns: 213 entries, client_id to last_attended
+dtypes: float64(49), int64(99), object(65)
+memory usage: 3.5+ KB
+None
+Combining 'case_manager_first_name' and 'case_manager_last_name' columns...
+Unique dates in 'report_date' before filtering: ['2024-03-20']
+Filtering DataFrame based on the date...
+Unique dates in 'report_date' before filtering: ['2024-03-20']
+Unique dates in 'report_date': ['2024-03-20']
+Unique dates in 'report_date' after converting to string: ['2024-03-20']
+DataFrame after filtering:
+   client_id report_date  ... last_attended        parole_officer
+0         16  2024-03-20  ...     3/18/2024  Teric Dorsey-Hopkins
+1        111  2024-03-20  ...     3/14/2024            Amber Fort
+
+[2 rows x 214 columns]
+Context around character 17499:
+
+Image file exists: ./Temporary Images\Kayla_Baughman_temp.jpg
+Error adding image to Word document: 'Document' object has no attribute 'render'
+Context around character 17499:
+
+Image file exists: ./Temporary Images\Kayla_Baughman_temp.jpg
+Error adding image to Word document: 'Document' object has no attribute 'render'
+Context around character 17499:
+
+Image file exists: ./Temporary Images\Kayla_Baughman_temp.jpg
+Error adding image to Word document: 'Document' object has no attribute 'render'
+Context around character 17499:
+
+Image file exists: ./Temporary Images\Kayla_Baughman_temp.jpg
+Error adding image to Word document: 'Document' object has no attribute 'render'
+Context around character 17499:
+
+Image file exists: ./Temporary Images\Kayla_Baughman_temp.jpg
+Error adding image to Word document: 'Document' object has no attribute 'render'
+Context around character 17499:
+
+Image file exists: ./Temporary Images\Kayla_Baughman_temp.jpg
+Error adding image to Word document: 'Document' object has no attribute 'render'
+Context around character 17499:
+
+Image file exists: ./Temporary Images\Kayla_Baughman_temp.jpg
+Error adding image to Word document: 'Document' object has no attribute 'render'
+Context around character 17499:
+
+Image file exists: ./Temporary Images\Kayla_Baughman_temp.jpg
+Error adding image to Word document: 'Document' object has no attribute 'render'
+Context around character 17499:
+
+Image file exists: ./Temporary Images\Kayla_Baughman_temp.jpg
+Error adding image to Word document: 'Document' object has no attribute 'render'
+Context around character 17499:
+
+Image file exists: ./Temporary Images\Kayla_Baughman_temp.jpg
+Error adding image to Word document: 'Document' object has no attribute 'render'
+Context around character 17499:
+
+Image file exists: ./Temporary Images\Kayla_Baughman_temp.jpg
+Error adding image to Word document: 'Document' object has no attribute 'render'
+Context around character 17499:
+
+Image file exists: ./Temporary Images\Kayla_Baughman_temp.jpg
+Error adding image to Word document: 'Document' object has no attribute 'render'
+Context around character 17499:
+
+Image file exists: ./Temporary Images\Kayla_Baughman_temp.jpg
+Error adding image to Word document: 'Document' object has no attribute 'render'
+Context around character 17499:
+
+Image file exists: ./Temporary Images\Kayla_Baughman_temp.jpg
+Error adding image to Word document: 'Document' object has no attribute 'render'
+Context around character 17499:
+
+Image file exists: ./Temporary Images\Kayla_Baughman_temp.jpg
+Error adding image to Word document: 'Document' object has no attribute 'render'
+Context around character 17499:
+
+Image file exists: ./Temporary Images\Kayla_Baughman_temp.jpg
+Error adding image to Word document: 'Document' object has no attribute 'render'
+Context around character 17499:
+
+Image file exists: ./Temporary Images\Kayla_Baughman_temp.jpg
+Error adding image to Word document: 'Document' object has no attribute 'render'
+Context around character 17499:
+
+Image file exists: ./Temporary Images\Kayla_Baughman_temp.jpg
+Error adding image to Word document: 'Document' object has no attribute 'render'
+Context around character 17499:
+
+Image file exists: ./Temporary Images\Kayla_Baughman_temp.jpg
+Error adding image to Word document: 'Document' object has no attribute 'render'
+Context around character 17499:
+
+Image file exists: ./Temporary Images\Kayla_Baughman_temp.jpg
+Error adding image to Word document: 'Document' object has no attribute 'render'
+Context around character 17499:
+
+Image file exists: ./Temporary Images\Kayla_Baughman_temp.jpg
+Error adding image to Word document: 'Document' object has no attribute 'render'
+Progress Report for Kayla Baughman saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\Teric Dorsey-Hopkins\Progress_Report_Kayla_Baughman.pdf
+Context around character 17499:
+
+Image file exists: ./Temporary Images\Fabian_Andazola_temp.jpg
+Error adding image to Word document: 'Document' object has no attribute 'render'
+Context around character 17499:
+
+Image file exists: ./Temporary Images\Fabian_Andazola_temp.jpg
+Error adding image to Word document: 'Document' object has no attribute 'render'
+Context around character 17499:
+
+Image file exists: ./Temporary Images\Fabian_Andazola_temp.jpg
+Error adding image to Word document: 'Document' object has no attribute 'render'
+Context around character 17499:
+
+Image file exists: ./Temporary Images\Fabian_Andazola_temp.jpg
+Error adding image to Word document: 'Document' object has no attribute 'render'
+Context around character 17499:
+
+Image file exists: ./Temporary Images\Fabian_Andazola_temp.jpg
+Error adding image to Word document: 'Document' object has no attribute 'render'
+Context around character 17499:
+
+Image file exists: ./Temporary Images\Fabian_Andazola_temp.jpg
+Error adding image to Word document: 'Document' object has no attribute 'render'
+Context around character 17499:
+
+Image file exists: ./Temporary Images\Fabian_Andazola_temp.jpg
+Error adding image to Word document: 'Document' object has no attribute 'render'
+Context around character 17499:
+
+Image file exists: ./Temporary Images\Fabian_Andazola_temp.jpg
+Error adding image to Word document: 'Document' object has no attribute 'render'
+Context around character 17499:
+
+Image file exists: ./Temporary Images\Fabian_Andazola_temp.jpg
+Error adding image to Word document: 'Document' object has no attribute 'render'
+Context around character 17499:
+
+Image file exists: ./Temporary Images\Fabian_Andazola_temp.jpg
+Error adding image to Word document: 'Document' object has no attribute 'render'
+Context around character 17499:
+
+Image file exists: ./Temporary Images\Fabian_Andazola_temp.jpg
+Error adding image to Word document: 'Document' object has no attribute 'render'
+Context around character 17499:
+
+Image file exists: ./Temporary Images\Fabian_Andazola_temp.jpg
+Error adding image to Word document: 'Document' object has no attribute 'render'
+Context around character 17499:
+
+Image file exists: ./Temporary Images\Fabian_Andazola_temp.jpg
+Error adding image to Word document: 'Document' object has no attribute 'render'
+Context around character 17499:
+
+Image file exists: ./Temporary Images\Fabian_Andazola_temp.jpg
+Error adding image to Word document: 'Document' object has no attribute 'render'
+Context around character 17499:
+
+Image file exists: ./Temporary Images\Fabian_Andazola_temp.jpg
+Error adding image to Word document: 'Document' object has no attribute 'render'
+Context around character 17499:
+
+Image file exists: ./Temporary Images\Fabian_Andazola_temp.jpg
+Error adding image to Word document: 'Document' object has no attribute 'render'
+Context around character 17499:
+
+Image file exists: ./Temporary Images\Fabian_Andazola_temp.jpg
+Error adding image to Word document: 'Document' object has no attribute 'render'
+Context around character 17499:
+
+Image file exists: ./Temporary Images\Fabian_Andazola_temp.jpg
+Error adding image to Word document: 'Document' object has no attribute 'render'
+Context around character 17499:
+
+Image file exists: ./Temporary Images\Fabian_Andazola_temp.jpg
+Error adding image to Word document: 'Document' object has no attribute 'render'
+Context around character 17499:
+
+Image file exists: ./Temporary Images\Fabian_Andazola_temp.jpg
+Error adding image to Word document: 'Document' object has no attribute 'render'
+Context around character 17499:
+
+Image file exists: ./Temporary Images\Fabian_Andazola_temp.jpg
+Error adding image to Word document: 'Document' object has no attribute 'render'
+Progress Report for Fabian Andazola saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\Amber Fort\Progress_Report_Fabian_Andazola.pdf
+
+2024-03-20 18:34:26,811 - Selected start date: 03-20-2024
+2024-03-20 18:34:26,811 - Selected end date: 03-20-2024
+2024-03-20 18:34:26,812 - Attempting to convert date format for: 03-20-2024
+2024-03-20 18:34:26,812 - Converted date format to: 2024-03-20
+2024-03-20 18:34:26,812 - Attempting to convert date format for: 03-20-2024
+2024-03-20 18:34:26,812 - Converted date format to: 2024-03-20
+2024-03-20 18:34:26,812 - Displaying date range: March 20, 2024
+2024-03-20 18:58:58,678 - This is a test log message.
+2024-03-20 18:59:01,723 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv
+2024-03-20 18:59:02,271 - Selected start date: 03-20-2024
+2024-03-20 18:59:02,271 - Selected end date: 03-20-2024
+2024-03-20 18:59:02,271 - Attempting to convert date format for: 03-20-2024
+2024-03-20 18:59:02,272 - Converted date format to: 2024-03-20
+2024-03-20 18:59:02,273 - Attempting to convert date format for: 03-20-2024
+2024-03-20 18:59:02,273 - Converted date format to: 2024-03-20
+2024-03-20 18:59:02,273 - Displaying date range: March 20, 2024
+2024-03-20 18:59:13,148 - Subprocess output: Reading CSV file into DataFrame...
+Subset of 'report_date': 0    2024-03-20
+1    2024-03-20
+Name: report_date, dtype: object
+Date variable: 2024-03-20 00:00:00
+DataFrame info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2 entries, 0 to 1
+Columns: 213 entries, client_id to last_attended
+dtypes: float64(49), int64(99), object(65)
+memory usage: 3.5+ KB
+None
+Combining 'case_manager_first_name' and 'case_manager_last_name' columns...
+Unique dates in 'report_date' before filtering: ['2024-03-20']
+Filtering DataFrame based on the date...
+Unique dates in 'report_date' before filtering: ['2024-03-20']
+Unique dates in 'report_date': ['2024-03-20']
+Unique dates in 'report_date' after converting to string: ['2024-03-20']
+DataFrame after filtering:
+   client_id report_date  ... last_attended        parole_officer
+0         16  2024-03-20  ...     3/18/2024  Teric Dorsey-Hopkins
+1        111  2024-03-20  ...     3/14/2024            Amber Fort
+
+[2 rows x 214 columns]
+Progress Report for Kayla Baughman saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\Teric Dorsey-Hopkins\Progress_Report_Kayla_Baughman.pdf
+Progress Report for Fabian Andazola saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\Amber Fort\Progress_Report_Fabian_Andazola.pdf
+
+2024-03-20 19:12:42,192 - This is a test log message.
+2024-03-20 19:12:46,284 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv
+2024-03-20 19:12:47,019 - Selected start date: 03-20-2024
+2024-03-20 19:12:47,019 - Selected end date: 03-20-2024
+2024-03-20 19:12:47,019 - Attempting to convert date format for: 03-20-2024
+2024-03-20 19:12:47,019 - Converted date format to: 2024-03-20
+2024-03-20 19:12:47,019 - Attempting to convert date format for: 03-20-2024
+2024-03-20 19:12:47,019 - Converted date format to: 2024-03-20
+2024-03-20 19:12:47,023 - Displaying date range: March 20, 2024
+2024-03-20 19:12:57,245 - Subprocess output: Reading CSV file into DataFrame...
+Subset of 'report_date': 0    2024-03-20
+1    2024-03-20
+Name: report_date, dtype: object
+Date variable: 2024-03-20 00:00:00
+DataFrame info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2 entries, 0 to 1
+Columns: 213 entries, client_id to last_attended
+dtypes: float64(49), int64(99), object(65)
+memory usage: 3.5+ KB
+None
+Combining 'case_manager_first_name' and 'case_manager_last_name' columns...
+Unique dates in 'report_date' before filtering: ['2024-03-20']
+Filtering DataFrame based on the date...
+Unique dates in 'report_date' before filtering: ['2024-03-20']
+Unique dates in 'report_date': ['2024-03-20']
+Unique dates in 'report_date' after converting to string: ['2024-03-20']
+DataFrame after filtering:
+   client_id report_date  ... last_attended        parole_officer
+0         16  2024-03-20  ...     3/18/2024  Teric Dorsey-Hopkins
+1        111  2024-03-20  ...     3/14/2024            Amber Fort
+
+[2 rows x 214 columns]
+Progress Report for Kayla Baughman saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\Teric Dorsey-Hopkins\Progress_Report_Kayla_Baughman.pdf
+Progress Report for Fabian Andazola saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\Amber Fort\Progress_Report_Fabian_Andazola.pdf
+
+2024-03-20 19:37:54,773 - This is a test log message.
+2024-03-20 19:37:57,619 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv
+2024-03-20 19:37:58,541 - Selected start date: 03-20-2024
+2024-03-20 19:37:58,541 - Selected end date: 03-20-2024
+2024-03-20 19:37:58,541 - Attempting to convert date format for: 03-20-2024
+2024-03-20 19:37:58,541 - Converted date format to: 2024-03-20
+2024-03-20 19:37:58,541 - Attempting to convert date format for: 03-20-2024
+2024-03-20 19:37:58,541 - Converted date format to: 2024-03-20
+2024-03-20 19:37:58,541 - Displaying date range: March 20, 2024
+2024-03-20 19:38:11,829 - Subprocess output: Reading CSV file into DataFrame...
+Subset of 'report_date': 0    2024-03-20
+1    2024-03-20
+Name: report_date, dtype: object
+Date variable: 2024-03-20 00:00:00
+DataFrame info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2 entries, 0 to 1
+Columns: 213 entries, client_id to last_attended
+dtypes: float64(49), int64(99), object(65)
+memory usage: 3.5+ KB
+None
+Combining 'case_manager_first_name' and 'case_manager_last_name' columns...
+Unique dates in 'report_date' before filtering: ['2024-03-20']
+Filtering DataFrame based on the date...
+Unique dates in 'report_date' before filtering: ['2024-03-20']
+Unique dates in 'report_date': ['2024-03-20']
+Unique dates in 'report_date' after converting to string: ['2024-03-20']
+DataFrame after filtering:
+   client_id report_date  ... last_attended        parole_officer
+0         16  2024-03-20  ...     3/18/2024  Teric Dorsey-Hopkins
+1        111  2024-03-20  ...     3/14/2024            Amber Fort
+
+[2 rows x 214 columns]
+Progress Report for Kayla Baughman saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\Teric Dorsey-Hopkins\Progress_Report_Kayla_Baughman.pdf
+Progress Report for Fabian Andazola saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\Amber Fort\Progress_Report_Fabian_Andazola.pdf
+
+2024-03-20 19:49:42,759 - This is a test log message.
+2024-03-20 19:49:45,963 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv
+2024-03-20 19:49:46,784 - Selected start date: 03-20-2024
+2024-03-20 19:49:46,784 - Selected end date: 03-20-2024
+2024-03-20 19:49:46,784 - Attempting to convert date format for: 03-20-2024
+2024-03-20 19:49:46,784 - Converted date format to: 2024-03-20
+2024-03-20 19:49:46,784 - Attempting to convert date format for: 03-20-2024
+2024-03-20 19:49:46,784 - Converted date format to: 2024-03-20
+2024-03-20 19:49:46,784 - Displaying date range: March 20, 2024
+2024-03-20 19:50:00,629 - Subprocess output: Reading CSV file into DataFrame...
+Subset of 'report_date': 0    2024-03-20
+1    2024-03-20
+Name: report_date, dtype: object
+Date variable: 2024-03-20 00:00:00
+DataFrame info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2 entries, 0 to 1
+Columns: 213 entries, client_id to last_attended
+dtypes: float64(49), int64(99), object(65)
+memory usage: 3.5+ KB
+None
+Combining 'case_manager_first_name' and 'case_manager_last_name' columns...
+Unique dates in 'report_date' before filtering: ['2024-03-20']
+Filtering DataFrame based on the date...
+Unique dates in 'report_date' before filtering: ['2024-03-20']
+Unique dates in 'report_date': ['2024-03-20']
+Unique dates in 'report_date' after converting to string: ['2024-03-20']
+DataFrame after filtering:
+   client_id report_date  ... last_attended        parole_officer
+0         16  2024-03-20  ...     3/18/2024  Teric Dorsey-Hopkins
+1        111  2024-03-20  ...     3/14/2024            Amber Fort
+
+[2 rows x 214 columns]
+Progress Report for Kayla Baughman saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\Teric Dorsey-Hopkins\Progress_Report_Kayla_Baughman.pdf
+Progress Report for Fabian Andazola saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\Amber Fort\Progress_Report_Fabian_Andazola.pdf
+
+2024-03-20 19:58:46,605 - This is a test log message.
+2024-03-20 19:58:50,343 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv
+2024-03-20 19:59:09,309 - Selected start date: 05-22-2023
+2024-03-20 19:59:09,309 - Selected end date: 03-20-2024
+2024-03-20 19:59:09,309 - Attempting to convert date format for: 05-22-2023
+2024-03-20 19:59:09,309 - Converted date format to: 2023-05-22
+2024-03-20 19:59:09,309 - Attempting to convert date format for: 03-20-2024
+2024-03-20 19:59:09,309 - Converted date format to: 2024-03-20
+2024-03-20 19:59:09,309 - Displaying date range: May 22, 2023 to
+March 20, 2024
+2024-03-20 19:59:18,560 - Attempting to convert date format for: 05-22-2023
+2024-03-20 19:59:18,560 - Converted date format to: 2023-05-22
+2024-03-20 19:59:18,560 - Attempting to convert date format for: 03-20-2024
+2024-03-20 19:59:18,561 - Converted date format to: 2024-03-20
+2024-03-20 19:59:18,561 - Running Entrance Notifications.py with start date 2023-05-22 and end date 2024-03-20
+2024-03-20 19:59:47,661 - Subprocess output: Start Date: 2023-05-22 00:00:00 End Date: 2024-03-20 00:00:00 CSV File Path: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv
+Detected entrance in row 2, column AK, date: May 2023
+Detected entrance in row 3, column AK, date: August 2023
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Teric Dorsey-Hopkins\Baughman.Kayla.EntranceNotification.May.22.2023.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Teric Dorsey-Hopkins\Baughman.Kayla.EntranceNotification.May.22.2023.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Teric Dorsey-Hopkins\Baughman.Kayla.EntranceNotification.May.22.2023.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Amber Fort\Andazola.Fabian.EntranceNotification.August.10.2023.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Amber Fort\Andazola.Fabian.EntranceNotification.August.10.2023.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Entrance Notifications\Amber Fort\Andazola.Fabian.EntranceNotification.August.10.2023.docx
+
+2024-03-20 20:00:52,624 - Subprocess output: Start Date: 2023-05-22 00:00:00 End Date: 2024-03-20 00:00:00 CSV File Path: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv
+Identified headers: {'AO': {'Dec-23'}, 'CF': {'Jan-24'}, 'DW': {'Feb-24'}, 'FN': {'Mar-24'}}
+Detected absence in row 3, column DC, date: January 2024
+Detected absence in row 3, column DJ, date: January 2024
+Detected absence in row 3, column EB, date: February 2024
+Detected absence in row 3, column EF, date: February 2024
+Detected absence in row 3, column EI, date: February 2024
+Detected absence in row 3, column ET, date: February 2024
+Detected absence in row 3, column FW, date: March 2024
+Detected absence in row 3, column GD, date: March 2024
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.22.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.22.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.22.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.29.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.29.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.January.29.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.01.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.01.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.01.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.05.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.05.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.05.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.08.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.08.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.08.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.19.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.19.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.February.19.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.04.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.04.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.04.2024.docx
+Document saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.11.2024.docx
+PDF saved: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.11.2024.pdf
+Word document deleted: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Unexcused Absences\Amber Fort\Andazola.Fabian.UnexcusedAbsence.March.11.2024.docx
+
+2024-03-20 20:01:27,803 - Selected start date: 03-20-2024
+2024-03-20 20:01:27,803 - Selected end date: 03-20-2024
+2024-03-20 20:01:27,803 - Attempting to convert date format for: 03-20-2024
+2024-03-20 20:01:27,803 - Converted date format to: 2024-03-20
+2024-03-20 20:01:27,803 - Attempting to convert date format for: 03-20-2024
+2024-03-20 20:01:27,803 - Converted date format to: 2024-03-20
+2024-03-20 20:01:27,803 - Displaying date range: March 20, 2024
+2024-03-20 20:01:29,940 - Subprocess failed with error: Command '['python', './Progress Reports.py', 'C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv', '2024-03-20']' returned non-zero exit status 1.
+2024-03-20 20:01:32,431 - Subprocess stderr: Traceback (most recent call last):
+  File "C:\Users\vaner\OneDrive\Desktop\Python\Progress Reports.py", line 55, in <module>
+    clear_directory(temp_images_path)
+  File "C:\Users\vaner\OneDrive\Desktop\Python\Progress Reports.py", line 29, in clear_directory
+    for filename in os.listdir(dir_path):
+                    ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\vaner\\OneDrive\\Free for Life\\F4L Documents\\Thinking for Change\\Progress Reports\\Temporary Images'
+
+2024-03-20 20:03:35,764 - This is a test log message.
+2024-03-20 20:03:38,852 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv
+2024-03-20 20:03:39,632 - Selected start date: 03-20-2024
+2024-03-20 20:03:39,632 - Selected end date: 03-20-2024
+2024-03-20 20:03:39,632 - Attempting to convert date format for: 03-20-2024
+2024-03-20 20:03:39,632 - Converted date format to: 2024-03-20
+2024-03-20 20:03:39,632 - Attempting to convert date format for: 03-20-2024
+2024-03-20 20:03:39,632 - Converted date format to: 2024-03-20
+2024-03-20 20:03:39,632 - Displaying date range: March 20, 2024
+2024-03-20 20:03:41,750 - Subprocess failed with error: Command '['python', './Progress Reports.py', 'C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv', '2024-03-20']' returned non-zero exit status 1.
+2024-03-20 20:03:44,628 - Subprocess stderr: Traceback (most recent call last):
+  File "C:\Users\vaner\OneDrive\Desktop\Python\Progress Reports.py", line 55, in <module>
+    clear_directory(temp_images_path)
+  File "C:\Users\vaner\OneDrive\Desktop\Python\Progress Reports.py", line 29, in clear_directory
+    for filename in os.listdir(dir_path):
+                    ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\vaner\\OneDrive\\Free for Life\\F4L Documents\\Thinking for Change\\Progress Reports\\Temporary Images'
+
+2024-03-20 20:07:26,011 - This is a test log message.
+2024-03-20 20:07:28,802 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv
+2024-03-20 20:07:29,427 - Selected start date: 03-20-2024
+2024-03-20 20:07:29,427 - Selected end date: 03-20-2024
+2024-03-20 20:07:29,427 - Attempting to convert date format for: 03-20-2024
+2024-03-20 20:07:29,428 - Converted date format to: 2024-03-20
+2024-03-20 20:07:29,428 - Attempting to convert date format for: 03-20-2024
+2024-03-20 20:07:29,428 - Converted date format to: 2024-03-20
+2024-03-20 20:07:29,429 - Displaying date range: March 20, 2024
+2024-03-20 20:07:31,243 - Subprocess failed with error: Command '['python', './Progress Reports.py', 'C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv', '2024-03-20']' returned non-zero exit status 1.
+2024-03-20 20:07:33,914 - Subprocess stderr: Traceback (most recent call last):
+  File "C:\Users\vaner\OneDrive\Desktop\Python\Progress Reports.py", line 55, in <module>
+    clear_directory(temp_images_path)
+  File "C:\Users\vaner\OneDrive\Desktop\Python\Progress Reports.py", line 29, in clear_directory
+    for filename in os.listdir(dir_path):
+                    ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\vaner\\OneDrive\\Free for Life\\F4L Documents\\Thinking for Change\\Progress Reports\\Temporary Images'
+
+2024-03-20 20:09:18,766 - This is a test log message.
+2024-03-20 20:09:21,488 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv
+2024-03-20 20:09:21,909 - Selected start date: 03-20-2024
+2024-03-20 20:09:21,909 - Selected end date: 03-20-2024
+2024-03-20 20:09:21,909 - Attempting to convert date format for: 03-20-2024
+2024-03-20 20:09:21,909 - Converted date format to: 2024-03-20
+2024-03-20 20:09:21,909 - Attempting to convert date format for: 03-20-2024
+2024-03-20 20:09:21,909 - Converted date format to: 2024-03-20
+2024-03-20 20:09:21,909 - Displaying date range: March 20, 2024
+2024-03-20 20:09:23,776 - Subprocess failed with error: Command '['python', './Progress Reports.py', 'C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv', '2024-03-20']' returned non-zero exit status 1.
+2024-03-20 20:09:24,769 - Subprocess stderr: Traceback (most recent call last):
+  File "C:\Users\vaner\OneDrive\Desktop\Python\Progress Reports.py", line 55, in <module>
+    clear_directory(temp_images_path)
+  File "C:\Users\vaner\OneDrive\Desktop\Python\Progress Reports.py", line 29, in clear_directory
+    for filename in os.listdir(dir_path):
+                    ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\vaner\\OneDrive\\Free for Life\\F4L Documents\\Thinking for Change\\Progress Reports\\Temporary Images'
+
+2024-03-20 20:11:10,728 - This is a test log message.
+2024-03-20 20:11:13,438 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv
+2024-03-20 20:11:13,975 - Selected start date: 03-20-2024
+2024-03-20 20:11:13,975 - Selected end date: 03-20-2024
+2024-03-20 20:11:13,975 - Attempting to convert date format for: 03-20-2024
+2024-03-20 20:11:13,975 - Converted date format to: 2024-03-20
+2024-03-20 20:11:13,975 - Attempting to convert date format for: 03-20-2024
+2024-03-20 20:11:13,975 - Converted date format to: 2024-03-20
+2024-03-20 20:11:13,975 - Displaying date range: March 20, 2024
+2024-03-20 20:11:17,743 - Subprocess output: The directory C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\Temporary Images does not exist.
+Reading CSV file into DataFrame...
+Subset of 'report_date': 0    2024-03-20
+1    2024-03-20
+Name: report_date, dtype: object
+Date variable: 2024-03-20 00:00:00
+DataFrame info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2 entries, 0 to 1
+Columns: 213 entries, client_id to last_attended
+dtypes: float64(49), int64(99), object(65)
+memory usage: 3.5+ KB
+None
+Combining 'case_manager_first_name' and 'case_manager_last_name' columns...
+Unique dates in 'report_date' before filtering: ['2024-03-20']
+Filtering DataFrame based on the date...
+Unique dates in 'report_date' before filtering: ['2024-03-20']
+Unique dates in 'report_date': ['2024-03-20']
+Unique dates in 'report_date' after converting to string: ['2024-03-20']
+DataFrame after filtering:
+   client_id report_date  ... last_attended        parole_officer
+0         16  2024-03-20  ...     3/18/2024  Teric Dorsey-Hopkins
+1        111  2024-03-20  ...     3/14/2024            Amber Fort
+
+[2 rows x 214 columns]
+Error processing image for Kayla Baughman: [Errno 2] No such file or directory: 'C:\\Users\\vaner\\OneDrive\\Free for Life\\F4L Documents\\Thinking for Change\\Progress Reports\\Temporary Images\\Kayla_Baughman_temp.jpg'
+Error processing image for Fabian Andazola: [Errno 2] No such file or directory: 'C:\\Users\\vaner\\OneDrive\\Free for Life\\F4L Documents\\Thinking for Change\\Progress Reports\\Temporary Images\\Fabian_Andazola_temp.jpg'
+
+2024-03-20 20:12:52,106 - This is a test log message.
+2024-03-20 20:12:55,281 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv
+2024-03-20 20:13:07,599 - Selected start date: 03-20-2024
+2024-03-20 20:13:07,600 - Selected end date: 03-20-2024
+2024-03-20 20:13:07,600 - Attempting to convert date format for: 03-20-2024
+2024-03-20 20:13:07,601 - Converted date format to: 2024-03-20
+2024-03-20 20:13:07,601 - Attempting to convert date format for: 03-20-2024
+2024-03-20 20:13:07,602 - Converted date format to: 2024-03-20
+2024-03-20 20:13:07,602 - Displaying date range: March 20, 2024
+2024-03-20 20:13:10,526 - Subprocess output: Reading CSV file into DataFrame...
+Subset of 'report_date': 0    2024-03-20
+1    2024-03-20
+Name: report_date, dtype: object
+Date variable: 2024-03-20 00:00:00
+DataFrame info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2 entries, 0 to 1
+Columns: 213 entries, client_id to last_attended
+dtypes: float64(49), int64(99), object(65)
+memory usage: 3.5+ KB
+None
+Combining 'case_manager_first_name' and 'case_manager_last_name' columns...
+Unique dates in 'report_date' before filtering: ['2024-03-20']
+Filtering DataFrame based on the date...
+Unique dates in 'report_date' before filtering: ['2024-03-20']
+Unique dates in 'report_date': ['2024-03-20']
+Unique dates in 'report_date' after converting to string: ['2024-03-20']
+DataFrame after filtering:
+   client_id report_date  ... last_attended        parole_officer
+0         16  2024-03-20  ...     3/18/2024  Teric Dorsey-Hopkins
+1        111  2024-03-20  ...     3/14/2024            Amber Fort
+
+[2 rows x 214 columns]
+Error processing image for Kayla Baughman: [Errno 2] No such file or directory: 'C:\\Users\\vaner\\OneDrive\\Free for Life\\F4L Documents\\Thinking for Change\\Progress Reports\\Temporary Images\\Kayla_Baughman_temp.jpg'
+Error processing image for Fabian Andazola: [Errno 2] No such file or directory: 'C:\\Users\\vaner\\OneDrive\\Free for Life\\F4L Documents\\Thinking for Change\\Progress Reports\\Temporary Images\\Fabian_Andazola_temp.jpg'
+
+2024-03-20 20:14:10,793 - This is a test log message.
+2024-03-20 20:14:13,725 - Selected file: C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240320.csv
+2024-03-20 20:14:14,560 - Selected start date: 03-20-2024
+2024-03-20 20:14:14,560 - Selected end date: 03-20-2024
+2024-03-20 20:14:14,560 - Attempting to convert date format for: 03-20-2024
+2024-03-20 20:14:14,561 - Converted date format to: 2024-03-20
+2024-03-20 20:14:14,561 - Attempting to convert date format for: 03-20-2024
+2024-03-20 20:14:14,561 - Converted date format to: 2024-03-20
+2024-03-20 20:14:14,562 - Displaying date range: March 20, 2024
+2024-03-20 20:14:24,964 - Subprocess output: Reading CSV file into DataFrame...
+Subset of 'report_date': 0    2024-03-20
+1    2024-03-20
+Name: report_date, dtype: object
+Date variable: 2024-03-20 00:00:00
+DataFrame info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2 entries, 0 to 1
+Columns: 213 entries, client_id to last_attended
+dtypes: float64(49), int64(99), object(65)
+memory usage: 3.5+ KB
+None
+Combining 'case_manager_first_name' and 'case_manager_last_name' columns...
+Unique dates in 'report_date' before filtering: ['2024-03-20']
+Filtering DataFrame based on the date...
+Unique dates in 'report_date' before filtering: ['2024-03-20']
+Unique dates in 'report_date': ['2024-03-20']
+Unique dates in 'report_date' after converting to string: ['2024-03-20']
+DataFrame after filtering:
+   client_id report_date  ... last_attended        parole_officer
+0         16  2024-03-20  ...     3/18/2024  Teric Dorsey-Hopkins
+1        111  2024-03-20  ...     3/14/2024            Amber Fort
+
+[2 rows x 214 columns]
+Progress Report for Kayla Baughman saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\Teric Dorsey-Hopkins\Progress_Report_Kayla_Baughman.pdf
+Progress Report for Fabian Andazola saved to: C:\Users\vaner\OneDrive\Free for Life\F4L Documents\Thinking for Change\Progress Reports\Amber Fort\Progress_Report_Fabian_Andazola.pdf
+
