@@ -183,6 +183,36 @@ def request_progress_reports():
     script_path = os.path.join(os.path.dirname(__file__), 'Progress Reports.py')
     run_subprocess('./Progress Reports.py', csv_file_path, report_date)  # or end_date, if they are the same
 
+def request_exit_notices():
+    """Function to request exit notices."""
+    global csv_file_path
+    if csv_file_path is None:
+        messagebox.showwarning("No File Selected", "Please select a file.")
+        return
+    start_date = start_date_entry.get()
+    end_date = end_date_entry.get()
+    if not start_date or not end_date:
+        messagebox.showwarning("Invalid Input", "Please enter a valid start and end date.")
+        return
+    start_date = datetime.strptime(start_date, "%m-%d-%Y").strftime("%Y-%m-%d")
+    end_date = datetime.strptime(end_date, "%m-%d-%Y").strftime("%Y-%m-%d")
+    run_subprocess('./Exit Notices.py', csv_file_path, start_date, end_date)
+
+def request_completion_documents():
+    """Function to request completion documents."""
+    global csv_file_path
+    if csv_file_path is None:
+        messagebox.showwarning("No File Selected", "Please select a file.")
+        return
+    start_date = start_date_entry.get()
+    end_date = end_date_entry.get()
+    if not start_date or not end_date:
+        messagebox.showwarning("Invalid Input", "Please enter a valid start and end date.")
+        return
+    start_date = datetime.strptime(start_date, "%m-%d-%Y").strftime("%Y-%m-%d")
+    end_date = datetime.strptime(end_date, "%m-%d-%Y").strftime("%Y-%m-%d")
+    run_subprocess('./Completion Documents.py', csv_file_path, start_date, end_date)
+
 def select_date_range():
     global selected_start_date, selected_end_date
     selected_start_date = start_date_entry.get()
@@ -311,11 +341,11 @@ btn_progress_reports.pack(fill=tk.X, expand=True, padx=10, pady=2)
 btn_unexcused_absences = ttk.Button(button_frame, text="Unexcused Absences", command=request_date_range_ue, width=config['ui_settings']['button_width'])
 btn_unexcused_absences.pack(fill=tk.X, expand=True, padx=10, pady=2)
 
-# Create a new button for Exit Notifications
-btn_exit_notifications = ttk.Button(button_frame, text="Exit Notifications", width=config['ui_settings']['button_width'])
-btn_exit_notifications.pack(fill=tk.X, expand=True, padx=10, pady=2)
+# Create a new button for Exit Notices
+btn_exit_notices = ttk.Button(button_frame, text="Exit Notices", command=request_exit_notices, width=config['ui_settings']['button_width'])
+btn_exit_notices.pack(fill=tk.X, expand=True, padx=10, pady=2)
 
 # Create a new button for Completion Documents
-btn_completion_documents = ttk.Button(button_frame, text="Completion Documents", width=config['ui_settings']['button_width'])
+btn_completion_documents = ttk.Button(button_frame, text="Completion Documents", command=request_completion_documents, width=config['ui_settings']['button_width'])
 btn_completion_documents.pack(fill=tk.X, expand=True, padx=10, pady=2)
 root.mainloop()

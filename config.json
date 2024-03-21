@@ -18,6 +18,17 @@
     "template_path": "C:\\Users\\vaner\\OneDrive\\Free for Life\\Project\\Projects\\Source Documents\\ProgressReports.Template.docx",
     "output_path": "C:\\Users\\vaner\\OneDrive\\Free for Life\\F4L Documents\\Thinking for Change\\Progress Reports"
   },
+  "exit_notices_path": {
+    "csv_path": "C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240305.csv",
+    "template_path": "C:\\Users\\vaner\\OneDrive\\Free for Life\\Project\\Projects\\Source Documents\\ExitNotices.Template.docx",
+    "output_path": "C:\\Users\\vaner\\OneDrive\\Free for Life\\F4L Documents\\Thinking for Change\\Exit Notices"
+  },
+  "completion_documents_path": {
+    "csv_path": "C:/Users/vaner/Downloads/FreeforLifeGroup_report3_20240305.csv",
+    "template_path_certificates": "C:\\Users\\vaner\\OneDrive\\Free for Life\\Project\\Projects\\Source Documents\\CompletionCertificate.Template.docx",
+    "template_path_letters": "C:\\Users\\vaner\\OneDrive\\Free for Life\\Project\\Projects\\Source Documents\\CompletionLetter.Template.docx",
+    "output_path": "C:\\Users\\vaner\\OneDrive\\Free for Life\\F4L Documents\\Thinking for Change\\Completion Documents"
+  },
   "ui_settings": {
     "window_title": "Free For Life Group",
     "window_width": 425,
