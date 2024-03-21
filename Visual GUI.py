@@ -310,4 +310,12 @@ btn_progress_reports.pack(fill=tk.X, expand=True, padx=10, pady=2)
 
 btn_unexcused_absences = ttk.Button(button_frame, text="Unexcused Absences", command=request_date_range_ue, width=config['ui_settings']['button_width'])
 btn_unexcused_absences.pack(fill=tk.X, expand=True, padx=10, pady=2)
+
+# Create a new button for Exit Notifications
+btn_exit_notifications = ttk.Button(button_frame, text="Exit Notifications", width=config['ui_settings']['button_width'])
+btn_exit_notifications.pack(fill=tk.X, expand=True, padx=10, pady=2)
+
+# Create a new button for Completion Documents
+btn_completion_documents = ttk.Button(button_frame, text="Completion Documents", width=config['ui_settings']['button_width'])
+btn_completion_documents.pack(fill=tk.X, expand=True, padx=10, pady=2)
 root.mainloop()
